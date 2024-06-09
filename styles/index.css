@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "videophreak";
+    src: url(fonts/VIDEOPHREAK.ttf);
+}
+@font-face {
+    font-family: "comforta";
+    src: url(fonts/Comfortaa_Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "comforta";
+    src: url(fonts/Comfortaa_Regular.ttf);
+}
+@font-face {
+    font-family: "comforta";
+    src: url(fonts/Comfortaa_Thin.ttf);
+    font-weight: lighter;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: comforta;
+    background-color: #0F292F;
+}
+
+.title {
+    font-family: "videophreak";
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    color: #CCCCCC;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.sign-in button {
+    font-family: comforta;
+    background-color: #CB2D6F;
+    color: #CCCCCC;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.sign-in button:hover {
+    background-color: #ce4880;
+    color: #CCCCCC;
+    transition: all 0.5s;
+}
+
+#second-button {
+    background-color: #CCCCCC;
+    color: #CB2D6F;
+    font-weight: bold;
+}
+
+#second-button:hover {
+    background-color: #f0a1c2;
+    color: #CB2D6F;
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
