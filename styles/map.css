@@ -12,7 +12,7 @@ html, body {
     width: 20%;
     background-color: rgb(61, 61, 61);
     color: white;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .game-image {
