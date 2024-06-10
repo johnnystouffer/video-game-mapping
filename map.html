@@ -9,59 +9,40 @@
 <body>
     <div id="sidebar">
         <div class="search">
-            <input type="text" placeholder="Search Maps...">
+            <input id="top-search" type="text" placeholder="Search Maps...">
         </div>
-
         <div class="game-description">
             <h1>Map of ...</h1>
-            <img src="/styles/images/demo_pic.jpg" alt="Picture of Game" class="game-image">
+            <img id="game-photo" src="/styles/images/demo_pic.jpg" alt="Picture of Game" class="game-image">
             <p class>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Aliquid quisquam dolorem, asperiores, similique voluptates 
                 placeat facere veritatis recusandae laudantium, consequuntur 
                 alias nemo labore rerum? Quasi corporis unde repellat incidunt 
                 error.</p>
         </div>
-        <div>
-            <table>
-                <tr class="filter">
-                    <th><button> Button </button></th>
-                    <th><button> Button </button></th>
-                    <th><button> Button </button></th>
-                </tr>
-                <tr class="filter">
-                    <th><button> Button </button></th>
-                    <th><button> Button </button></th>
-                    <th><button> Button </button></th>
-                </tr>
-                <tr class="filter">
-                    <th><button> Button </button></th>
-                    <th><button> Button </button></th>
-                    <th><button> Button </button></th>
-                </tr>
-
-            </table>
+        <div class="button-container">
+            <div class="button-grid">
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+                <button class="filter-button"> More </button>
+            </div>
         </div>
-        <div class="next-objectives">
-            <h3> Next Objectives </h3>
-            <ul class="list-title">
-                <li> Objective One </li>
-                <li> Objective Two </li>
-                <li> Objective Three </li>
-            </ul>
-        </div>
-        <div class="related-maps">
-            <h3> Other maps from Game</h3>
-            <ul class="related">
-                <li>Game 1</li>
-                <li>Game 2</li>
-                <li>Game 3</li>
-            </ul>
-        </div>
-        <div class="profile-buttons">
-            <button class="fav-map"> Save Map </button>
-            <button class="fav-game"> Save Game </button>
-        </div>
-        <p class="credits"> Made by John Stouffer and Cindy Huang</p>
+        <footer>
+            <div class="profile-buttons">
+                <button id="fav-map"> Save Map </button>
+                <button id="fav-game"> Save Game </button>
+            </div>
+            <p class="credits"> Made by Johnny Stouffer and Cindy Huang </p>
+        </footer>
     </div>
 </body>
 </html>
