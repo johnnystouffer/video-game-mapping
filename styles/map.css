@@ -33,7 +33,7 @@ html, body {
     overflow-y: auto;
     width: 20%;
     min-width: 200px;
-    max-width: 1800px;
+    max-width: 400px;
 }
 
 .game-image {
@@ -76,6 +76,11 @@ input {
     border: none;
     font-family: comfortaa;
     color: white;
+    cursor: pointer;
+    transition: all 0.29s;
+}
+.filter-button:hover {
+    background-color: pink;
 }
 
 .filter-button:focus {
@@ -101,14 +106,15 @@ input {
 
 #fav-map {
     font-family: comfortaa;
+    font-size: large;
     font-weight: bold;
     background-color: #CCCCCC;
     color: #CB2D6F;
-    font-weight: bold;
     transition: all 0.3s;
     border: none;
-    border-radius: 15px;
-    padding: 8px;
+    border-radius: 20px;
+    padding: 12px;
+    cursor: pointer;
 }
 
 #fav-map:hover {
@@ -118,14 +124,15 @@ input {
 
 #fav-game {
     font-family: comfortaa;
-    font-weight: bold;
     background-color: #CCCCCC;
     color: #CB2D6F;
     font-weight: bold;
     transition: all 0.3s;
     border: none;
-    border-radius: 15px;
-    padding: 8px;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: large;
+    cursor: pointer;
 }
 
 #fav-game:hover {
@@ -145,5 +152,5 @@ footer {
     bottom: 0;
     width: 20%;
     min-width: 200px;
-    max-width: 1800px;
+    max-width: 400px;
 }
