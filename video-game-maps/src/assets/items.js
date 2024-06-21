@@ -1,8 +1,7 @@
 const maps = [
-    { id: 1, name: "Cap Kingdom", game: "Super Mario Odyssey" },
-    { id: 2, name: "Cascade Kingdom", game: "Super Mario Odyssey" },
-    { id: 3, name: "Lake Kingdom", game: "Super Mario Odyssey" },
+    { id: "cap", name: "Cap Kingdom", game: "Super Mario Odyssey", image: ""},
+    { id: "cascade", name: "Cascade Kingdom", game: "Super Mario Odyssey", image: ""},
+    { id: "lake", name: "Lake Kingdom", game: "Super Mario Odyssey", image: ""},
   ];
   
   export default maps;
-  
