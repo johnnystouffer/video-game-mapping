@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import searchIcon from './assets/search-icon.png'
 import maps from './assets/items'
+import Card from './Card.jsx'
 
 const SearchMaps = () => {
 
@@ -32,7 +32,7 @@ const SearchMaps = () => {
       </div>
       <div className='map-cards'>
         {filteredData.map((map) => (
-            <p key={map.id}>{map.game}: {map.name}</p>
+            <Card mapID={map.id}/>
         ))}
       </div>
     </>
