@@ -1,24 +1,32 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: "comfortaa-bold";
+    src: url(./assets/Comfortaa_Bold.ttf);
+}
+@font-face {
+    font-family: "comfortaa-thin";
+    src: url(./assets/Comfortaa_Thin.ttf);
 }
 
 .card-container {
-    width: 500px;
+    width: auto;
     height: 200px;
     border-radius: 25px;
-    background-color: rgb(54, 54, 54);
     color: white;
     padding: 5px;
     margin: 10px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
-
-.card-container img {
-    width: 250px;
-    height: auto;
-    display: flex;
-    border-radius: 20px;
-    margin: 0px 20px;
+.game-text-container {
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 25px;
+    backdrop-filter: contrast(30%);
+}
+h2 {
+    font-family: "comfortaa-bold";
+}
+h3 {
+    font-family: "comfortaa-thin";
 }

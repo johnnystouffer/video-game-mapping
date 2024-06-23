@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import maps from './assets/items'
 import Card from './Card.jsx'
+import './SearchMaps.css'
 
 const SearchMaps = () => {
 
@@ -8,10 +9,6 @@ const SearchMaps = () => {
 
     const handleText = (event) => {
         setInput(event.target.value);
-    }
-
-    function changeText() {
-        setText(inputText);
     }
 
     const querySearch = (text) => {
@@ -27,12 +24,13 @@ const SearchMaps = () => {
 
   return (
     <>
-      <div className='search-bar'>
+      <h1>Video Game Maps</h1>
+      <div className='search-box'>
         <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
       </div>
       <div className='map-cards'>
         {filteredData.map((map) => (
-            <Card key={map.id} image={map.image} name={map.name} game={map.game}/>
+            <Card image={map.image} name={map.name} game={map.game}/>
         ))}
       </div>
     </>
