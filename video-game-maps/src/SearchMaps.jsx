@@ -24,9 +24,13 @@ const SearchMaps = () => {
 
   return (
     <>
-      <h1>Video Game Maps</h1>
-      <div className='search-box'>
-        <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+      <div className='background-top'>
+        <div className='header-text'>
+          <h1>Video Game Maps</h1>
+        </div>
+        <div className='search-box'>
+          <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+        </div>
       </div>
       <div className='map-cards'>
         {filteredData.map((map) => (

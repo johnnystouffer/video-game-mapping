@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    background-color: rgb(46, 46, 46);
+}
+
 @font-face {
     font-family: "videophreak";
     src: url(./assets/VIDEOPHREAK.ttf);
@@ -7,6 +12,7 @@ h1 {
     font-family: "videophreak";
     font-size: 6vw;
     text-align: center;
+    color: white;
 }
 .search-box {
     text-align: center;
@@ -14,12 +20,34 @@ h1 {
 }
 #search-text {
     margin: 0;
-    padding: 5px 8px;
+    padding: 8px 12px;
     height: 20px;
     width: 50vw;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.6s;
+    outline: none;
 }
+
+#search-text:focus {
+    height: 25px;
+    width: 51vw;
+}
+
+
 .map-cards {
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+
+}
+
+.background-top {
+    padding-top: 5%;
+    padding-bottom: 15px;
+    background: linear-gradient(rgba(56, 245, 91, 0.6), rgba(0,0,0,0.7)), url("./assets/background.jpg");
+    background-size: cover;
+    background-position: center;
 }
