@@ -3,7 +3,7 @@ import './Card.css'
 function Card(props) {
 
     const href = `${props.id}`
-
+    const name = `Go to ${props.name}'s map!`
 
     const cardStyle = {
         backgroundImage: `url(${props.image})`,
@@ -13,7 +13,7 @@ function Card(props) {
     };
 
     return (
-        <a key={props.game} href={href}>
+        <a href={href} title={name}>
 
         <div className='card-container' style={cardStyle}>
             <div className='game-text-container'>

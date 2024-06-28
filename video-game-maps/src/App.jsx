@@ -1,11 +1,16 @@
-import { useState } from 'react'
 import SearchMaps from './SearchMaps'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-      <SearchMaps></SearchMaps>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<SearchMaps/>}/>
+          <Route path='/:id' element={<SearchMaps/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
