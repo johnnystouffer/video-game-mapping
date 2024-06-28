@@ -1,0 +1,22 @@
+.map-sidebar {
+    background-color: lightcoral;
+    margin: 0;
+    height: 100vh;
+    width: 30vw;
+    min-width: 250px;
+    max-width: 40vw;
+    resize: horizontal;
+    overflow: hidden;
+}
+h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.item-icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+}
+.item-icon {
+    background-image: url(src/assets/power-moon-yellow.png);
+}
