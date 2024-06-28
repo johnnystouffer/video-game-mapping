@@ -1,5 +1,4 @@
 import SearchMaps from './SearchMaps'
-import Test from './Test'
 import Map from './Map.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 

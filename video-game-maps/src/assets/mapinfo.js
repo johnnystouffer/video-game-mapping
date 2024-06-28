@@ -16,11 +16,11 @@ const mapData = [
         buttons: ['checkpoints', 'power-moon', 'multi-moon', 'purple-coins', 'bonus-areas']
     },
     {
-        id: 'cascade-kingdom', 
-        fullName: 'Cascade Kingdom', 
+        id: 'sand-kingdom', 
+        fullName: 'Sand Kingdom', 
         game: "Super Mario Odyssey",
-        desc: "It is the greater location of Fossil Falls, which is a prehistoric dinosaur-themed area. The main landmark of this kingdom is the waterfall flowing down from the skeleton of a Triceratops, while its background appears to be inspired from the real-life Iguazu Falls located between Argentina and Brazil",
-        image: "src/assets/cascade-kingdom.jpg",
+        desc: "It is the greater location of Tostarena, which is a desert village featuring a small town and a large ruins area. This kingdom's main landmark is the Inverted Pyramid, which is an upside-down pyramid located in the north-east section of the area. When Mario first visits here, the kingdom is covered with large pillars of ice and Bowser is found atop the Inverted Pyramid. The player's first objective in this kingdom is to reach the highest tower. From there, the player must find Moon Shards in the Moe-Eye habitat",
+        image: "src/assets/sand-kingdom.jpg",
         buttons: ['checkpoints', 'power-moon', 'multi-moon', 'purple-coins', 'bonus-areas']
     },
 ];
