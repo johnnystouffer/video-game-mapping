@@ -1,9 +1,14 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
-const Test = (props) => {
+const Test = () => {
+
+    const { id } = useParams();
+
+
   return (
     <div>
-      <p>WOWOWOWOWOWOWOWOWOWOWOWOWOWOWOWOW WE ARE AT {props.id}</p>
+      <p>WOWOWOWOWOWOWOWOWOWOWOWOWOWOWOWOW WE ARE AT {id}</p>
     </div>
   )
 }

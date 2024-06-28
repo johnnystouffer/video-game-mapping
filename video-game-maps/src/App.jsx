@@ -1,4 +1,5 @@
 import SearchMaps from './SearchMaps'
+import Test from './Test'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<SearchMaps/>}/>
-          <Route path='/:id' element={<SearchMaps/>}/>
+          <Route path='/:id' element={<Test/>}/>
         </Routes>
       </BrowserRouter>
     </>
