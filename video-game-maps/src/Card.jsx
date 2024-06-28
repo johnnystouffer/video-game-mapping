@@ -1,8 +1,9 @@
 import './Card.css'
+import { Link } from 'react-router-dom'
 
 function Card(props) {
 
-    const href = `${props.id}`
+    const href = `/${props.id}`
     const name = `Go to ${props.name}'s map!`
 
     const cardStyle = {
@@ -13,7 +14,7 @@ function Card(props) {
     };
 
     return (
-        <a href={href} title={name}>
+        <Link to={href}>
 
         <div className='card-container' style={cardStyle}>
             <div className='game-text-container'>
@@ -24,7 +25,7 @@ function Card(props) {
 
         </div>
 
-        </a>
+        </Link>
     );
 }
 
