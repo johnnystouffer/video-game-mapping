@@ -2,6 +2,9 @@ import './Card.css'
 
 function Card(props) {
 
+    const href = `${props.id}`
+
+
     const cardStyle = {
         backgroundImage: `url(${props.image})`,
         backgroundSize: 'cover',
@@ -10,6 +13,7 @@ function Card(props) {
     };
 
     return (
+        <a key={props.game} href={href}>
 
         <div className='card-container' style={cardStyle}>
             <div className='game-text-container'>
@@ -19,6 +23,8 @@ function Card(props) {
             </div>
 
         </div>
+
+        </a>
     );
 }
 

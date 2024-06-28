@@ -34,7 +34,7 @@ const SearchMaps = () => {
       </div>
       <div className='map-cards'>
         {filteredData.map((map) => (
-            <Card image={map.image} name={map.name} game={map.game}/>
+            <Card key={map.id} id={map.id} image={map.image} name={map.name} game={map.game}/>
         ))}
       </div>
     </>
