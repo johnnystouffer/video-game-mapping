@@ -31,8 +31,8 @@ const Map = () => {
                     <h2 id='game-subtitle-map'>{subtitle}</h2>
                     <p id='game-description-map'>{description}</p>
                 </div>
+                <div className='button-title'><h3>Toggle Map Elements</h3></div>
                 <div className='buttons-container'>
-                    <div className='button-title'><h3>Toggle Map Elements</h3></div>
                     {buttons.map((btn, index) => (
                         <Buttons key={index} value={btn} />
                     ))}
