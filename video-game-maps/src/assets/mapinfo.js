@@ -5,7 +5,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is a gloomy, monochromatic kingdom filled with thick fog inhabited by hat-like beings called Bonneters, including Cappy and his sister, Tiara. The resident Bonneters excel at ship-building and can even attach sails to their homes to convert them into airships. This kingdom also serves as the tutorial stage of the game, and is the greater location of Bonneton",
         image: "src/assets/cap-kingdom.jpg",
-        buttons: ['checkpoints', 'power-moon', 'multi-moon', 'purple-coins', 'bonus-areas']
+        buttons: ['src/assets/checkpoint.png', 'src/assets/power-moons/power-moon-yellow.png', 'src/assets/multimoons/multimoon-yellow.webp', 'src/assets/purple-coins/cap-coin.webp', 'src/assets/pipe.png']
     },
     {
         id: 'cascade-kingdom', 
