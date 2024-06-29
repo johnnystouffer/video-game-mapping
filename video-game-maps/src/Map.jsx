@@ -23,7 +23,7 @@ const Map = () => {
         <>
             <div className='side-bar'>
                 <div className="home">
-                    <Link to='/'><img src="./assets/back.png" alt="Back Arrow" /><p>Search For Other Maps</p></Link>
+                    <Link className='home-link' to='/'><img className='arrow-back' src="/src/assets/back.png" alt="Back Arrow" /><p>Other Maps</p></Link>
                 </div>
                 <div className="game-description">
                 <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />

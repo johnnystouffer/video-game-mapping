@@ -48,3 +48,11 @@
     border-radius: 10px;
     font-size: large;
 }
+
+.arrow-back {
+    width: 10%;
+}
+
+.home-link {
+    display: inline-flex;
+}
