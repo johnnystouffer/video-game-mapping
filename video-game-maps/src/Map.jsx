@@ -2,7 +2,7 @@ import React from 'react';
 import Buttons from './Buttons.jsx';
 import './Map.css';
 import mapdata from './assets/mapinfo.js';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 const Map = () => {
     const { id } = useParams();
@@ -20,15 +20,19 @@ const Map = () => {
 
     return (
         <>
-            <div className="search">
-                <input id="top-search" type="text" placeholder="Search Maps..." />
+            <div>
+                <Link to='/'>
+                    <button id='home-button'>
+                        <img id="home-button-icon" src="src/assets/home-icon.png" alt="Button to go back to the home page"/>
+                    </button>
+                </Link>
             </div>
             <div className="game-description">
                 <h1>{title}</h1>
                 <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
                 <p>{description}</p>
             </div>
-            <div className='buttons-container'>
+            <div className='filter-icons-container'>
                 {buttons.map((btn, index) => (
                     <Buttons key={index} value={btn} />
                 ))}

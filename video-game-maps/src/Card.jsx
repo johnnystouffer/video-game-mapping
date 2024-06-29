@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 function Card(props) {
 
     const href = `/${props.id}`
-    const name = `Go to ${props.name}'s map!`
 
     const cardStyle = {
         backgroundImage: `url(${props.image})`,
