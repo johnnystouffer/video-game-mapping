@@ -2,7 +2,7 @@ import React from 'react';
 import Buttons from './Buttons.jsx';
 import './Map.css';
 import mapdata from './assets/mapinfo.js';
-import { Link, useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 const Map = () => {
     const { id } = useParams();
