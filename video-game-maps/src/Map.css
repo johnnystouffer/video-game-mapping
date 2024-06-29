@@ -17,7 +17,7 @@
 
 .side-bar {
     flex: 1;
-    padding: 2%;
+    padding: 1%;
     color: white;
     overflow-y: auto;
     width: 20%;
@@ -30,7 +30,7 @@
 }
 
 #game-title-map {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 30px;
     margin-bottom: 0px;
 }
@@ -46,5 +46,40 @@
     background-color: rgb(51, 51, 51);
     line-height: 1.5;
     border-radius: 10px;
-    font-size: large;
+    font-size: medium;
+    height: 250px;
+    overflow-y: auto;
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.home-link {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(56, 245, 91);
+    border-radius: 5px;
+    padding: 4px;
+    transition: all 0.5s;
+}
+
+.home-link:hover {
+    background-color: rgb(10, 199, 45);
+}
+
+.arrow-back {
+    width: 30px;
+    height: 20px;
+}
+
+.other-map {
+    font-family: 'comfortaa', sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+    color: white;
+    font-size: 1.1rem;
 }
