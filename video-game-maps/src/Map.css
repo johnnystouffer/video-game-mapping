@@ -87,3 +87,41 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
 }
+
+.error-no-map {
+    color: white;
+    font-family: comfortaa;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.error-no-map h1 {
+    margin: 50px 0px 10px 0px;
+}
+
+.error-no-map h2 {
+    text-align: center;
+}
+
+.home-but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #38f55b;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50px;
+    font-size: large;
+}
+
+.home-but p {
+    margin: 0;
+}

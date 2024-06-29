@@ -10,7 +10,11 @@ const Map = () => {
     const mapObj = mapdata.find((obj) => obj.id === id);
 
     if (!mapObj) {
-        return <div className='error-no-map'>There is no map for this game yet :( We are currently working on Super Mario Odyssey Maps</div>;
+        return <div className='error-no-map'>
+            <h1>ERROR: 404</h1>
+            <h2>Map does not exist (yet) Go back to our home page</h2>
+            <Link to='/' className='home-but'><p>Home</p></Link>
+        </div>;
     }
 
     const title = `${mapObj.fullName}`;
