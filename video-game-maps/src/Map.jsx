@@ -3,6 +3,7 @@ import Buttons from './Buttons.jsx';
 import './Map.css';
 import mapdata from './assets/mapinfo.js';
 import { useParams, Link } from 'react-router-dom';
+import 'leaflet/dist/leaflet.css'
 
 const Map = () => {
     const { id } = useParams();
