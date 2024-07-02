@@ -36,7 +36,7 @@ const Map = () => {
                     <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
                         <h1 id='game-title-map'>{title}</h1>
                         <h2 id='game-subtitle-map'>{subtitle}</h2>
-                        <p id='game-description-map'>{description}</p>
+                        <p id='game-description-map'>{description}</p><br />
                     </div>
                     <div className='button-title'><h3>Toggle Map Elements</h3></div>
                     <div className='buttons-container'>

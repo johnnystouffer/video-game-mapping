@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: comfortaa;
+    font-family: comfortaa-bold;
     src: url("./assets/Comfortaa_Bold.ttf");
     font-weight: bold;
 }
@@ -35,7 +35,7 @@
     margin-bottom: 0px;
 }
 #game-subtitle-map {
-    font-family: videophreak;
+    font-family: comfortaa-bold;
     text-align: center;
     font-size: 1.4rem;
 }
