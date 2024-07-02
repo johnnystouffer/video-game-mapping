@@ -2,22 +2,27 @@
     height: auto;
     width: 50px;
     padding: 7px;
-    margin: 0px 0px 7px 0px;
     border: 2px solid #38f55b;
     cursor: pointer;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .filter-button-unselected {
     height: auto;
     width: 50px;
     padding: 7px;
-    margin: 0px 0px 7px 0px;
     border: 2px solid white;
     cursor: pointer;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
-.filter-button {
+.filter-button-pic {
     height: 50px;
+}
+.filter-button-name {
+    margin: 7px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
 }

@@ -3,7 +3,7 @@ import './Buttons.css'
 
 const Buttons = (props) => {
 
-    const altId = `Pic of ${props.value}`;
+    const altId = `Pic location: ${props.value}`;
 
     const [isSelected, setIsSelected] = useState(false);
     function handleClick() {
@@ -11,9 +11,12 @@ const Buttons = (props) => {
     }
 
     return (
-        <div className={isSelected ? 'filter-button-selected' : 'filter-button-unselected'} onClick={handleClick}>
-            <img className='filter-button' src={props.value} alt={altId}/>
-        </div>
+        <>
+            <div className={isSelected ? 'filter-button-selected' : 'filter-button-unselected'} onClick={handleClick}>
+                <img className='filter-button-pic'src={props.value} alt={altId}/>
+                <p className='filter-button-name'>Item</p>
+            </div>
+        </>
     )
 }
 
