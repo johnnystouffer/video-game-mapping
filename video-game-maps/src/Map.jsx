@@ -4,6 +4,7 @@ import './Map.css';
 import mapdata from './assets/mapinfo.js';
 import { useParams, Link } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css'
+import LeafletMap from './LeafletMap.jsx';
 
 const Map = () => {
     const { id } = useParams();
@@ -44,7 +45,9 @@ const Map = () => {
                         ))}
                     </div>
                 </div>
-                <div className='main-content'></div>
+                <div className='main-content'>
+                    <LeafletMap></LeafletMap>
+                </div>
             </div>
         </>
     );
