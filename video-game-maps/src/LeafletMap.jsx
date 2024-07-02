@@ -3,6 +3,7 @@ import { MapContainer, ImageOverlay, Marker, Popup, } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import './LeafletMap.css';
+import checkpoint_markers from './assets/markers';
 
 const LeafletMap = (props) => {
 
@@ -12,11 +13,6 @@ const LeafletMap = (props) => {
         [0, 0],
         [1333, 1319]
     ];
-
-    const newIcon = new L.Icon({
-        iconUrl: "/src/assets/checkpoint.png",
-        iconSize: [35, 55]
-    })
 
     return (
         <>
@@ -31,8 +27,22 @@ const LeafletMap = (props) => {
                     url={url}
                     bounds={bounds}
                 />
-                <Marker position={[500, 500]} icon={newIcon}></Marker>
-            </MapContainer>
+                {checkpoint_markers.map((marker, index) => {
+                    const icon = new L.Icon({
+                        iconUrl: marker.iconUrl,
+                        iconSize: [35, 35],
+                    });
+
+                    return (
+                        <Marker key={index} position={marker.position} icon={icon}>
+                            <Popup>
+                                <h4>{marker.name}</h4>
+                                {marker.popupInfo.description}
+                            </Popup>
+                        </Marker>
+                    );
+                })}
+                </MapContainer>
         </>
     );
 };
