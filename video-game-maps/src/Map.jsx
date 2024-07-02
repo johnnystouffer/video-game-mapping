@@ -26,22 +26,25 @@ const Map = () => {
 
     return (
         <>
-            <div className='side-bar'>
-                <div className="home">
-                    <Link className='home-link' to='/'><img className='arrow-back' src="/src/assets/back.png" alt="Back Arrow" /><p className='other-map'>Other Maps</p></Link>
+            <div className='layout-container'>
+                <div className='side-bar'>
+                    <div className="home">
+                        <Link className='home-link' to='/'><img className='arrow-back' src="/src/assets/back.png" alt="Back Arrow" /><p className='other-map'>Other Maps</p></Link>
+                    </div>
+                    <div className="game-description">
+                    <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
+                        <h1 id='game-title-map'>{title}</h1>
+                        <h2 id='game-subtitle-map'>{subtitle}</h2>
+                        <p id='game-description-map'>{description}</p>
+                    </div>
+                    <div className='button-title'><h3>Toggle Map Elements</h3></div>
+                    <div className='buttons-container'>
+                        {buttons.map((btn, index) => (
+                            <Buttons key={index} value={btn} />
+                        ))}
+                    </div>
                 </div>
-                <div className="game-description">
-                <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
-                    <h1 id='game-title-map'>{title}</h1>
-                    <h2 id='game-subtitle-map'>{subtitle}</h2>
-                    <p id='game-description-map'>{description}</p>
-                </div>
-                <div className='button-title'><h3>Toggle Map Elements</h3></div>
-                <div className='buttons-container'>
-                    {buttons.map((btn, index) => (
-                        <Buttons key={index} value={btn} />
-                    ))}
-                </div>
+                <div className='main-content'></div>
             </div>
         </>
     );

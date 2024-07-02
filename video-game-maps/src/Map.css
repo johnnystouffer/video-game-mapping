@@ -19,8 +19,8 @@
     flex: 1;
     padding: 1%;
     color: white;
-    overflow-y: auto;
     width: 20%;
+    overflow-y: auto;
     min-width: 200px;
     max-width: 400px;
 }
@@ -124,4 +124,17 @@
 
 .home-but p {
     margin: 0;
+}
+
+.layout-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    padding: 2%;
+    overflow-y: auto;
+    background-color: #fff; /* Example background color */
 }
