@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'comfortaa';
+    src: url(src/assets/Comfortaa_Regular.ttf);
+}
+
 .filter-button-selected {
-    height: auto;
-    width: 50px;
-    padding: 7px;
+    height: 80px;
+    width: 60px;
+    padding: 1px;
+    margin: 5px;
     border: 2px solid #38f55b;
     cursor: pointer;
     display: flex;
@@ -9,9 +15,10 @@
     flex-direction: column;
 }
 .filter-button-unselected {
-    height: auto;
-    width: 50px;
-    padding: 7px;
+    height: 80px;
+    width: 60px;
+    padding: 3px;
+    margin: 3px;
     border: 2px solid white;
     cursor: pointer;
     display: flex;
@@ -19,10 +26,16 @@
     flex-direction: column;
 }
 .filter-button-pic {
-    height: 50px;
+    max-height: 50px;
+    max-width: 50px;
+    height: auto;
+    width: auto;
+    margin: auto;
 }
 .filter-button-name {
-    margin: 7px 0px 0px 0px;
+    font-family: 'comfortaa';
+    margin: 5px 0px 0px 0px;
     display: flex;
+    font-size: x-small;
     justify-content: center;
 }
