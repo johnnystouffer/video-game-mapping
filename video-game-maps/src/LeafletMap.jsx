@@ -3,7 +3,7 @@ import { MapContainer, ImageOverlay } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import './LeafletMap.css';
 
-const LeafletMap = () => {
+const LeafletMap = (props) => {
     const url = "/src/assets/maps/cap-kingdom.png"; // Ensure this path is correct
     const bounds = [
         [0, 0],
