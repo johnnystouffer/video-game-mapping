@@ -30,7 +30,7 @@ const LeafletMap = (props) => {
                 {checkpoint_markers.map((marker, index) => {
                     const icon = new L.Icon({
                         iconUrl: marker.iconUrl,
-                        iconSize: [35, 35],
+                        iconSize: [25, 25],
                     });
 
                     return (
