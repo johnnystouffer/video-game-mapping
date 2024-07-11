@@ -15,12 +15,13 @@ const Login = () => {
                 <input className='sign-in' type="text" /> <br />
                 <button id='sign-in-button'> Submit Save State</button>
                 <div className='privacy-text'>
+                <h3> PLEASE READ BELOW</h3>
                 <p> To protect the privacy of our users we do not take in any emails or passwords, instead we ask a couple questions about you then create you a save state that YOU SHOULD SAVE (if not then we have the "forgot save" button , just fill out the questions and we will return you save state key IF it exists)</p>
                 </div>
             </div>
             <div className='sign-up'>
                 <h3> Create a Save State </h3>
-                <p> Enter your first name (or a fake name if you can remember it)</p>
+                <p> Enter your username in any game</p>
                 <input className='first-name-user' type="text" />
                 <p> What was your first video game? </p>
                 <input className='fav-job' type="text" />
