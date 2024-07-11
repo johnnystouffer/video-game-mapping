@@ -19,8 +19,6 @@ const checkpoint_markers = [
         popupInfo: {
             link: "",
             description: "It is the central hub of the kingdom, specifically its residential district. Central Plaza is the first location that Mario visits alongside Cappy, where it is still ravaged from Bowser's attack on the kingdom. When Mario eventually revisits the Cap Kingdom, the Central Plaza is fully rebuilt, and a Crazy Cap shop and a Checkpoint Flag are present at the center of the area",
-
-
         }
     },
     {
