@@ -5,6 +5,8 @@ import './SearchMaps.css'
 
 const SearchMaps = () => {
 
+    const [loggedIn, changeLoggedIn] = useState(false);
+
     const [inputText, setInput] = useState("");
 
     const handleText = (event) => {
@@ -30,6 +32,7 @@ const SearchMaps = () => {
         </div>
         <div className='search-box'>
           <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+          {}
         </div>
       </div>
       <div className='map-cards'>
