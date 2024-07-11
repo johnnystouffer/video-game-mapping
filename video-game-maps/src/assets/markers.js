@@ -30,8 +30,6 @@ const checkpoint_markers = [
         popupInfo: {
             link: "",
             description: "Found in Bonneton. Inside it is the first platforming segment in the game, culminating in the game's first boss fight (against Topper) at the top.",
-
-
         }
     },
 ]
