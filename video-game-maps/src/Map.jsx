@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import Buttons from './Buttons.jsx';
 import './Map.css';
 import mapdata from './websitedata/mapinfo.js';
@@ -25,6 +25,14 @@ const Map = () => {
     const imgUrl = `${mapObj.image}`;
     const buttons = mapObj.buttons || [];
 
+    const [buttonStates, setButtonStates] = useState(buttons.map((button) => [false, button[1]]));
+
+    const handleButtonClick = (index) => {
+        const newButtonStates = [...buttonStates];
+        newButtonStates[index][0] = !newButtonStates[index][0];
+        setButtonStates(newButtonStates);
+    };
+
     return (
         <>
             <div className='layout-container'>
@@ -41,12 +49,12 @@ const Map = () => {
                     <div className='button-title'><h3>Toggle Map Elements</h3></div>
                     <div className='buttons-container'>
                         {buttons.map((btn, index) => (
-                            <Buttons key={index} value={btn} />
+                            <Buttons key={index} value={btn} isSelected={buttonStates[index]} handleClick={() => handleButtonClick(index)} />
                         ))}
                     </div>
                 </div>
                 <div className='main-content'>
-                    <LeafletMap></LeafletMap>
+                    <LeafletMap currentState={buttonStates}></LeafletMap>
                 </div>
             </div>
         </>

@@ -7,12 +7,18 @@ import checkpoint_markers from './websitedata/markers';
 
 const LeafletMap = (props) => {
 
+    const { buttonStates } = props;
 
     const url = "/src/assets/maps/cap-kingdom.png"; 
     const bounds = [
         [0, 0],
         [1333, 1319]
     ];
+
+    const onlyCheckedButtons = checkpoint_markers.filter(marker => {
+        const currState = buttonStates.find(state => state[1] === marker.type)
+        return currState ? currState[0] : true
+    })
 
     return (
         <>
