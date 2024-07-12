@@ -1,4 +1,11 @@
+import { map } from "leaflet"
+
 const checkpoint_markers = [
+    // ========================================================================
+    // !                                                                      !
+    // !                             CAP  KINGDOM                             !
+    // !                                                                      !
+    // ========================================================================
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/checkpoint.png',
@@ -354,9 +361,9 @@ const checkpoint_markers = [
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
         position: [865, 965],
         name: 'Push Block Room',
-        type: 'spec-area',
         popupInfo: {
             link: "",
             description: "Get ready for a 3D platformer!",
@@ -365,9 +372,9 @@ const checkpoint_markers = [
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
         position: [815, 1010],
         name: 'Poison Tide Room',
-        type: 'spec-area',
         popupInfo: {
             link: "",
             description: "You will need a flying Goomba to get to this entrance.",
@@ -382,6 +389,66 @@ const checkpoint_markers = [
         popupInfo: {
             link: "",
             description: "Sometimes, what's on the surface isn't everything... You should also pay attention to the sides!",
+        }
+    },
+    // ========================================================================
+    // !                                                                      !
+    // !                           CASCADE  KINGDOM                           !
+    // !                                                                      !
+    // ========================================================================
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/checkpoint.png',
+        type: 'checkpoint',
+        position: [275, 900],
+        name: 'The Odyssey',
+        popupInfo: {
+            link: "",
+            description: "This is where your ship is located. Isn't the Waterfall Basin beautiful?"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/checkpoint.png',
+        type: 'checkpoint',
+        position: [825, 675],
+        name: 'Stone Bridge',
+        popupInfo: {
+            link: "",
+            description: "This stone bridge hosts a horde of colorful Burrbos."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/checkpoint.png',
+        type: 'checkpoint',
+        position: [720, 770],
+        name: 'Fossil Falls Heights',
+        popupInfo: {
+            link: "",
+            description: "This checkpoint flag is found at the summit of Fossil Falls next to two Chain Chomps and a suspicious-looking pole."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/checkpoint.png',
+        type: 'checkpoint',
+        position: [460, 650],
+        name: 'Top of the Big Stump',
+        popupInfo: {
+            link: "",
+            description: "This checkpoint is on top of a high ledge. You may need to destroy some rocks to access it!"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/checkpoint.png',
+        type: 'checkpoint',
+        position: [380, 600],
+        name: 'Island in the Sky',
+        popupInfo: {
+            link: "",
+            description: "You will need to find a painting in Sand Kingdom to reach this checkpoint."
         }
     },
 ]

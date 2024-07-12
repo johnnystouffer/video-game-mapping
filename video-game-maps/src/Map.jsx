@@ -54,7 +54,7 @@ const Map = () => {
                     </div>
                 </div>
                 <div className='main-content'>
-                    <LeafletMap buttonStates={buttonStates} mapUrl={mapObj.mapImage}/>
+                    <LeafletMap buttonStates={buttonStates} mapUrl={mapObj.mapImage} mapId={mapObj.id}/>
                 </div>
             </div>
         </>

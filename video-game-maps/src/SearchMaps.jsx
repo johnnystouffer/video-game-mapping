@@ -5,12 +5,13 @@ import './SearchMaps.css'
 
 const SearchMaps = () => {
 
+    // Retrieve the text in the textbox whenever it is changed
     const [inputText, setInput] = useState("");
-
     const handleText = (event) => {
         setInput(event.target.value);
     }
 
+    // Whenever inputed text updates, automatically display map Cards that include the inputed text in its name
     const querySearch = (text) => {
         if (inputText === "") {
             return [];
@@ -19,7 +20,6 @@ const SearchMaps = () => {
             return map.name.toLowerCase().includes(text.toLowerCase()) || map.game.toLowerCase().includes(text.toLowerCase())
         });
     };
-
     const filteredData = querySearch(inputText);
 
   return (

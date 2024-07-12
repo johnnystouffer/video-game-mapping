@@ -12,10 +12,10 @@ const LeafletMap = (props) => {
         [1333, 1319]
     ];
 
-    // Filter markers based on buttonStates
+    // Filter markers based on buttonStates and the map it belongs to
     const filteredMarkers = checkpoint_markers.filter(marker => {
         const currState = props.buttonStates.find(state => state[1] === marker.type);
-        return currState ? currState[0] : true;
+        return (currState ? currState[0] : true) && (marker.map == props.mapId);
     });
 
     return (
