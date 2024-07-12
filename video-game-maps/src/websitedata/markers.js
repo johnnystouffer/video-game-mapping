@@ -351,5 +351,38 @@ const checkpoint_markers = [
             description: "3x Coins",
         }
     },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        position: [865, 965],
+        name: 'Push Block Room',
+        type: 'spec-area',
+        popupInfo: {
+            link: "",
+            description: "Get ready for a 3D platformer!",
+        }
+    },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        position: [815, 1010],
+        name: 'Poison Tide Room',
+        type: 'spec-area',
+        popupInfo: {
+            link: "",
+            description: "You will need a flying Goomba to get to this entrance.",
+        }
+    },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        position: [845, 500],
+        name: 'Frog Pond Room',
+        type: 'spec-area',
+        popupInfo: {
+            link: "",
+            description: "Sometimes, what's on the surface isn't everything... You should also pay attention to the sides!",
+        }
+    },
 ]
 export default checkpoint_markers
