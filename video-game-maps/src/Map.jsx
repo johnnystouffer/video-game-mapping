@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Buttons from './Buttons.jsx';
 import './Map.css';
 import mapdata from './websitedata/mapinfo.js';
 import { useParams, Link } from 'react-router-dom';
-import 'leaflet/dist/leaflet.css'
+import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
 
 const Map = () => {
@@ -20,7 +20,7 @@ const Map = () => {
     }
 
     const title = `${mapObj.fullName}`;
-    const subtitle = `from ${mapObj.game}`
+    const subtitle = `from ${mapObj.game}`;
     const description = `${mapObj.desc}`;
     const imgUrl = `${mapObj.image}`;
     const buttons = mapObj.buttons || [];
@@ -41,7 +41,7 @@ const Map = () => {
                         <Link className='home-link' to='/'><img className='arrow-back' src="/src/assets/back.png" alt="Back Arrow" /><p className='other-map'>Other Maps</p></Link>
                     </div>
                     <div className="game-description">
-                    <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
+                        <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
                         <h1 id='game-title-map'>{title}</h1>
                         <h2 id='game-subtitle-map'>{subtitle}</h2>
                         <p id='game-description-map'>{description}</p><br />
@@ -49,12 +49,12 @@ const Map = () => {
                     <div className='button-title'><h3>Toggle Map Elements</h3></div>
                     <div className='buttons-container'>
                         {buttons.map((btn, index) => (
-                            <Buttons key={index} value={btn} isSelected={buttonStates[index]} handleClick={() => handleButtonClick(index)} />
+                            <Buttons key={index} value={btn} isSelected={buttonStates[index][0]} handleClick={() => handleButtonClick(index)} />
                         ))}
                     </div>
                 </div>
                 <div className='main-content'>
-                    <LeafletMap currentState={buttonStates}></LeafletMap>
+                    <LeafletMap buttonStates={buttonStates} />
                 </div>
             </div>
         </>

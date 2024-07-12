@@ -1,24 +1,22 @@
 import React from 'react';
-import { MapContainer, ImageOverlay, Marker, Popup, } from 'react-leaflet';
+import { MapContainer, ImageOverlay, Marker, Popup } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import './LeafletMap.css';
 import checkpoint_markers from './websitedata/markers';
 
-const LeafletMap = (props) => {
-
-    const { buttonStates } = props;
-
+const LeafletMap = ({ buttonStates }) => {
     const url = "/src/assets/maps/cap-kingdom.png"; 
     const bounds = [
         [0, 0],
         [1333, 1319]
     ];
 
-    const onlyCheckedButtons = checkpoint_markers.filter(marker => {
-        const currState = buttonStates.find(state => state[1] === marker.type)
-        return currState ? currState[0] : true
-    })
+    // Filter markers based on buttonStates
+    const filteredMarkers = checkpoint_markers.filter(marker => {
+        const currState = buttonStates.find(state => state[1] === marker.type);
+        return currState ? currState[0] : true;
+    });
 
     return (
         <>
@@ -33,7 +31,7 @@ const LeafletMap = (props) => {
                     url={url}
                     bounds={bounds}
                 />
-                {checkpoint_markers.map((marker, index) => {
+                {filteredMarkers.map((marker, index) => {
                     const icon = new L.Icon({
                         iconUrl: marker.iconUrl,
                         iconSize: [25, 25],
@@ -48,7 +46,7 @@ const LeafletMap = (props) => {
                         </Marker>
                     );
                 })}
-                </MapContainer>
+            </MapContainer>
         </>
     );
 };
