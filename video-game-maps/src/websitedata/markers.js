@@ -363,10 +363,10 @@ const checkpoint_markers = [
         iconUrl: '/src/assets/pipe.png',
         type: 'spec-area',
         position: [865, 965],
-        name: 'Push Block Room',
+        name: 'Push-Block Area',
         popupInfo: {
             link: "",
-            description: "Get ready for a 3D platformer!",
+            description: "A platforming area featuring Push-Blocks and spark pylons. Accessed via a red Cappy door behind the base of the Top-Hat Tower.",
         }
     },
     {
@@ -377,18 +377,18 @@ const checkpoint_markers = [
         name: 'Poison Tide Room',
         popupInfo: {
             link: "",
-            description: "You will need a flying Goomba to get to this entrance.",
+            description: "A narrow tunnel-like area filled with poison. You will need a Paragoomba to get to this red Cappy door.",
         }
     },
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/pipe.png',
         position: [845, 500],
-        name: 'Frog Pond Room',
+        name: 'The Frog Pond',
         type: 'spec-area',
         popupInfo: {
             link: "",
-            description: "Sometimes, what's on the surface isn't everything... You should also pay attention to the sides!",
+            description: "A large, flooded room featuring various suspended platforms and many frogs. Accessed via a red Cappy door.",
         }
     },
     // ========================================================================
@@ -448,7 +448,40 @@ const checkpoint_markers = [
         name: 'Island in the Sky',
         popupInfo: {
             link: "",
-            description: "You will need to find a painting in Sand Kingdom to reach this checkpoint."
+            description: "You will need to find a painting in the Snow Kingdom or the Seaside Kingdom to reach this checkpoint."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
+        position: [425, 625],
+        name: 'Dinosaur Nest',
+        popupInfo: {
+            link: "",
+            description: "A spacious underground area home to a mighty T-Rex. Accessed via a red Cappy door."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
+        position: [1000, 450],
+        name: 'Chain Chomp Cave',
+        popupInfo: {
+            link: "",
+            description: "A cavernous area consisting of partitioned rooms full of Chain Chomps and poision. Accessed via a warp pipe."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
+        position: [800, 680],
+        name: 'Chasm Lifts Area',
+        popupInfo: {
+            link: "",
+            description: "An 8-bit platformer with moving lifts situated over a large chasm. Accessed via a red Cappy door on the side of the Stone Bridge."
         }
     },
 ]
