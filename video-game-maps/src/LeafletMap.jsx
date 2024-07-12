@@ -5,8 +5,8 @@ import L from 'leaflet';
 import './LeafletMap.css';
 import checkpoint_markers from './websitedata/markers';
 
-const LeafletMap = ({ buttonStates }) => {
-    const url = "/src/assets/maps/cap-kingdom.png"; 
+const LeafletMap = (props) => {
+    const url = `${props.mapUrl}`
     const bounds = [
         [0, 0],
         [1333, 1319]
@@ -14,7 +14,7 @@ const LeafletMap = ({ buttonStates }) => {
 
     // Filter markers based on buttonStates
     const filteredMarkers = checkpoint_markers.filter(marker => {
-        const currState = buttonStates.find(state => state[1] === marker.type);
+        const currState = props.buttonStates.find(state => state[1] === marker.type);
         return currState ? currState[0] : true;
     });
 
