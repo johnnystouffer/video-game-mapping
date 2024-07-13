@@ -26,7 +26,7 @@ const checkpoint_markers = [
         type: 'checkpoint',
         name: 'Central Plaza',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=2",
             description: "It is the central hub of the kingdom, specifically its residential district. Central Plaza is the first location that Mario visits alongside Cappy, where it is still ravaged from Bowser's attack on the kingdom. When Mario eventually revisits the Cap Kingdom, the Central Plaza is fully rebuilt, and a Crazy Cap shop and a Checkpoint Flag are present at the center of the area",
         }
     },
@@ -37,7 +37,7 @@ const checkpoint_markers = [
         name: 'Top-Hat Tower',
         type: 'checkpoint',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=34",
             description: "Found in Bonneton. Inside it is the first platforming segment in the game, culminating in the game's first boss fight (against Topper) at the top.",
         }
     },
@@ -83,7 +83,7 @@ const checkpoint_markers = [
         name: 'Frog Jumping Above the Fog',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=2",
             description: "In the far south of the map in Quadrant D2 you can find two tap hats in the fog. If you are a frog you can go to the second hat and use the frog jump to reach it.",
         }
     },
@@ -91,10 +91,10 @@ const checkpoint_markers = [
         map: 'cap-kingdom',
         iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
         position: [680, 600],
-        name: 'Frog Jumping Above the Fog',
+        name: 'Bonneter Blockade',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=471",
             description: "In the far south of the map in Quadrant D2 you can find two tap hats in the fog. If you are a frog you can go to the second hat and use the frog jump to reach it.",
         }
     },
@@ -105,18 +105,7 @@ const checkpoint_markers = [
         name: 'Frog Jumping The Top Deck',
         type: 'power-moon',
         popupInfo: {
-            link: "",
-            description: "On the top hat left of the entry gate there is a moon on top that can be accessed using a frog.",
-        }
-    },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
-        position: [680, 600],
-        name: 'Frog Jumping The Top Deck',
-        type: 'power-moon',
-        popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=34",
             description: "On the top hat left of the entry gate there is a moon on top that can be accessed using a frog.",
         }
     },
@@ -127,7 +116,7 @@ const checkpoint_markers = [
         name: 'Shopping in Bonneton',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=103",
             description: "You can purchase this one when visiting The Crazy Hat Store in Bonneton",
         }
     },
@@ -138,7 +127,7 @@ const checkpoint_markers = [
         name: 'Forgotten Treasure',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=359",
             description: "Talk to the Cappy on top of the eastern Top Hat and he will take you on a journey to find your next moon!",
         }
     },
@@ -149,7 +138,7 @@ const checkpoint_markers = [
         name: 'Searching the Frog Pond & Secrets of the Frog Pond',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=261",
             description: "2X MOON Both are found in the secret area in the north west CLICK THE LINK to try look at a tutorial",
         }
     },
@@ -160,18 +149,7 @@ const checkpoint_markers = [
         name: 'Taxi Flying through Bonneton',
         type: 'power-moon',
         popupInfo: {
-            link: "",
-            description: "This Power Moon can be found in Quadrant B2, to the North of the Main Plaza of Bonneton. Note that this Power Moon may only appear after completing the main story. ",
-        }
-    },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
-        position: [810, 490],
-        name: 'Taxi Flying through Bonneton',
-        type: 'power-moon',
-        popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=429",
             description: "This Power Moon can be found in Quadrant B2, to the North of the Main Plaza of Bonneton. Note that this Power Moon may only appear after completing the main story. ",
         }
     },
@@ -182,7 +160,7 @@ const checkpoint_markers = [
         name: 'Cap Kingdom Timer Challenge 1',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=59",
             description: "This Power Moon can be found in Quadrant B2, to the North of the Main Plaza of Bonneton. Note that this Power Moon may only appear after completing the main story. ",
         }
     },
@@ -193,7 +171,7 @@ const checkpoint_markers = [
         name: 'Good Evening, Captain Toad!',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=80",
             description: "After completing the main quest you can find Toad here and he will give you a moon if you talk to him.",
         }
     },
@@ -204,7 +182,7 @@ const checkpoint_markers = [
         name: 'Push Block Peril & Hidden Among the Push-Blocks',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=188",
             description: "2X MOON in this SPECIAL AREA click the video link if you want to find it.",
         }
     },
@@ -215,7 +193,7 @@ const checkpoint_markers = [
         name: 'Cap Kingdom Regular Cup',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=496",
             description: "After completing the main story you can come up and complete in the Cap Kingdom Regular Cup.",
         }
     },
@@ -226,7 +204,7 @@ const checkpoint_markers = [
         name: 'Skimming the Poison Tide & Slipping Through the Poison Tide',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=118",
             description: " 2X MOONS in the SPECIAL AREA There is a hidden door located on the opposite side of Top Hat Tower. Get to it by jumping off the top of the tower or take control of the Paragoomba on the second bridge and fly behind Top-Hat Tower to find a Cappy door.",
         }
     },
@@ -238,7 +216,7 @@ const checkpoint_markers = [
         name: 'COINS 1-3',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://www.youtube.com/watch?v=b7sAg57D93c",
             description: "3x Coins",
         }
     },
@@ -249,7 +227,7 @@ const checkpoint_markers = [
         name: 'COINS 4-6',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://www.youtube.com/watch?v=b7sAg57D93c",
             description: "3x Coins",
         }
     },
@@ -260,7 +238,7 @@ const checkpoint_markers = [
         name: 'COINS 7-9',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=31",
             description: "3x Coins",
         }
     },
@@ -271,7 +249,7 @@ const checkpoint_markers = [
         name: 'COINS 10-12',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=52",
             description: "3x Coins",
         }
     },
@@ -282,7 +260,7 @@ const checkpoint_markers = [
         name: 'COINS 13-15',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=52",
             description: "3x Coins",
         }
     },
@@ -293,7 +271,7 @@ const checkpoint_markers = [
         name: 'COINS 16-19',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=82",
             description: "4x Coins",
         }
     },
@@ -304,7 +282,7 @@ const checkpoint_markers = [
         name: 'COINS 20-23',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
             description: "3x Coins",
         }
     },
@@ -315,7 +293,7 @@ const checkpoint_markers = [
         name: 'COINS 24-27',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
             description: "4x Coins",
         }
     },
@@ -326,7 +304,7 @@ const checkpoint_markers = [
         name: 'COINS 47-50',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=31",
             description: "4x Coins",
         }
     },
@@ -337,7 +315,7 @@ const checkpoint_markers = [
         name: 'COINS 28-31',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
             description: "4x Coins",
         }
     },
@@ -348,7 +326,7 @@ const checkpoint_markers = [
         name: 'COINS 35-39',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=247",
             description: "5x Coins",
         }
     },
@@ -359,7 +337,7 @@ const checkpoint_markers = [
         name: 'COINS 40-43',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=247",
             description: "4x Coins",
         }
     },
@@ -370,7 +348,7 @@ const checkpoint_markers = [
         name: 'COINS 32-34',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=161",
             description: "3x Coins",
         }
     },
@@ -378,22 +356,44 @@ const checkpoint_markers = [
         map: 'cap-kingdom',
         iconUrl: '/src/assets/purple-coins/cap-coin.png',
         position: [862, 950],
-        name: 'COINS 32-34',
+        name: 'COINS 44-46',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=313",
             description: "3x Coins",
         }
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
-        position: [862, 950],
-        name: 'COINS 32-34',
-        type: 'purple-coins',
+        iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
+        position: [865, 965],
+        name: 'Push-Block Area',
         popupInfo: {
-            link: "",
-            description: "3x Coins",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=310",
+            description: "A platforming area featuring Push-Blocks and spark pylons. Accessed via a red Cappy door behind the base of the Top-Hat Tower.",
+        }
+    },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
+        position: [815, 1010],
+        name: 'Poison Tide Room',
+        popupInfo: {
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=163",
+            description: "A narrow tunnel-like area filled with poison. You will need a Paragoomba to get to this red Cappy door.",
+        }
+    },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        position: [845, 500],
+        name: 'The Frog Pond',
+        type: 'spec-area',
+        popupInfo: {
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=63",
+            description: "A large, flooded room featuring various suspended platforms and many frogs. Accessed via a red Cappy door.",
         }
     },
     // ========================================================================
@@ -500,7 +500,7 @@ const checkpoint_markers = [
         position: [565, 822],
         name: 'Our First Power Moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=68",
             description: "You will have to break through some rocks with a Chain Chomp to get to this Power Moon."
         }
     },
@@ -511,7 +511,7 @@ const checkpoint_markers = [
         position: [480, 810],
         name: 'Cascade Kingdom Timer Challenge 1',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=192",
             description: "Capture the scarecrow at the base of the waterfall and reach the Power Moon before time runs out!"
         }
     },
@@ -533,7 +533,7 @@ const checkpoint_markers = [
         position: [470, 1010],
         name: 'On Top of the Rubble',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=137",
             description: "This Power Moon is on a pile of rubble guarded by three enemies."
         }
     },
@@ -577,7 +577,7 @@ const checkpoint_markers = [
         position: [665, 765],
         name: 'Behind the Waterfall',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=121",
             description: "In the 8-bit platformer, go to the far left where there is a gap in the stone wall to find an area that wraps around behind the waterfall."
         }
     },
@@ -621,7 +621,7 @@ const checkpoint_markers = [
         position: [910, 540],
         name: 'Cascade Kingdom Timer Challenge 2',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=207",
             description: "After fighting Madam Broode, you can go back up to the arena to capture the scarescrow, then reach the Power Moon before time runs out!"
         }
     },
@@ -632,7 +632,7 @@ const checkpoint_markers = [
         position: [810, 470],
         name: 'Good Morning, Captain Toad',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=224",
             description: "Find Captain Toad on a ledge by the arena!"
         }
     },
@@ -643,8 +643,8 @@ const checkpoint_markers = [
         position: [845, 430],
         name: 'Chomp Through the Rocks',
         popupInfo: {
-            link: "",
-            description: "This Power Moon is behind a small breakable wall. Capture a Chain Chomp to smash through it."
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=104",
+            description: "This Power Moon is behind a small breakable wall. Capture a Chain Chomp to smash through it.Watch the video for full explanation."
         }
     },
     {
@@ -676,7 +676,7 @@ const checkpoint_markers = [
         position: [1090, 300],
         name: 'Across the Floating Isles',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=177",
             description: "After fighting Madam Broode, cross the platforms at the edge of the arena to retrieve this Power Moon."
         }
     },
@@ -698,8 +698,8 @@ const checkpoint_markers = [
         position: [530, 675],
         name: 'Treasure of Waterfall Basin',
         popupInfo: {
-            link: "",
-            description: "This Power Moon is in a treasure chest. You will need to go for a dip to find it!"
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=150",
+            description: "This Power Moon is in a treasure chest. You will need to go for a dip to find it!On the middle west side of the lake, there is a small cave that contains this power moon"
         }
     },
     {
@@ -729,9 +729,9 @@ const checkpoint_markers = [
         iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [405, 575],
-        name: 'Above the High Cliff',
+        name: 'Above a High Cliff',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=164",
             description: "This Power Moon sits atop a cliff."
         }
     },
@@ -751,9 +751,9 @@ const checkpoint_markers = [
         iconUrl: 'src/assets/multimoons/multimoon-yellow.webp',
         type: 'multimoons',
         position: [955, 490],
-        name: 'Multi Moon Atop the Falls',
+        name: 'Multi Moon Atop The Falls',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=84",
             description: "Fight Madam Broode to retrieve this Multi Moon! Capture her pet Chain Chomp to defeat her."
         }
     },
