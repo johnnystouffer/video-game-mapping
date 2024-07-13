@@ -466,7 +466,7 @@ const checkpoint_markers = [
         position: [425, 625],
         name: 'Dinosaur Nest',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=239",
             description: "A spacious underground area home to a mighty T-Rex. Accessed via a red Cappy door."
         }
     },
@@ -477,7 +477,7 @@ const checkpoint_markers = [
         position: [1000, 450],
         name: 'Chain Chomp Cave',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=282",
             description: "A cavernous area consisting of partitioned rooms full of Chain Chomps and poision. Accessed via a warp pipe."
         }
     },
@@ -489,7 +489,7 @@ const checkpoint_markers = [
         position: [800, 680],
         name: 'Chasm Lifts Area',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=320",
             description: "An 8-bit platformer with moving lifts situated over a large chasm. Accessed via a red Cappy door on the side of the Stone Bridge."
         }
     },
@@ -522,7 +522,7 @@ const checkpoint_markers = [
         position: [605, 890],
         name: 'Shopping in Fossil Falls',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=576",
             description: "Head over to the Crazy Cap Shop and buy the Power Moon for 100 Gold Coins."
         }
     },
@@ -544,7 +544,7 @@ const checkpoint_markers = [
         position: [350, 920],
         name: 'A Tourist in the Cascade Kingdom',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=457",
             description: "This Power Moon will be available after you speak to the Tostarean in the Sand Kingdom and Metro Kingdom."
         }
     },
@@ -555,7 +555,7 @@ const checkpoint_markers = [
         position: [315, 935],
         name: 'Cascade Kingdom Regular Cup',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=526",
             description: "A Koopa will challenge you to a freerunning course here after you complete the main story."
         }
     },
@@ -566,7 +566,7 @@ const checkpoint_markers = [
         position: [240, 840],
         name: 'Sphynx Traveling to the Waterfall',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=584",
             description: "After completing the main story, capture the binoculars here and zoom in to the distant Bonneter airship. Then, move diagonally upwards and to the right and zoom in to the sphinx."
         }
     },
@@ -588,7 +588,7 @@ const checkpoint_markers = [
         position: [800, 800],
         name: 'Past the Chasm Lifts',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=320",
             description: "Enter through the Cappy door against the cliff wall to find an 8-bit platforming area. Pass through the lifts without falling to get to a Warp Pipe that takes you to this Power Moon."
         }
     },
@@ -599,7 +599,7 @@ const checkpoint_markers = [
         position: [785, 800],
         name: 'Hidden Chasm Passage',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=320",
             description: "Pass through the first area of the 8-bit platformer, then instead of going into the second, jump over the rocks on the edge of the cliff and enter the 2D area. Use the Koopa Troopa to destroy the brick on the right wall that blocks the passage to the Power Moon."
         }
     },
@@ -610,7 +610,7 @@ const checkpoint_markers = [
         position: [850, 560],
         name: 'Caveman Cave-Fan',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=550",
             description: "This Power Moon will be available after completing the main story. Impress the Bonneter here by wearing the Caveman Outfit."
         }
     },
@@ -654,7 +654,7 @@ const checkpoint_markers = [
         position: [1000, 490],
         name: 'Nice Shot with the Chain Chomp',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=280",
             description: "Use the Warp Pipe by the Stone Bridge to enter the Chain Chomp Cave. For each room, capture the nearest Chain Chomp, and angle it to send the next one into the hole."
         }
     },
@@ -665,7 +665,7 @@ const checkpoint_markers = [
         position: [1000, 505],
         name: 'Very Nice Shot with the Chain Chomp',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=280",
             description: "From where the other Power Moon in the Chain Chomp Cave is, walk into the hidden room on the far right and send the furthest Chain Chomp into the hole."
         }
     },
@@ -687,7 +687,7 @@ const checkpoint_markers = [
         position: [640, 605],
         name: 'Rolling Rock by the Falls',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=492",
             description: "One of the stones in the dirt clearing here contains a Power Moon. Hit it a few times until it breaks."
         }
     },
@@ -709,7 +709,7 @@ const checkpoint_markers = [
         position: [400, 640],
         name: 'Dinosaur Nest: Big Cleanup',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=239",
             description: "Defeat all the Burrbos in the Dinosaur Nest to collect this Power Moon."
         }
     },
@@ -720,7 +720,7 @@ const checkpoint_markers = [
         position: [415, 650],
         name: 'Dinosaur Nest: Running Wild',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=239",
             description: "Destroy all the rocks on the lower platform in the Dinosaur Nest to collect this Power Moon."
         }
     },
@@ -742,8 +742,8 @@ const checkpoint_markers = [
         position: [367, 583],
         name: 'Secret Path to Fossil Falls',
         popupInfo: {
-            link: "",
-            description: "You need to find a painting in another kingdom to reach this Power Moon!"
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=370",
+            description: "You need to find a painting in the Snow kingdom to reach this Power Moon! Watch video for full description"
         }
     },
     {
@@ -766,7 +766,7 @@ const checkpoint_markers = [
         position: [215, 930],
         name: 'Coins 1-3',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared",
             description: "3x coins"
         }
     },
@@ -777,7 +777,7 @@ const checkpoint_markers = [
         position: [435, 838],
         name: 'Coins 4-6',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared",
             description: "3x coins"
         }
     },
@@ -788,7 +788,7 @@ const checkpoint_markers = [
         position: [577, 967],
         name: 'Coins 7-9',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=19",
             description: "3x coins"
         }
     },
@@ -799,7 +799,7 @@ const checkpoint_markers = [
         position: [564, 802],
         name: 'Coins 10-12',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=35",
             description: "3x coins"
         }
     },
@@ -810,7 +810,7 @@ const checkpoint_markers = [
         position: [415, 440],
         name: 'Coins 13-15',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=96",
             description: "3x coins"
         }
     },
@@ -821,7 +821,7 @@ const checkpoint_markers = [
         position: [555, 530],
         name: 'Coins 16-18',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=106",
             description: "3x coins"
         }
     },
@@ -832,7 +832,7 @@ const checkpoint_markers = [
         position: [695, 405],
         name: 'Coins 19-21',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=118",
             description: "3x coins"
         }
     },
@@ -843,7 +843,7 @@ const checkpoint_markers = [
         position: [1000, 485],
         name: 'Coins 22-24',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=130",
             description: "3x coins"
         }
     },
@@ -854,7 +854,7 @@ const checkpoint_markers = [
         position: [783, 770],
         name: 'Coins 25-27',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=152",
             description: "3x coins"
         }
     },
@@ -865,7 +865,7 @@ const checkpoint_markers = [
         position: [890, 865],
         name: 'Coins 28-30',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=278",
             description: "3x coins"
         }
     },
@@ -876,7 +876,7 @@ const checkpoint_markers = [
         position: [628, 850],
         name: 'Coins 31-33',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=253",
             description: "3x coins"
         }
     },
@@ -887,7 +887,7 @@ const checkpoint_markers = [
         position: [345, 600],
         name: 'Coins 34-37',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=67",
             description: "4x coins"
         }
     },
@@ -898,7 +898,7 @@ const checkpoint_markers = [
         position: [640, 750],
         name: 'Coins 38-40',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=252",
             description: "3x coins"
         }
     },
@@ -909,7 +909,7 @@ const checkpoint_markers = [
         position: [1090, 360],
         name: 'Coins 41-43',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=294",
             description: "3x coins"
         }
     },
@@ -920,7 +920,7 @@ const checkpoint_markers = [
         position: [660, 750],
         name: 'Coins 44-46',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=49",
             description: "3x coins"
         }
     },
@@ -931,7 +931,7 @@ const checkpoint_markers = [
         position: [755, 809],
         name: 'Coins 47-50',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=175",
             description: "4x coins"
         }
     },
