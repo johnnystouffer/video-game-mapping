@@ -24,7 +24,7 @@ const checkpoint_markers = [
         type: 'checkpoint',
         name: 'Central Plaza',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=2",
             description: "It is the central hub of the kingdom, specifically its residential district. Central Plaza is the first location that Mario visits alongside Cappy, where it is still ravaged from Bowser's attack on the kingdom. When Mario eventually revisits the Cap Kingdom, the Central Plaza is fully rebuilt, and a Crazy Cap shop and a Checkpoint Flag are present at the center of the area",
         }
     },
@@ -35,7 +35,7 @@ const checkpoint_markers = [
         name: 'Top-Hat Tower',
         type: 'checkpoint',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=34",
             description: "Found in Bonneton. Inside it is the first platforming segment in the game, culminating in the game's first boss fight (against Topper) at the top.",
         }
     },
@@ -46,7 +46,7 @@ const checkpoint_markers = [
         name: 'Frog Jumping Above the Fog',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=2",
             description: "In the far south of the map in Quadrant D2 you can find two tap hats in the fog. If you are a frog you can go to the second hat and use the frog jump to reach it.",
         }
     },
@@ -54,10 +54,10 @@ const checkpoint_markers = [
         map: 'cap-kingdom',
         iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
         position: [680, 600],
-        name: 'Frog Jumping Above the Fog',
+        name: 'Bonneter Blockade',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=471",
             description: "In the far south of the map in Quadrant D2 you can find two tap hats in the fog. If you are a frog you can go to the second hat and use the frog jump to reach it.",
         }
     },
@@ -68,18 +68,7 @@ const checkpoint_markers = [
         name: 'Frog Jumping The Top Deck',
         type: 'power-moon',
         popupInfo: {
-            link: "",
-            description: "On the top hat left of the entry gate there is a moon on top that can be accessed using a frog.",
-        }
-    },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
-        position: [680, 600],
-        name: 'Frog Jumping The Top Deck',
-        type: 'power-moon',
-        popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=34",
             description: "On the top hat left of the entry gate there is a moon on top that can be accessed using a frog.",
         }
     },
@@ -90,7 +79,7 @@ const checkpoint_markers = [
         name: 'Shopping in Bonneton',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=103",
             description: "You can purchase this one when visiting The Crazy Hat Store in Bonneton",
         }
     },
@@ -101,7 +90,7 @@ const checkpoint_markers = [
         name: 'Forgotten Treasure',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=359",
             description: "Talk to the Cappy on top of the eastern Top Hat and he will take you on a journey to find your next moon!",
         }
     },
@@ -112,7 +101,7 @@ const checkpoint_markers = [
         name: 'Searching the Frog Pond & Secrets of the Frog Pond',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=261",
             description: "2X MOON Both are found in the secret area in the north west CLICK THE LINK to try look at a tutorial",
         }
     },
@@ -123,7 +112,7 @@ const checkpoint_markers = [
         name: 'Taxi Flying through Bonneton',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=429",
             description: "This Power Moon can be found in Quadrant B2, to the North of the Main Plaza of Bonneton. Note that this Power Moon may only appear after completing the main story. ",
         }
     },
@@ -145,7 +134,7 @@ const checkpoint_markers = [
         name: 'Cap Kingdom Timer Challenge 1',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=59",
             description: "This Power Moon can be found in Quadrant B2, to the North of the Main Plaza of Bonneton. Note that this Power Moon may only appear after completing the main story. ",
         }
     },
@@ -156,7 +145,7 @@ const checkpoint_markers = [
         name: 'Good Evening, Captain Toad!',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=80",
             description: "After completing the main quest you can find Toad here and he will give you a moon if you talk to him.",
         }
     },
@@ -167,7 +156,7 @@ const checkpoint_markers = [
         name: 'Push Block Peril & Hidden Among the Push-Blocks',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=188",
             description: "2X MOON in this SPECIAL AREA click the video link if you want to find it.",
         }
     },
@@ -178,7 +167,7 @@ const checkpoint_markers = [
         name: 'Cap Kingdom Regular Cup',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=496",
             description: "After completing the main story you can come up and complete in the Cap Kingdom Regular Cup.",
         }
     },
@@ -189,7 +178,7 @@ const checkpoint_markers = [
         name: 'Skimming the Poison Tide & Slipping Through the Poison Tide',
         type: 'power-moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=118",
             description: " 2X MOONS in the SPECIAL AREA There is a hidden door located on the opposite side of Top Hat Tower. Get to it by jumping off the top of the tower or take control of the Paragoomba on the second bridge and fly behind Top-Hat Tower to find a Cappy door.",
         }
     },
