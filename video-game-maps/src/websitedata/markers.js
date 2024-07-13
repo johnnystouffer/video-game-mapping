@@ -21,13 +21,13 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
-        type: 'checkpoint',
+        iconUrl: '/src/assets/odyssey.png',
+        type: 'odyssey',
         position: [400, 350],
         name: 'The Odyessey',
         popupInfo: {
             link: "",
-            description: "Where you spawn and leave in the game"
+            description: "Where you spawn and leave in the game, this was added because without it there was only 9 buttons and I am anal so I wanted 10"
         }
     },
     {
@@ -434,12 +434,22 @@ const checkpoint_markers = [
     // !                           CASCADE  KINGDOM                           !
     // !                                                                      !
     // ========================================================================
-    
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/crazy-cap.png',
+        type: 'crazy-cap',
+        position: [605, 900],
+        name: 'Crazy Cap Store',
+        popupInfo: {
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=576",
+            description: "Buy clothes, stickers, and decorations for your Odyssey! Spend regular or purple coins (limited to local currency for purple coins)"
+        }
+    },
     // ----------------------------- CHECKPOINTS ------------------------------
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
-        type: 'checkpoint',
+        iconUrl: '/src/assets/odyssey.png',
+        type: 'odyssey',
         position: [275, 900],
         name: 'The Odyssey',
         popupInfo: {

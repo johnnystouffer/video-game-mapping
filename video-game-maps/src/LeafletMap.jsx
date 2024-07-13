@@ -34,7 +34,7 @@ const LeafletMap = (props) => {
                 {filteredMarkers.map((marker, index) => {
                     const icon = new L.Icon({
                         iconUrl: marker.iconUrl,
-                        iconSize: [25, 25],
+                        iconSize: marker.type === 'odyssey' ? [30, 60] : [30, 30],
                     });
 
                     return (
