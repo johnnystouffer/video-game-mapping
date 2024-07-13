@@ -6,6 +6,8 @@ const checkpoint_markers = [
     // !                             CAP  KINGDOM                             !
     // !                                                                      !
     // ========================================================================
+    
+    // ----------------------------- CHECKPOINTS ------------------------------
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/checkpoint.png',
@@ -39,6 +41,41 @@ const checkpoint_markers = [
             description: "Found in Bonneton. Inside it is the first platforming segment in the game, culminating in the game's first boss fight (against Topper) at the top.",
         }
     },
+    // ----------------------------- BONUS  AREAS -----------------------------
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
+        position: [865, 965],
+        name: 'Push-Block Area',
+        popupInfo: {
+            link: "",
+            description: "A platforming area featuring Push-Blocks and spark pylons. Accessed via a red Cappy door behind the base of the Top-Hat Tower.",
+        }
+    },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        type: 'spec-area',
+        position: [815, 1010],
+        name: 'Poison Tide Room',
+        popupInfo: {
+            link: "",
+            description: "A narrow tunnel-like area filled with poison. You will need a Paragoomba to get to this red Cappy door.",
+        }
+    },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/pipe.png',
+        position: [845, 500],
+        name: 'The Frog Pond',
+        type: 'spec-area',
+        popupInfo: {
+            link: "",
+            description: "A large, flooded room featuring various suspended platforms and many frogs. Accessed via a red Cappy door.",
+        }
+    },
+    // ----------------------------- POWER  MOONS -----------------------------
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
@@ -193,6 +230,7 @@ const checkpoint_markers = [
             description: " 2X MOONS in the SPECIAL AREA There is a hidden door located on the opposite side of Top Hat Tower. Get to it by jumping off the top of the tower or take control of the Paragoomba on the second bridge and fly behind Top-Hat Tower to find a Cappy door.",
         }
     },
+    // ----------------------------- PURPLE COINS -----------------------------
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/purple-coins/cap-coin.png',
@@ -358,44 +396,13 @@ const checkpoint_markers = [
             description: "3x Coins",
         }
     },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
-        type: 'spec-area',
-        position: [865, 965],
-        name: 'Push-Block Area',
-        popupInfo: {
-            link: "",
-            description: "A platforming area featuring Push-Blocks and spark pylons. Accessed via a red Cappy door behind the base of the Top-Hat Tower.",
-        }
-    },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
-        type: 'spec-area',
-        position: [815, 1010],
-        name: 'Poison Tide Room',
-        popupInfo: {
-            link: "",
-            description: "A narrow tunnel-like area filled with poison. You will need a Paragoomba to get to this red Cappy door.",
-        }
-    },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
-        position: [845, 500],
-        name: 'The Frog Pond',
-        type: 'spec-area',
-        popupInfo: {
-            link: "",
-            description: "A large, flooded room featuring various suspended platforms and many frogs. Accessed via a red Cappy door.",
-        }
-    },
     // ========================================================================
     // !                                                                      !
     // !                           CASCADE  KINGDOM                           !
     // !                                                                      !
     // ========================================================================
+    
+    // ----------------------------- CHECKPOINTS ------------------------------
     {
         map: 'cascade-kingdom',
         iconUrl: '/src/assets/checkpoint.png',
@@ -451,6 +458,7 @@ const checkpoint_markers = [
             description: "You will need to find a painting in the Snow Kingdom or the Seaside Kingdom to reach this checkpoint."
         }
     },
+    // ----------------------------- BONUS  AREAS -----------------------------
     {
         map: 'cascade-kingdom',
         iconUrl: '/src/assets/pipe.png',
@@ -473,6 +481,7 @@ const checkpoint_markers = [
             description: "A cavernous area consisting of partitioned rooms full of Chain Chomps and poision. Accessed via a warp pipe."
         }
     },
+    // ----------------------------- POWER  MOONS -----------------------------
     {
         map: 'cascade-kingdom',
         iconUrl: '/src/assets/pipe.png',
@@ -602,7 +611,7 @@ const checkpoint_markers = [
         name: 'Caveman Cave-Fan',
         popupInfo: {
             link: "",
-            description: ""
+            description: "This Power Moon will be available after completing the main story. Impress the Bonneter here by wearing the Caveman Outfit."
         }
     },
     {
@@ -613,7 +622,7 @@ const checkpoint_markers = [
         name: 'Cascade Kingdom Timer Challenge 2',
         popupInfo: {
             link: "",
-            description: ""
+            description: "After fighting Madam Broode, you can go back up to the arena to capture the scarescrow, then reach the Power Moon before time runs out!"
         }
     },
     {
@@ -624,7 +633,7 @@ const checkpoint_markers = [
         name: 'Good Morning, Captain Toad',
         popupInfo: {
             link: "",
-            description: ""
+            description: "Find Captain Toad on a ledge by the arena!"
         }
     },
     {
@@ -635,7 +644,7 @@ const checkpoint_markers = [
         name: 'Chomp Through the Rocks',
         popupInfo: {
             link: "",
-            description: ""
+            description: "This Power Moon is behind a small breakable wall. Capture a Chain Chomp to smash through it."
         }
     },
     {
@@ -646,7 +655,7 @@ const checkpoint_markers = [
         name: 'Nice Shot with the Chain Chomp',
         popupInfo: {
             link: "",
-            description: ""
+            description: "Use the Warp Pipe by the Stone Bridge to enter the Chain Chomp Cave. For each room, capture the nearest Chain Chomp, and angle it to send the next one into the hole."
         }
     },
     {
@@ -657,7 +666,7 @@ const checkpoint_markers = [
         name: 'Very Nice Shot with the Chain Chomp',
         popupInfo: {
             link: "",
-            description: ""
+            description: "From where the other Power Moon in the Chain Chomp Cave is, walk into the hidden room on the far right and send the furthest Chain Chomp into the hole."
         }
     },
     {
@@ -668,7 +677,7 @@ const checkpoint_markers = [
         name: 'Across the Floating Isles',
         popupInfo: {
             link: "",
-            description: ""
+            description: "After fighting Madam Broode, cross the platforms at the edge of the arena to retrieve this Power Moon."
         }
     },
     {
@@ -679,7 +688,7 @@ const checkpoint_markers = [
         name: 'Rolling Rock by the Falls',
         popupInfo: {
             link: "",
-            description: ""
+            description: "One of the stones in the dirt clearing here contains a Power Moon. Hit it a few times until it breaks."
         }
     },
     {
@@ -690,7 +699,7 @@ const checkpoint_markers = [
         name: 'Treasure of Waterfall Basin',
         popupInfo: {
             link: "",
-            description: ""
+            description: "This Power Moon is in a treasure chest. You will need to go for a dip to find it!"
         }
     },
     {
@@ -701,7 +710,7 @@ const checkpoint_markers = [
         name: 'Dinosaur Nest: Big Cleanup',
         popupInfo: {
             link: "",
-            description: ""
+            description: "Defeat all the Burrbos in the Dinosaur Nest to collect this Power Moon."
         }
     },
     {
@@ -712,7 +721,7 @@ const checkpoint_markers = [
         name: 'Dinosaur Nest: Running Wild',
         popupInfo: {
             link: "",
-            description: ""
+            description: "Destroy all the rocks on the lower platform in the Dinosaur Nest to collect this Power Moon."
         }
     },
     {
@@ -723,7 +732,7 @@ const checkpoint_markers = [
         name: 'Above the High Cliff',
         popupInfo: {
             link: "",
-            description: ""
+            description: "This Power Moon sits atop a cliff."
         }
     },
     {
@@ -742,11 +751,199 @@ const checkpoint_markers = [
         iconUrl: 'src/assets/multimoons/multimoon-yellow.webp',
         type: 'multimoons',
         position: [955, 490],
-        name: '',
+        name: 'Multi Moon Atop the Falls',
         popupInfo: {
             link: "",
-            description: ""
+            description: "Fight Madam Broode to retrieve this Multi Moon! Capture her pet Chain Chomp to defeat her."
         }
     },
+
+    // ----------------------------- PURPLE COINS -----------------------------
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [215, 930],
+        name: 'Coins 1-3',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [435, 838],
+        name: 'Coins 4-6',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [577, 967],
+        name: 'Coins 7-9',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [564, 802],
+        name: 'Coins 10-12',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [415, 440],
+        name: 'Coins 13-15',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [555, 530],
+        name: 'Coins 16-18',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [695, 405],
+        name: 'Coins 19-21',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [1000, 485],
+        name: 'Coins 22-24',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [783, 770],
+        name: 'Coins 25-27',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [890, 865],
+        name: 'Coins 28-30',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [628, 850],
+        name: 'Coins 31-33',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [345, 600],
+        name: 'Coins 34-37',
+        popupInfo: {
+            link: "",
+            description: "4x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [640, 750],
+        name: 'Coins 38-40',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [1090, 360],
+        name: 'Coins 41-43',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [660, 750],
+        name: 'Coins 44-46',
+        popupInfo: {
+            link: "",
+            description: "3x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        type: 'purple-coins',
+        position: [755, 809],
+        name: 'Coins 47-50',
+        popupInfo: {
+            link: "",
+            description: "4x coins"
+        }
+    },
+    // ========================================================================
+    // !                                                                      !
+    // !                             SAND KINGDOM                             !
+    // !                                                                      !
+    // ========================================================================
+    
+    // ----------------------------- CHECKPOINTS ------------------------------
+    // ----------------------------- BONUS  AREAS -----------------------------
+    // ----------------------------- POWER  MOONS -----------------------------
+    // ----------------------------- PURPLE COINS -----------------------------
 ]
 export default checkpoint_markers
