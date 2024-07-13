@@ -10,6 +10,17 @@ const checkpoint_markers = [
     // ----------------------------- CHECKPOINTS ------------------------------
     {
         map: 'cap-kingdom',
+        iconUrl: '/src/assets/crazy-cap.png',
+        type: 'crazy-cap',
+        position: [750, 550],
+        name: 'Crazy Cap Store',
+        popupInfo: {
+            link: "https://youtu.be/iFPYxRRJQNk?feature=shared&t=103",
+            description: "Buy clothes, stickers, and decorations for your Odyssey! Spend regular or purple coins (limited to local currency for purple coins)"
+        }
+    },
+    {
+        map: 'cap-kingdom',
         iconUrl: '/src/assets/checkpoint.png',
         type: 'checkpoint',
         position: [400, 350],
@@ -396,6 +407,28 @@ const checkpoint_markers = [
             description: "A large, flooded room featuring various suspended platforms and many frogs. Accessed via a red Cappy door.",
         }
     },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/moon-rock.png',
+        position: [465, 737],
+        name: 'Cap Kingdom Moon Rock',
+        type: 'moon-rock',
+        popupInfo: {
+            link: "https://www.youtube.com/watch?v=0o8n-rnK4Js",
+            description: "You will need to be far in the game for these to be able to work, click tutorial to see when you can use them.",
+        }
+    },
+    {
+        map: 'cap-kingdom',
+        iconUrl: '/src/assets/hint-art.png',
+        position: [370, 480],
+        name: 'Cap Kingdom Hint Art',
+        type: 'hint-art',
+        popupInfo: {
+            link: "https://www.youtube.com/watch?v=oj2ka9SG7KI",
+            description: "Watch our tutorial to find where to go!",
+        }
+    },
     // ========================================================================
     // !                                                                      !
     // !                           CASCADE  KINGDOM                           !
@@ -757,6 +790,17 @@ const checkpoint_markers = [
             description: "Fight Madam Broode to retrieve this Multi Moon! Capture her pet Chain Chomp to defeat her."
         }
     },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: '/src/assets/moon-rock.png',
+        position: [835, 362],
+        name: 'Cascade Kingdom Moon Rock',
+        type: 'moon-rock',
+        popupInfo: {
+            link: "https://www.youtube.com/watch?v=0o8n-rnK4Js",
+            description: "You will need to be far in the game for these to be able to work, click tutorial to see when you can use them.",
+        }
+    },
 
     // ----------------------------- PURPLE COINS -----------------------------
     {
@@ -933,6 +977,28 @@ const checkpoint_markers = [
         popupInfo: {
             link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=175",
             description: "4x coins"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/painting.png',
+        type: 'painting',
+        position: [660, 760],
+        name: 'Painting to Bowsers Kingdom',
+        popupInfo: {
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=49",
+            description: "Will need to be further in the game (at or past Bowsers Kingdom) to work"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/painting.png',
+        type: 'painting',
+        position: [380, 610],
+        name: 'Painting From Snow / Seaside Kingdom',
+        popupInfo: {
+            link: "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=49",
+            description: "Will need to be further in the game (at or past Snow / Seaside Kingdom) to work"
         }
     },
     // ========================================================================

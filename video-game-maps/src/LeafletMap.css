@@ -1,6 +1,68 @@
+@font-face {
+    font-family: comfortaa;
+    src: url("./assets/Comfortaa_Regular.ttf");
+    font-weight: normal;
+}
 
+.leaflet-popup-content-wrapper {
+    background-color: rgb(31, 31, 31);
+    font-family: comfortaa;
+}
+
+.leaflet-popup-content a {
+    color: rgba(56, 245, 91, 0.8);
+    text-decoration: underline;
+}
+
+.leaflet-popup-content {
+    color: white;
+}
 
 .leaflet-container {
     height: 100%;
     width: 100%;
+    background-color: rgb(24, 24, 24);
+}
+
+.leaflet-popup-tip {
+    background-color: rgb(31, 31, 31);
+    border: 2px;
+    border-color: rgb(52, 223, 83);
+}
+
+.leaflet-bar a {
+    background-color: rgb(53, 231, 86);
+    color: white;
+    transition: all 0.2s;
+}
+
+.leaflet-bar a.leaflet-disabled {
+    background-color: rgba(61, 187, 84);
+    color: white;
+}
+
+.leaflet-bar a:hover, .leaflet-bar a:focus {
+    background-color: rgba(0, 204, 37)
+}
+
+.leaflet-control-attribution.leaflet-control {
+    background-color: rgb(0, 0, 0, 0);
+}
+
+.leaflet-control-attribution.leaflet-control a {
+    font-family: comfortaa;
+    color: rgba(61, 187, 84);
+}
+
+.leaflet-popup-close-button span {
+    color: white;
+    transition: all 0.1s;
+}
+
+.leaflet-popup-close-button span:hover {
+    color: rgba(61, 187, 84);
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control {
+    border: none;
 }

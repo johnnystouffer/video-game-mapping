@@ -13,9 +13,6 @@ const SearchMaps = () => {
 
     // Whenever inputed text updates, automatically display map Cards that include the inputed text in its name
     const querySearch = (text) => {
-        if (inputText === "") {
-            return [];
-        }
         return maps.filter((map) => {
             return map.name.toLowerCase().includes(text.toLowerCase()) || map.game.toLowerCase().includes(text.toLowerCase())
         });

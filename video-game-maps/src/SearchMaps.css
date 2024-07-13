@@ -4,12 +4,27 @@ body {
 }
 
 @font-face {
+    font-family: comfortaa;
+    src: url(./assets/Comfortaa_Regular.ttf);
+}
+
+@font-face {
     font-family: "videophreak";
     src: url(./assets/VIDEOPHREAK.ttf);
 }
 
+@font-face {
+    font-family: nintendo;
+    src: url(./assets/RoSpritendoSemiboldBeta-vmVwZ.otf);
+}
+
+@font-face {
+    font-family: odyssey;
+    src: url(./assets/SuperMario286-18qg.ttf);
+}
+
 h1 {
-    font-family: "videophreak";
+    font-family: odyssey, "videophreak", comfortaa, monospace;
     font-size: 6vw;
     text-align: center;
     color: white;
@@ -50,4 +65,9 @@ h1 {
     background: linear-gradient(rgba(56, 245, 91, 0.8), rgba(17, 77, 28, 0.8)), url("./assets/background.jpg");
     background-size: cover;
     background-position: center;
+}
+
+input {
+    font-family: comfortaa;
+    font-size: large;
 }

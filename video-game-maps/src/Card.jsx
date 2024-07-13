@@ -15,7 +15,7 @@ function Card(props) {
     return (
         <Link to={href}>
 
-        <div className='card-container' style={cardStyle}>
+        <div className={props.game !== 'IN PROGRESS' ? 'card-container' : 'game-card-not-available'} style={cardStyle}>
             <div className='game-text-container'>
                 <h2>{props.name}</h2>
                 <hr />

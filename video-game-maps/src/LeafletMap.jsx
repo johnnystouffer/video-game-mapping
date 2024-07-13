@@ -40,7 +40,7 @@ const LeafletMap = (props) => {
                     return (
                         <Marker key={index} position={marker.position} icon={icon}>
                             <Popup>
-                                <a href={marker.popupInfo.link}><h4>{marker.name}</h4></a>
+                                <a target='_blank' href={marker.popupInfo.link}><h4>{marker.name}</h4></a>
                                 {marker.popupInfo.description}
                             </Popup>
                         </Marker>

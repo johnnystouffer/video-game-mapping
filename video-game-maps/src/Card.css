@@ -31,6 +31,24 @@
     backdrop-filter: contrast(30%);
 }
 
+.game-card-not-available {
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    filter: grayscale(100%);
+}
+
+.game-card-not-available:hover {
+    filter: grayscale(100%) brightness(80%);
+}
+
 h2 {
     font-family: "comfortaa-bold";
 }
