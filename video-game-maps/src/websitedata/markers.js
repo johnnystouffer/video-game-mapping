@@ -451,5 +451,269 @@ const checkpoint_markers = [
             description: "An 8-bit platformer with moving lifts situated over a large chasm. Accessed via a red Cappy door on the side of the Stone Bridge."
         }
     },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [565, 822],
+        name: 'Our First Power Moon',
+        popupInfo: {
+            link: "",
+            description: "You will have to break through some rocks with a Chain Chomp to get to this Power Moon."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [480, 810],
+        name: 'Cascade Kingdom Timer Challenge 1',
+        popupInfo: {
+            link: "",
+            description: "Capture the scarecrow at the base of the waterfall and reach the Power Moon before time runs out!"
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [605, 890],
+        name: 'Shopping in Fossil Falls',
+        popupInfo: {
+            link: "",
+            description: "Head over to the Crazy Cap Shop and buy the Power Moon for 100 Gold Coins."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [470, 1010],
+        name: 'On Top of the Rubble',
+        popupInfo: {
+            link: "",
+            description: "This Power Moon is on a pile of rubble guarded by three enemies."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [350, 920],
+        name: 'A Tourist in the Cascade Kingdom',
+        popupInfo: {
+            link: "",
+            description: "This Power Moon will be available after you speak to the Tostarean in the Sand Kingdom and Metro Kingdom."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [315, 935],
+        name: 'Cascade Kingdom Regular Cup',
+        popupInfo: {
+            link: "",
+            description: "A Koopa will challenge you to a freerunning course here after you complete the main story."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [240, 840],
+        name: 'Sphynx Traveling to the Waterfall',
+        popupInfo: {
+            link: "",
+            description: "After completing the main story, capture the binoculars here and zoom in to the distant Bonneter airship. Then, move diagonally upwards and to the right and zoom in to the sphinx."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [665, 765],
+        name: 'Behind the Waterfall',
+        popupInfo: {
+            link: "",
+            description: "In the 8-bit platformer, go to the far left where there is a gap in the stone wall to find an area that wraps around behind the waterfall."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [800, 800],
+        name: 'Past the Chasm Lifts',
+        popupInfo: {
+            link: "",
+            description: "Enter through the Cappy door against the cliff wall to find an 8-bit platforming area. Pass through the lifts without falling to get to a Warp Pipe that takes you to this Power Moon."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [785, 800],
+        name: 'Hidden Chasm Passage',
+        popupInfo: {
+            link: "",
+            description: "Pass through the first area of the 8-bit platformer, then instead of going into the second, jump over the rocks on the edge of the cliff and enter the 2D area. Use the Koopa Troopa to destroy the brick on the right wall that blocks the passage to the Power Moon."
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [850, 560],
+        name: 'Caveman Cave-Fan',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [910, 540],
+        name: 'Cascade Kingdom Timer Challenge 2',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [810, 470],
+        name: 'Good Morning, Captain Toad',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [845, 430],
+        name: 'Chomp Through the Rocks',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [1000, 490],
+        name: 'Nice Shot with the Chain Chomp',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [1000, 505],
+        name: 'Very Nice Shot with the Chain Chomp',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [1090, 300],
+        name: 'Across the Floating Isles',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [640, 605],
+        name: 'Rolling Rock by the Falls',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [530, 675],
+        name: 'Treasure of Waterfall Basin',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [400, 640],
+        name: 'Dinosaur Nest: Big Cleanup',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [415, 650],
+        name: 'Dinosaur Nest: Running Wild',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [405, 575],
+        name: 'Above the High Cliff',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        type: 'power-moon',
+        position: [367, 583],
+        name: 'Secret Path to Fossil Falls',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
+    {
+        map: 'cascade-kingdom',
+        iconUrl: 'src/assets/multimoons/multimoon-yellow.webp',
+        type: 'multimoons',
+        position: [955, 490],
+        name: '',
+        popupInfo: {
+            link: "",
+            description: ""
+        }
+    },
 ]
 export default checkpoint_markers
