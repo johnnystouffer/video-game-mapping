@@ -743,7 +743,7 @@ const checkpoint_markers = [
         name: 'Secret Path to Fossil Falls',
         popupInfo: {
             link: "",
-            description: ""
+            description: "You need to find a painting in another kingdom to reach this Power Moon!"
         }
     },
     {
