@@ -119,17 +119,6 @@ const checkpoint_markers = [
     {
         map: 'cap-kingdom',
         iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
-        position: [810, 490],
-        name: 'Taxi Flying through Bonneton',
-        type: 'power-moon',
-        popupInfo: {
-            link: "",
-            description: "This Power Moon can be found in Quadrant B2, to the North of the Main Plaza of Bonneton. Note that this Power Moon may only appear after completing the main story. ",
-        }
-    },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
         position: [810, 850],
         name: 'Cap Kingdom Timer Challenge 1',
         type: 'power-moon',
@@ -189,7 +178,7 @@ const checkpoint_markers = [
         name: 'COINS 1-3',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://www.youtube.com/watch?v=b7sAg57D93c",
             description: "3x Coins",
         }
     },
@@ -200,7 +189,7 @@ const checkpoint_markers = [
         name: 'COINS 4-6',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://www.youtube.com/watch?v=b7sAg57D93c",
             description: "3x Coins",
         }
     },
@@ -211,7 +200,7 @@ const checkpoint_markers = [
         name: 'COINS 7-9',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=31",
             description: "3x Coins",
         }
     },
@@ -222,7 +211,7 @@ const checkpoint_markers = [
         name: 'COINS 10-12',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=52",
             description: "3x Coins",
         }
     },
@@ -233,7 +222,7 @@ const checkpoint_markers = [
         name: 'COINS 13-15',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=52",
             description: "3x Coins",
         }
     },
@@ -244,7 +233,7 @@ const checkpoint_markers = [
         name: 'COINS 16-19',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=82",
             description: "4x Coins",
         }
     },
@@ -255,7 +244,7 @@ const checkpoint_markers = [
         name: 'COINS 20-23',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
             description: "3x Coins",
         }
     },
@@ -266,7 +255,7 @@ const checkpoint_markers = [
         name: 'COINS 24-27',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
             description: "4x Coins",
         }
     },
@@ -277,7 +266,7 @@ const checkpoint_markers = [
         name: 'COINS 47-50',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=31",
             description: "4x Coins",
         }
     },
@@ -288,7 +277,7 @@ const checkpoint_markers = [
         name: 'COINS 28-31',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
             description: "4x Coins",
         }
     },
@@ -299,7 +288,7 @@ const checkpoint_markers = [
         name: 'COINS 35-39',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=247",
             description: "5x Coins",
         }
     },
@@ -310,7 +299,7 @@ const checkpoint_markers = [
         name: 'COINS 40-43',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=247",
             description: "4x Coins",
         }
     },
@@ -321,7 +310,7 @@ const checkpoint_markers = [
         name: 'COINS 32-34',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=161",
             description: "3x Coins",
         }
     },
@@ -329,21 +318,10 @@ const checkpoint_markers = [
         map: 'cap-kingdom',
         iconUrl: '/src/assets/purple-coins/cap-coin.png',
         position: [862, 950],
-        name: 'COINS 32-34',
+        name: 'COINS 44-46',
         type: 'purple-coins',
         popupInfo: {
-            link: "",
-            description: "3x Coins",
-        }
-    },
-    {
-        map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
-        position: [862, 950],
-        name: 'COINS 32-34',
-        type: 'purple-coins',
-        popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=313",
             description: "3x Coins",
         }
     },
@@ -354,7 +332,7 @@ const checkpoint_markers = [
         position: [865, 965],
         name: 'Push-Block Area',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=310",
             description: "A platforming area featuring Push-Blocks and spark pylons. Accessed via a red Cappy door behind the base of the Top-Hat Tower.",
         }
     },
@@ -365,7 +343,7 @@ const checkpoint_markers = [
         position: [815, 1010],
         name: 'Poison Tide Room',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=163",
             description: "A narrow tunnel-like area filled with poison. You will need a Paragoomba to get to this red Cappy door.",
         }
     },
@@ -376,7 +354,7 @@ const checkpoint_markers = [
         name: 'The Frog Pond',
         type: 'spec-area',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/b7sAg57D93c?feature=shared&t=63",
             description: "A large, flooded room featuring various suspended platforms and many frogs. Accessed via a red Cappy door.",
         }
     },
