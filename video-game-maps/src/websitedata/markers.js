@@ -458,7 +458,7 @@ const checkpoint_markers = [
         position: [565, 822],
         name: 'Our First Power Moon',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=68",
             description: "You will have to break through some rocks with a Chain Chomp to get to this Power Moon."
         }
     },
@@ -469,7 +469,7 @@ const checkpoint_markers = [
         position: [480, 810],
         name: 'Cascade Kingdom Timer Challenge 1',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=192",
             description: "Capture the scarecrow at the base of the waterfall and reach the Power Moon before time runs out!"
         }
     },
@@ -491,7 +491,7 @@ const checkpoint_markers = [
         position: [470, 1010],
         name: 'On Top of the Rubble',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=137",
             description: "This Power Moon is on a pile of rubble guarded by three enemies."
         }
     },
@@ -535,7 +535,7 @@ const checkpoint_markers = [
         position: [665, 765],
         name: 'Behind the Waterfall',
         popupInfo: {
-            link: "",
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=121",
             description: "In the 8-bit platformer, go to the far left where there is a gap in the stone wall to find an area that wraps around behind the waterfall."
         }
     },
@@ -579,8 +579,8 @@ const checkpoint_markers = [
         position: [910, 540],
         name: 'Cascade Kingdom Timer Challenge 2',
         popupInfo: {
-            link: "",
-            description: ""
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=207",
+            description: "Go to where you fought the bunny, there will be scarecrow where you can throw your hat on which will expose stairs to a moon"
         }
     },
     {
@@ -590,8 +590,8 @@ const checkpoint_markers = [
         position: [810, 470],
         name: 'Good Morning, Captain Toad',
         popupInfo: {
-            link: "",
-            description: ""
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=224",
+            description: "Watch video for best explanation"
         }
     },
     {
@@ -601,8 +601,8 @@ const checkpoint_markers = [
         position: [845, 430],
         name: 'Chomp Through the Rocks',
         popupInfo: {
-            link: "",
-            description: ""
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=104",
+            description: "Watch the video for full explanation. Become one of the small chomp chomps to destroy one of the rocks that contains a moon"
         }
     },
     {
@@ -634,8 +634,8 @@ const checkpoint_markers = [
         position: [1090, 300],
         name: 'Across the Floating Isles',
         popupInfo: {
-            link: "",
-            description: ""
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=177",
+            description: "Go to the far northwest of the island where you fought the bunny, go past there any you will find a power moon on those isles"
         }
     },
     {
@@ -656,8 +656,8 @@ const checkpoint_markers = [
         position: [530, 675],
         name: 'Treasure of Waterfall Basin',
         popupInfo: {
-            link: "",
-            description: ""
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=150",
+            description: "On the middle west side of the lake, there is a small cave that contains this power moon"
         }
     },
     {
@@ -687,10 +687,10 @@ const checkpoint_markers = [
         iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [405, 575],
-        name: 'Above the High Cliff',
+        name: 'Above a High Cliff',
         popupInfo: {
-            link: "",
-            description: ""
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=164",
+            description: "Use the chomp chomp in the area to break the golden pillar, this will expose a pipe that will take you to the top of this small cliff which contains the moon."
         }
     },
     {
@@ -709,10 +709,10 @@ const checkpoint_markers = [
         iconUrl: 'src/assets/multimoons/multimoon-yellow.webp',
         type: 'multimoons',
         position: [955, 490],
-        name: '',
+        name: 'Multi Moon Atop The Falls',
         popupInfo: {
-            link: "",
-            description: ""
+            link: "https://youtu.be/SOAcjrxHeRo?feature=shared&t=84",
+            description: "Beat the boss (the bunny) on top of the hill of the map to get this multi-moon"
         }
     },
 ]
