@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Buttons from './Buttons.jsx';
 import './Map.css';
-import mapdata from './websitedata/mapinfo.js';
+import mapdata from './mapinfo.js';
 import { useParams, Link } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
@@ -38,7 +38,7 @@ const Map = () => {
             <div className='layout-container'>
                 <div className='side-bar'>
                     <div className="home">
-                        <Link className='home-link' to='/'><img className='arrow-back' src="/src/assets/back.png" alt="Back Arrow" /><p className='other-map'>Other Maps</p></Link>
+                        <Link className='home-link' to='/'><img className='arrow-back' src="/assets/back.png" alt="Back Arrow" /><p className='other-map'>Other Maps</p></Link>
                     </div>
                     <div className="game-description">
                         <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />

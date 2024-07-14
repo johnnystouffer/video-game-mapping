@@ -1,17 +1,17 @@
 @font-face {
     font-family: videophreak;
-    src: url('./assets/VIDEOPHREAK.ttf');
+    src: url('/assets/VIDEOPHREAK.ttf');
 }
 
 @font-face {
     font-family: comfortaa;
-    src: url("./assets/Comfortaa_Regular.ttf");
+    src: url("/assets/Comfortaa_Regular.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: comfortaa-bold;
-    src: url("./assets/Comfortaa_Bold.ttf");
+    src: url("/assets/Comfortaa_Bold.ttf");
     font-weight: bold;
 }
 

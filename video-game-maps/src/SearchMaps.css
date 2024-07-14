@@ -10,17 +10,17 @@ body {
 
 @font-face {
     font-family: "videophreak";
-    src: url(./assets/VIDEOPHREAK.ttf);
+    src: url(/assets/VIDEOPHREAK.ttf);
 }
 
 @font-face {
     font-family: nintendo;
-    src: url(./assets/RoSpritendoSemiboldBeta-vmVwZ.otf);
+    src: url(/assets/RoSpritendoSemiboldBeta-vmVwZ.otf);
 }
 
 @font-face {
     font-family: odyssey;
-    src: url(./assets/SuperMario286-18qg.ttf);
+    src: url(/assets/SuperMario286-18qg.ttf);
 }
 
 h1 {
@@ -62,7 +62,7 @@ h1 {
 .background-top {
     padding-top: 5%;
     padding-bottom: 15px;
-    background: linear-gradient(rgba(56, 245, 91, 0.8), rgba(17, 77, 28, 0.8)), url("./assets/background.jpg");
+    background: linear-gradient(rgba(56, 245, 91, 0.8), rgba(17, 77, 28, 0.8)), url("/assets/background.jpg");
     background-size: cover;
     background-position: center;
 }

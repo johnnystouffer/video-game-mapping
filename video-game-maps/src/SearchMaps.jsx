@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import maps from './websitedata/items'
+import maps from './items.js'
 import Card from './Card.jsx'
 import './SearchMaps.css'
 
@@ -23,7 +23,7 @@ const SearchMaps = () => {
     <>
       <div className='background-top'>
         <div className='header-text'>
-          <h1>Odyessey Maps</h1>
+          <h1>Odyssey Maps</h1>
         </div>
         <div className='search-box'>
           <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 

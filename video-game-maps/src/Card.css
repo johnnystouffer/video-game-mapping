@@ -1,10 +1,10 @@
 @font-face {
     font-family: "comfortaa-bold";
-    src: url(./assets/Comfortaa_Bold.ttf);
+    src: url(/assets/Comfortaa_Bold.ttf);
 }
 @font-face {
     font-family: "comfortaa-thin";
-    src: url(./assets/Comfortaa_Thin.ttf);
+    src: url(/assets/Comfortaa_Thin.ttf);
 }
 
 .card-container {

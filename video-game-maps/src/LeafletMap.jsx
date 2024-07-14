@@ -3,7 +3,7 @@ import { MapContainer, ImageOverlay, Marker, Popup } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import './LeafletMap.css';
-import checkpoint_markers from './websitedata/markers';
+import checkpoint_markers from './markers.js';
 
 const LeafletMap = (props) => {
     const url = `${props.mapUrl}`

@@ -10,7 +10,7 @@ const checkpoint_markers = [
     // ----------------------------- CHECKPOINTS ------------------------------
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/crazy-cap.png',
+        iconUrl: '/assets/crazy-cap.png',
         type: 'crazy-cap',
         position: [750, 550],
         name: 'Crazy Cap Store',
@@ -21,7 +21,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/odyssey.png',
+        iconUrl: '/assets/odyssey.png',
         type: 'odyssey',
         position: [400, 350],
         name: 'The Odyessey',
@@ -32,7 +32,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
+        iconUrl: '/assets/checkpoint.png',
         position: [720, 582],
         type: 'checkpoint',
         name: 'Central Plaza',
@@ -43,7 +43,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
+        iconUrl: '/assets/checkpoint.png',
         position: [800, 910],
         name: 'Top-Hat Tower',
         type: 'checkpoint',
@@ -55,7 +55,7 @@ const checkpoint_markers = [
     // ----------------------------- BONUS  AREAS -----------------------------
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         type: 'spec-area',
         position: [865, 965],
         name: 'Push-Block Area',
@@ -66,7 +66,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         type: 'spec-area',
         position: [815, 1010],
         name: 'Poison Tide Room',
@@ -77,7 +77,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         position: [845, 500],
         name: 'The Frog Pond',
         type: 'spec-area',
@@ -89,7 +89,7 @@ const checkpoint_markers = [
     // ----------------------------- POWER  MOONS -----------------------------
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [290, 470],
         name: 'Frog Jumping Above the Fog',
         type: 'power-moon',
@@ -100,7 +100,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [680, 600],
         name: 'Bonneter Blockade',
         type: 'power-moon',
@@ -111,7 +111,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [705, 515],
         name: 'Frog Jumping The Top Deck',
         type: 'power-moon',
@@ -122,7 +122,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [750, 530],
         name: 'Shopping in Bonneton',
         type: 'power-moon',
@@ -133,7 +133,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [735, 612],
         name: 'Forgotten Treasure',
         type: 'power-moon',
@@ -144,7 +144,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [840, 490],
         name: 'Searching the Frog Pond & Secrets of the Frog Pond',
         type: 'power-moon',
@@ -155,7 +155,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [810, 490],
         name: 'Taxi Flying through Bonneton',
         type: 'power-moon',
@@ -166,7 +166,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [810, 850],
         name: 'Cap Kingdom Timer Challenge 1',
         type: 'power-moon',
@@ -177,7 +177,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [810, 960],
         name: 'Good Evening, Captain Toad!',
         type: 'power-moon',
@@ -188,7 +188,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [860, 960],
         name: 'Push Block Peril & Hidden Among the Push-Blocks',
         type: 'power-moon',
@@ -199,7 +199,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [845, 990],
         name: 'Cap Kingdom Regular Cup',
         type: 'power-moon',
@@ -210,7 +210,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         position: [815, 1005],
         name: 'Skimming the Poison Tide & Slipping Through the Poison Tide',
         type: 'power-moon',
@@ -222,7 +222,7 @@ const checkpoint_markers = [
     // ----------------------------- PURPLE COINS -----------------------------
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [540, 340],
         name: 'COINS 1-3',
         type: 'purple-coins',
@@ -233,7 +233,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [445, 535],
         name: 'COINS 4-6',
         type: 'purple-coins',
@@ -244,7 +244,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [663, 565],
         name: 'COINS 7-9',
         type: 'purple-coins',
@@ -255,7 +255,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [770, 545],
         name: 'COINS 10-12',
         type: 'purple-coins',
@@ -266,7 +266,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [810, 475],
         name: 'COINS 13-15',
         type: 'purple-coins',
@@ -277,7 +277,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [825, 490],
         name: 'COINS 16-19',
         type: 'purple-coins',
@@ -288,7 +288,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [910, 488],
         name: 'COINS 20-23',
         type: 'purple-coins',
@@ -299,7 +299,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [853, 580],
         name: 'COINS 24-27',
         type: 'purple-coins',
@@ -310,7 +310,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [722, 635],
         name: 'COINS 47-50',
         type: 'purple-coins',
@@ -321,7 +321,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [814, 690],
         name: 'COINS 28-31',
         type: 'purple-coins',
@@ -332,7 +332,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [814, 920],
         name: 'COINS 35-39',
         type: 'purple-coins',
@@ -343,7 +343,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [814, 940],
         name: 'COINS 40-43',
         type: 'purple-coins',
@@ -354,7 +354,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [805, 1010],
         name: 'COINS 32-34',
         type: 'purple-coins',
@@ -365,7 +365,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/purple-coins/cap-coin.png',
+        iconUrl: '/assets/purple-coins/cap-coin.png',
         position: [862, 950],
         name: 'COINS 44-46',
         type: 'purple-coins',
@@ -376,7 +376,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         type: 'spec-area',
         position: [865, 965],
         name: 'Push-Block Area',
@@ -387,7 +387,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         type: 'spec-area',
         position: [815, 1010],
         name: 'Poison Tide Room',
@@ -398,7 +398,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         position: [845, 500],
         name: 'The Frog Pond',
         type: 'spec-area',
@@ -409,7 +409,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/moon-rock.png',
+        iconUrl: '/assets/moon-rock.png',
         position: [465, 737],
         name: 'Cap Kingdom Moon Rock',
         type: 'moon-rock',
@@ -420,7 +420,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cap-kingdom',
-        iconUrl: '/src/assets/hint-art.png',
+        iconUrl: '/assets/hint-art.png',
         position: [370, 480],
         name: 'Cap Kingdom Hint Art',
         type: 'hint-art',
@@ -436,7 +436,7 @@ const checkpoint_markers = [
     // ========================================================================
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/crazy-cap.png',
+        iconUrl: '/assets/crazy-cap.png',
         type: 'crazy-cap',
         position: [605, 900],
         name: 'Crazy Cap Store',
@@ -448,7 +448,7 @@ const checkpoint_markers = [
     // ----------------------------- CHECKPOINTS ------------------------------
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/odyssey.png',
+        iconUrl: '/assets/odyssey.png',
         type: 'odyssey',
         position: [275, 900],
         name: 'The Odyssey',
@@ -459,7 +459,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
+        iconUrl: '/assets/checkpoint.png',
         type: 'checkpoint',
         position: [825, 675],
         name: 'Stone Bridge',
@@ -470,7 +470,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
+        iconUrl: '/assets/checkpoint.png',
         type: 'checkpoint',
         position: [720, 770],
         name: 'Fossil Falls Heights',
@@ -481,7 +481,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
+        iconUrl: '/assets/checkpoint.png',
         type: 'checkpoint',
         position: [460, 650],
         name: 'Top of the Big Stump',
@@ -492,7 +492,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/checkpoint.png',
+        iconUrl: '/assets/checkpoint.png',
         type: 'checkpoint',
         position: [380, 600],
         name: 'Island in the Sky',
@@ -504,7 +504,7 @@ const checkpoint_markers = [
     // ----------------------------- BONUS  AREAS -----------------------------
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         type: 'spec-area',
         position: [425, 625],
         name: 'Dinosaur Nest',
@@ -515,7 +515,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         type: 'spec-area',
         position: [1000, 450],
         name: 'Chain Chomp Cave',
@@ -527,7 +527,7 @@ const checkpoint_markers = [
     // ----------------------------- POWER  MOONS -----------------------------
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/pipe.png',
+        iconUrl: '/assets/pipe.png',
         type: 'spec-area',
         position: [800, 680],
         name: 'Chasm Lifts Area',
@@ -538,7 +538,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [565, 822],
         name: 'Our First Power Moon',
@@ -549,7 +549,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [480, 810],
         name: 'Cascade Kingdom Timer Challenge 1',
@@ -560,7 +560,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [605, 890],
         name: 'Shopping in Fossil Falls',
@@ -571,7 +571,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [470, 1010],
         name: 'On Top of the Rubble',
@@ -582,7 +582,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [350, 920],
         name: 'A Tourist in the Cascade Kingdom',
@@ -593,7 +593,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [315, 935],
         name: 'Cascade Kingdom Regular Cup',
@@ -604,7 +604,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [240, 840],
         name: 'Sphynx Traveling to the Waterfall',
@@ -615,7 +615,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [665, 765],
         name: 'Behind the Waterfall',
@@ -626,7 +626,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [800, 800],
         name: 'Past the Chasm Lifts',
@@ -637,7 +637,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [785, 800],
         name: 'Hidden Chasm Passage',
@@ -648,7 +648,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [850, 560],
         name: 'Caveman Cave-Fan',
@@ -659,7 +659,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [910, 540],
         name: 'Cascade Kingdom Timer Challenge 2',
@@ -670,7 +670,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [810, 470],
         name: 'Good Morning, Captain Toad',
@@ -681,7 +681,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [845, 430],
         name: 'Chomp Through the Rocks',
@@ -692,7 +692,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [1000, 490],
         name: 'Nice Shot with the Chain Chomp',
@@ -703,7 +703,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [1000, 505],
         name: 'Very Nice Shot with the Chain Chomp',
@@ -714,7 +714,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [1090, 300],
         name: 'Across the Floating Isles',
@@ -725,7 +725,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [640, 605],
         name: 'Rolling Rock by the Falls',
@@ -736,7 +736,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [530, 675],
         name: 'Treasure of Waterfall Basin',
@@ -747,7 +747,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [400, 640],
         name: 'Dinosaur Nest: Big Cleanup',
@@ -758,7 +758,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [415, 650],
         name: 'Dinosaur Nest: Running Wild',
@@ -769,7 +769,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [405, 575],
         name: 'Above a High Cliff',
@@ -780,7 +780,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/power-moons/power-moon-yellow.png',
+        iconUrl: '/assets/power-moons/power-moon-yellow.png',
         type: 'power-moon',
         position: [367, 583],
         name: 'Secret Path to Fossil Falls',
@@ -791,7 +791,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/multimoons/multimoon-yellow.webp',
+        iconUrl: '/assets/multimoons/multimoon-yellow.webp',
         type: 'multimoons',
         position: [955, 490],
         name: 'Multi Moon Atop The Falls',
@@ -802,7 +802,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: '/src/assets/moon-rock.png',
+        iconUrl: '/assets/moon-rock.png',
         position: [835, 362],
         name: 'Cascade Kingdom Moon Rock',
         type: 'moon-rock',
@@ -815,7 +815,7 @@ const checkpoint_markers = [
     // ----------------------------- PURPLE COINS -----------------------------
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [215, 930],
         name: 'Coins 1-3',
@@ -826,7 +826,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [435, 838],
         name: 'Coins 4-6',
@@ -837,7 +837,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [577, 967],
         name: 'Coins 7-9',
@@ -848,7 +848,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [564, 802],
         name: 'Coins 10-12',
@@ -859,7 +859,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [415, 440],
         name: 'Coins 13-15',
@@ -870,7 +870,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [555, 530],
         name: 'Coins 16-18',
@@ -881,7 +881,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [695, 405],
         name: 'Coins 19-21',
@@ -892,7 +892,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [1000, 485],
         name: 'Coins 22-24',
@@ -903,7 +903,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [783, 770],
         name: 'Coins 25-27',
@@ -914,7 +914,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [890, 865],
         name: 'Coins 28-30',
@@ -925,7 +925,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [628, 850],
         name: 'Coins 31-33',
@@ -936,7 +936,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [345, 600],
         name: 'Coins 34-37',
@@ -947,7 +947,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [640, 750],
         name: 'Coins 38-40',
@@ -958,7 +958,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [1090, 360],
         name: 'Coins 41-43',
@@ -969,7 +969,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [660, 750],
         name: 'Coins 44-46',
@@ -980,7 +980,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/purple-coins/cascade-coin.png',
+        iconUrl: '/assets/purple-coins/cascade-coin.png',
         type: 'purple-coins',
         position: [755, 809],
         name: 'Coins 47-50',
@@ -991,7 +991,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/painting.png',
+        iconUrl: '/assets/painting.png',
         type: 'painting',
         position: [660, 760],
         name: 'Painting to Bowsers Kingdom',
@@ -1002,7 +1002,7 @@ const checkpoint_markers = [
     },
     {
         map: 'cascade-kingdom',
-        iconUrl: 'src/assets/painting.png',
+        iconUrl: '/assets/painting.png',
         type: 'painting',
         position: [380, 610],
         name: 'Painting From Snow / Seaside Kingdom',
