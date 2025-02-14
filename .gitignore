@@ -1,6 +1,7 @@
 /node_modules
 
 /video-game-maps/node_modules
+/video-game-maps/Dockerfile
 
 
 # Logs

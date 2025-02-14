@@ -138,3 +138,25 @@
     overflow-y: auto;
     background-color: #fff; /* Example background color */
 }
+
+@media (max-width: 650px) {
+    .side-bar {
+        width: 100vw;
+        height: 100vh;
+        max-width: 650px;
+    }
+
+    .main-content {
+        display: none;
+    }
+}
+
+.side-bar--toggled {
+    display: none;
+}
+
+.main-content--toggled {
+    width: 100vw;
+    height: 100vh;
+    max-width: 650px
+}
