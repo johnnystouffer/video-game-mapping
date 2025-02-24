@@ -42,7 +42,7 @@ h1 {
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
-    transition: all 0.6s;
+    transition: all 0.4s;
     outline: none;
 }
 
@@ -70,4 +70,34 @@ h1 {
 input {
     font-family: comfortaa;
     font-size: large;
+}
+
+#login-signin-button {
+    font-family: comfortaa;
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 1em;
+    transition: all ease-in-out 300ms;
+}
+
+#login-signin-button:hover {
+    background-color: rgb(65, 65, 65);
+    padding: 11px;
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    #login-signin-button {
+        font-size: small;
+        padding: 5px;
+        border-radius: 0.5em;
+    }
+
+    #login-signin-button:hover {
+        padding: 6px;
+    }
 }

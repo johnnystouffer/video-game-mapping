@@ -21,6 +21,7 @@ const SearchMaps = () => {
 
   return (
     <>
+      <div id='login-signin-button'>Log In / Sign Up</div>
       <div className='background-top'>
         <div className='header-text'>
           <h1>Odyssey Maps</h1>
