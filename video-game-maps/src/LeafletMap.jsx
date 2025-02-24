@@ -55,7 +55,8 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
                             <a target='_blank' rel="noopener noreferrer" href={marker.popupInfo.link}>
                                 <h4>{marker.name}</h4>
                             </a>
-                            {marker.popupInfo.description}
+                            <p>{marker.popupInfo.description}</p>
+                            <button id='completed-button'>Completed</button>
                         </Popup>
                     </Marker>
                 );

@@ -34,28 +34,25 @@ const Map = () => {
     const sideBarRef = useRef(null);
     const mainContentRef = useRef(null);
 
-    // 🔥 Function to refresh the map when needed
     const triggerMapRefresh = () => {
         setRefreshMap((prev) => !prev); // Toggle refresh state to force Leaflet re-render
     };
 
-    // 🔄 Toggle Sidebar function
     const handleSidebarToggle = () => {
         if (sideBarRef.current && mainContentRef.current) {
             sideBarRef.current.classList.toggle('--toggled');
             mainContentRef.current.classList.toggle('--toggled');
         }
         setToggle((prev) => !prev);
-        triggerMapRefresh(); // 🔥 Refresh map when sidebar is toggled
+        triggerMapRefresh();
     };
 
-    // 🔘 Handle button clicks to toggle elements on the map
     const handleButtonClick = (index) => {
         const newButtonStates = [...buttonStates];
         newButtonStates[index][0] = !newButtonStates[index][0];
         setButtonStates(newButtonStates);
-        triggerMapRefresh(); // 🔥 Refresh map when a button is clicked
-    };
+        triggerMapRefresh();
+    }
 
     return (
         <>
@@ -93,12 +90,13 @@ const Map = () => {
                         buttonStates={buttonStates} 
                         mapUrl={mapObj.mapImage} 
                         mapId={mapObj.id} 
-                        refreshTrigger={refreshMap} // 🔥 Triggers refresh
+                        refreshTrigger={refreshMap} // Triggers refresh
                     />
                 </div>
             </div>
         </>
     );
 }
+
 
 export default Map;

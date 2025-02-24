@@ -66,3 +66,15 @@
 .leaflet-control-zoom.leaflet-bar.leaflet-control {
     border: none;
 }
+
+#completed-button {
+    background-color: #31c34c;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    transition: all ease-in-out 150ms;
+}
+
+#completed-button:hover {
+    background-color: #2fa444;
+}
