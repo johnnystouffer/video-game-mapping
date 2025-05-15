@@ -9,13 +9,11 @@ const MapReset = ({ refreshTrigger }) => {
     const map = useMap();
 
     useEffect(() => {
-        if (refreshTrigger) {
             setTimeout(() => {
                 map.invalidateSize();
                 console.log("Happened")
             }, 400); 
-        }
-    }, [refreshTrigger, map]);
+    }, [, map]);
 
     return null;
 };
