@@ -6,6 +6,7 @@ import { useParams, Link } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
 
+
 const Map = () => {
     const { id } = useParams();
     const mapObj = mapdata.find((obj) => obj.id === id);
@@ -29,6 +30,8 @@ const Map = () => {
     const [buttonStates, setButtonStates] = useState(buttons.map((button) => [false, button[1]]));
     const [isToggled, setToggle] = useState(false);
     const [refreshMap, setRefreshMap] = useState(false);
+    const [completionButtons, setCompletion] = useState();
+    const [percent, setPercent] = useState(0);
 
     // Create refs for sidebar and main content
     const sideBarRef = useRef(null);
@@ -58,7 +61,7 @@ const Map = () => {
         <>
             <div className='layout-container'>
                 <div id='toggle-sidebar-side'>
-                    <span onClick={handleSidebarToggle} id='sidebar-arrow'>&#8612;</span>
+                    <img src='../assets/sidebar-icon.svg' onClick={handleSidebarToggle} id='sidebar-arrow' alt='sidebar' />
                 </div>
                 <div className='side-bar' ref={sideBarRef}>
                     <div className="home">
@@ -73,7 +76,12 @@ const Map = () => {
                         <h2 id='game-subtitle-map'>{subtitle}</h2>
                         <p id='game-description-map'>{description}</p><br />
                     </div>
-                    <div className='button-title'><h3>Toggle Map Elements</h3></div>
+                    <div className='status-container'>
+                        <h3 className='button-title'>Status of Map</h3>
+                        <div className='status-bar'>
+                            <div className='status-progress' style={ { width: `${percent}%` } }></div>
+                        </div>
+                    </div>
                     <div className='buttons-container'>
                         {buttons.map((btn, index) => (
                             <Buttons 
@@ -90,7 +98,7 @@ const Map = () => {
                         buttonStates={buttonStates} 
                         mapUrl={mapObj.mapImage} 
                         mapId={mapObj.id} 
-                        refreshTrigger={refreshMap} // Triggers refresh
+                        refreshTrigger={refreshMap} 
                     />
                 </div>
             </div>

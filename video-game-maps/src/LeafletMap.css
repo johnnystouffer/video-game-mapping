@@ -71,10 +71,62 @@
     background-color: #31c34c;
     color: white;
     border: none;
-    border-radius: 5%;
+    border-radius: 15px;
+    padding: 0.65rem;
     transition: all ease-in-out 150ms;
+    width: fit-content;
+    cursor: pointer;
 }
 
 #completed-button:hover {
     background-color: #2fa444;
+    
+}
+
+#marker-name {
+    font-size: larger;
+}
+
+#map {
+    border-radius: 1rem;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(31, 31, 31);
+}
+
+.status-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.status-container h3 {
+    padding: 0.5rem;
+}
+
+#bar-container {
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+#actual-bar {
+    position: relative;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(53, 231, 86);
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 650px) {
+    .top-container {
+        height: 50px;
+    }
 }
