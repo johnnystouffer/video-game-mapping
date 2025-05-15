@@ -28,7 +28,10 @@ const Map = () => {
     const buttons = mapObj.buttons || [];
 
     const [buttonStates, setButtonStates] = useState(buttons.map((button) => [false, button[1]]));
+    const [isToggled, setToggle] = useState(false);
     const [refreshMap, setRefreshMap] = useState(false);
+    const [completionButtons, setCompletion] = useState();
+    const [percent, setPercent] = useState(0);
 
     // Create refs for sidebar and main content
     const sideBarRef = useRef(null);
@@ -51,7 +54,6 @@ const Map = () => {
         const newButtonStates = [...buttonStates];
         newButtonStates[index][0] = !newButtonStates[index][0];
         setButtonStates(newButtonStates);
-        triggerMapRefresh();
     }
 
     return (
@@ -72,6 +74,12 @@ const Map = () => {
                         <h1 id='game-title-map'>{title}</h1>
                         <h2 id='game-subtitle-map'>{subtitle}</h2>
                         <p id='game-description-map'>{description}</p><br />
+                    </div>
+                    <div className='status-container'>
+                        <h3 className='button-title'>Status of Map</h3>
+                        <div className='status-bar'>
+                            <div className='status-progress' style={ { width: `${percent}%` } }></div>
+                        </div>
                     </div>
                     <div className='buttons-container'>
                         {buttons.map((btn, index) => (

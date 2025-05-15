@@ -10,7 +10,7 @@
 }
 
 .leaflet-popup-content a {
-    color: rgba(56, 245, 91, 0.8);
+    color: #ffbfc3;
     text-decoration: underline;
 }
 
@@ -27,22 +27,22 @@
 .leaflet-popup-tip {
     background-color: rgb(31, 31, 31);
     border: 2px;
-    border-color: rgb(52, 223, 83);
+    border-color: #e4000f;
 }
 
 .leaflet-bar a {
-    background-color: rgb(53, 231, 86);
+    background-color: #e4000f;
     color: white;
     transition: all 0.2s;
 }
 
 .leaflet-bar a.leaflet-disabled {
-    background-color: rgba(61, 187, 84);
+    background-color: #ae1923;
     color: white;
 }
 
 .leaflet-bar a:hover, .leaflet-bar a:focus {
-    background-color: rgba(0, 204, 37)
+    background-color: #ff2130
 }
 
 .leaflet-control-attribution.leaflet-control {
@@ -51,16 +51,16 @@
 
 .leaflet-control-attribution.leaflet-control a {
     font-family: comfortaa;
-    color: rgba(61, 187, 84);
+    color: #e4000f;
 }
 
 .leaflet-popup-close-button span {
     color: white;
-    transition: all 0.1s;
+    transition: color 0.2s;
 }
 
 .leaflet-popup-close-button span:hover {
-    color: rgba(61, 187, 84);
+    color: #ff6d77;
 }
 
 .leaflet-control-zoom.leaflet-bar.leaflet-control {
@@ -68,18 +68,18 @@
 }
 
 #completed-button {
-    background-color: #31c34c;
+    background-color: #e4000f;
     color: white;
     border: none;
     border-radius: 15px;
     padding: 0.65rem;
-    transition: all ease-in-out 150ms;
+    transition: background-color ease-in-out 200ms;
     width: fit-content;
     cursor: pointer;
 }
 
 #completed-button:hover {
-    background-color: #2fa444;
+    background-color: #de3b46;
     
 }
 
@@ -121,7 +121,7 @@
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgb(53, 231, 86);
+    background-color: #e4000f;
     border-radius: 0.5rem;
 }
 

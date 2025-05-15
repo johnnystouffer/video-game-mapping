@@ -63,14 +63,15 @@
 .home-link {
     display: inline-flex;
     align-items: center;
-    background-color: rgb(56, 245, 91);
+    background-color: #e4000f;
     border-radius: 5px;
     padding: 4px;
     transition: all 0.2s;
 }
 
 .home-link:hover {
-    background-color: rgb(10, 199, 45);
+    background-color: #e02d39;
+    transform: scale(1.025);
 }
 
 .arrow-back {
@@ -115,7 +116,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #38f55b;
+    background-color: #e4000f;
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -150,7 +151,7 @@
 #sidebar-arrow {
     display: none;
     color: white;
-    background-color: #38f55b;
+    background-color: #e4000f;
     border-radius: 10%;
     font-size: x-large;
     transition: all ease-in-out 200ms;
@@ -160,17 +161,18 @@
 
 #sidebar-arrow:hover {
     cursor: pointer;
-    background-color: rgb(10, 199, 45);
+    background-color: #e4000f;
+    transform: scale(1.05);
 }
 
 @media (max-width: 650px) {
-    .side-bar {
+    .main-content {
         width: 100vw;
         height: 100vh;
-        max-width: 650px;
+        display: block;    
     }
 
-    .main-content {
+    .side-bar {
         display: none;
     }
 
@@ -182,13 +184,14 @@
 
     }
 
-    .side-bar.--toggled {
+    .main-content.--toggled {
         display: none;
     }
     
-    .main-content.--toggled {
+    .side-bar.--toggled {
+        display: block;
         width: 100%;
         height: 100%;
-        display: block;
+        max-width: 650px;
     }
 }

@@ -30,7 +30,7 @@ const AuthPage = () => {
           <button id='sign-up-button'><Link  to={'/'}>Submit</Link></button>
         </form>
         <button id="google-button" onClick={handleGoogleLogin}>
-          Continue with <img id='logo' src='../public/assets/googlelogo.png'></img>
+          Continue with <img id='logo' src='/assets/googlelogo.png'></img>
         </button>
         <p onClick={toggleMode} className="toggle-link">
           {isLogin ? "Don't have an account? Sign up" : "Already have an account? Log in"}

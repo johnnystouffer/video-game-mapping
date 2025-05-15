@@ -38,6 +38,7 @@ h1 {
     margin-bottom: 20px;
     margin: 1rem;
 }
+
 #search-text {
     margin: 0;
     padding: 8px 12px;
@@ -47,13 +48,12 @@ h1 {
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
-    transition: all 0.4s;
     outline: none;
+    transition: transform 200ms ease;
 }
 
-#search-text:focus {
-    height: 25px;
-    width: 51vw;
+#search-text:hover {
+    transform: scale(1.05);
 }
 
 

@@ -12,7 +12,8 @@ const MapReset = ({ refreshTrigger }) => {
         if (refreshTrigger) {
             setTimeout(() => {
                 map.invalidateSize();
-            }, 300); 
+                console.log("Happened")
+            }, 400); 
         }
     }, [refreshTrigger, map]);
 
@@ -43,7 +44,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         <>
             <div className='top-container'>
                 <div className='status-container'>
-                    <h3 id='status-text'>Progress: </h3>
+                    <h3 id='status-text'>Completed: </h3>
                     <div id='bar-container'>
                         <div id='actual-bar' style={{width: (completedMarkers / totalMarkers)*100 + '%'}}></div>
                     </div>
