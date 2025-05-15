@@ -36,7 +36,6 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         return (currState ? currState[0] : true) && (marker.map === mapId);
     });
 
-    const [currMarkers, setFilteredMarkers] = useState(filteredMarkers);
     const [completedMarkers, setMarkersCompleted] = useState(8);
     const [totalMarkers, setTotalMarkers] = useState(25);
 
@@ -44,7 +43,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         <>
             <div className='top-container'>
                 <div className='status-container'>
-                    <h3 id='status-text'>Completed: </h3>
+                    <h3 id='status-text'>Progress: </h3>
                     <div id='bar-container'>
                         <div id='actual-bar' style={{width: (completedMarkers / totalMarkers)*100 + '%'}}></div>
                     </div>
@@ -62,7 +61,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
 
                 <ImageOverlay url={mapUrl} bounds={bounds} />
 
-                {currMarkers.map((marker, index) => {
+                {filteredMarkers.map((marker, index) => {
                     const icon = new L.Icon({
                         iconUrl: marker.iconUrl,
                         iconSize: marker.type === 'odyssey' ? [30, 60] : [30, 30],

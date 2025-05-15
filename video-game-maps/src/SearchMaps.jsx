@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import maps from './items.js'
 import Card from './Card.jsx'
 import './SearchMaps.css'
@@ -21,14 +22,17 @@ const SearchMaps = () => {
 
   return (
     <>
-      <div id='login-signin-button'>Log In / Sign Up</div>
       <div className='background-top'>
         <div className='header-text'>
           <h1>Odyssey Maps</h1>
         </div>
-        <div className='search-box'>
-          <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+        <div className="auth-buttons">
+          <button className="auth-button"><Link className='auth-text' to='/login'><p>Log In</p></Link></button>
+          <button className="auth-button"><Link className='auth-text' to='/login'><p>Sign In</p></Link></button>
         </div>
+      </div>
+      <div className='search-box'>
+        <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
       </div>
       <div className='map-cards'>
         {filteredData.map((map) => (

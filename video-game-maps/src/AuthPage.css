@@ -1,0 +1,93 @@
+.auth-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+
+.auth-card {
+  background-color: #2c2c2c;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.auth-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.auth-card input {
+  width: 80%;
+  margin: 0.75rem 0;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.auth-card input::placeholder {
+  color: #aaa;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #ff4757;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.auth-card button:hover {
+  background-color: #e84118;
+  transform: scale(1.02);
+}
+
+.google-button {
+  background-color: #ffffff;
+  color: #333;
+  margin-top: 0.75rem;
+  font-weight: bold;
+}
+
+.google-button:hover {
+  background-color: #dddddd;
+}
+
+.toggle-link {
+  margin-top: 1rem;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 1.5rem;
+  }
+
+  .auth-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .auth-card input,
+  .auth-card button {
+    font-size: 0.95rem;
+  }
+}
