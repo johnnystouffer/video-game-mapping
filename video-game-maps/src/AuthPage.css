@@ -1,10 +1,19 @@
+@font-face {
+    font-family: nintendo;
+    src: url(/assets/RoSpritendoSemiboldBeta-vmVwZ.otf);
+}
+
+#email-password-form {
+  margin-bottom: 2rem;
+}
+
 .auth-container {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1f1f1f;
+  background: url("../public/assets/background.png");
 }
 
 .auth-card {
@@ -21,6 +30,7 @@
 .auth-card h2 {
   margin-bottom: 1.5rem;
   font-size: 2rem;
+  font-family: nintendo;
 }
 
 .auth-card input {
@@ -45,27 +55,34 @@
   margin-top: 1rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: #ff4757;
+  background-color: #cb0011;
   color: white;
+  font-family: "Fira Code", Menlo, Consolas, monospace;
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .auth-card button:hover {
-  background-color: #e84118;
-  transform: scale(1.02);
+  transform: scale(1.05);
+  background-color: #dd0e20;
 }
 
-.google-button {
+#sign-up-button {
+  width: 30%;
+  border-radius: 2rem;
+}
+
+#google-button {
   background-color: #ffffff;
-  color: #333;
+  color: #7d7d7d;
   margin-top: 0.75rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
-.google-button:hover {
+#google-button:hover {
   background-color: #dddddd;
 }
 
@@ -73,12 +90,32 @@
   margin-top: 1rem;
   color: #aaa;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-decoration: underline;
+}
+
+#logo {
+  width: 4rem;
+  vertical-align: bottom;
 }
 
 @media (max-width: 480px) {
   .auth-card {
+    padding: 1.5rem;
+  }
+
+  .auth-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .auth-card input,
+  .auth-card button {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-height: 465px) {
+    .auth-card {
     padding: 1.5rem;
   }
 

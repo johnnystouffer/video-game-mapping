@@ -52,10 +52,12 @@
 }
 
 h2 {
-    font-family: "comfortaa-bold";
+    font-family: "Fira Code";
+    font-weight: normal;
 }
 h3 {
-    font-family: "comfortaa-thin";
+    font-family: "Fira Code";
+    font-weight: lighter;
 }
 a {
     text-decoration: none;

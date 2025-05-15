@@ -8,6 +8,10 @@ p {
     margin: 0;
 }
 
+a {
+    color: white;
+}
+
 @font-face {
     font-family: "videophreak";
     src: url(/assets/VIDEOPHREAK.ttf);
