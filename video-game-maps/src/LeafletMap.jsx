@@ -42,11 +42,11 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         <>
             <div className='top-container'>
                 <div className='status-container'>
-                    <h3 id='status-text'>Completed: </h3>
+                    <h3 id='status-text'>{completedMarkers}/{totalMarkers} </h3>
                     <div id='bar-container'>
                         <div id='actual-bar' style={{width: (completedMarkers / totalMarkers)*100 + '%'}}></div>
                     </div>
-                    <h3>{completedMarkers}/{totalMarkers} - {(completedMarkers / totalMarkers)*100}%</h3>
+                    <h3> {(completedMarkers / totalMarkers)*100}%</h3>
                 </div>
             </div>
             <MapContainer

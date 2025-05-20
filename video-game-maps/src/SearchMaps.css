@@ -116,6 +116,10 @@ input {
     color: white;
 }
 
+.id-card:hover
+ {
+    transform: sclae(1.1);
+ }
 @media (max-width: 650px) {
     #login-signin-button {
         font-size: small;
