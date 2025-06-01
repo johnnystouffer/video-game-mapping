@@ -75,12 +75,7 @@ const Map = () => {
                         <h2 id='game-subtitle-map'>{subtitle}</h2>
                         <p id='game-description-map'>{description}</p><br />
                     </div>
-                    <div className='status-container'>
-                        <h3 className='button-title'>Status of Map</h3>
-                        <div className='status-bar'>
-                            <div className='status-progress' style={ { width: `${percent}%` } }></div>
-                        </div>
-                    </div>
+
                     <div className='buttons-container'>
                         {buttons.map((btn, index) => (
                             <Buttons 

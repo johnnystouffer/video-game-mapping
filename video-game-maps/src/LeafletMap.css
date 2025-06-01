@@ -73,13 +73,14 @@
     border: none;
     border-radius: 15px;
     padding: 0.65rem;
-    transition: background-color ease-in-out 200ms;
+    transition: all ease-in-out 200ms;
     width: fit-content;
     cursor: pointer;
 }
 
 #completed-button:hover {
-    background-color: #de3b46;
+    background-color: #dc313d;
+    scale: 1.03;
     
 }
 

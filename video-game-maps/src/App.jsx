@@ -1,6 +1,7 @@
 import SearchMaps from './SearchMaps'
 import Map from './Map.jsx'
-import AuthPage from './AuthPage.jsx'
+import AuthPage from './auth/AuthPage.jsx'
+import LogIn from './auth/LogIn.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
         <Routes>
           <Route path='/' element={<SearchMaps/>}/>
           <Route path='/:id' element={<Map/>}/>
-          <Route path='/login' element={<AuthPage/>} />
+          <Route path='/auth/signup' element={<AuthPage />} />
+          <Route path='/auth/login' element={<LogIn />} />
         </Routes>
       </BrowserRouter>
     </>

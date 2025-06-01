@@ -27,8 +27,8 @@ const SearchMaps = () => {
           <h1>Odyssey Maps</h1>
         </div>
         <div className="auth-buttons">
-          <button className="auth-button"><Link className='auth-text' to='/login'><p>Log In</p></Link></button>
-          <button className="auth-button"><Link className='auth-text' to='/login'><p>Sign In</p></Link></button>
+          <button className="auth-button"><Link className='auth-text' to='/aut/signup'><p>Sign Up</p></Link></button>
+          <button className="auth-button"><Link className='auth-text' to='/auth/login'><p>Log In</p></Link></button>
         </div>
       </div>
       <div className='search-box'>
@@ -36,7 +36,7 @@ const SearchMaps = () => {
       </div>
       <div className='map-cards'>
         {filteredData.map((map) => (
-            <Card key={map.id} id={map.id} image={map.image} name={map.name} game={map.game}/>
+          <Card key={map.id} id={map.id} image={map.image} name={map.name} game={map.game}/>
         ))}
       </div>
     </>
