@@ -5,6 +5,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is a gloomy, monochromatic kingdom filled with thick fog inhabited by hat-like beings called Bonneters, including Cappy and his sister, Tiara. The resident Bonneters excel at ship-building and can even attach sails to their homes to convert them into airships. This kingdom also serves as the tutorial stage of the game, and is the greater location of Bonneton.",
         image: "/assets/map-pictures/cap-kingdom.jpg",
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-yellow.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-yellow.png'], ['Purple Coins','purple-coins','/assets/purple-coins/cascade-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'],['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['The Odyssey', 'odyssey', '/assets/odyssey.png']],
         mapImage: '/assets/maps/cap-map.png'
     },
     {
@@ -13,7 +14,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is the greater location of Fossil Falls, which is a prehistoric dinosaur-themed area. The main landmark of this kingdom is the waterfall flowing down from the skeleton of a Triceratops, while its background appears to be inspired from the real-life Iguazu Falls located between Argentina and Brazil.",
         image: "/assets/map-pictures/cascade-kingdom.jpg",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-yellow.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-yellow.webp'], ['Purple Coins','purple-coins','/assets/purple-coins/cascade-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'],['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['The Odyssey', 'odyssey', '/assets/odyssey.png']],
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-yellow.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-yellow.png'], ['Purple Coins','purple-coins','/assets/purple-coins/cascade-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'],['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['The Odyssey', 'odyssey', '/assets/odyssey.png']],
         mapImage: '/assets/maps/cascade-map.png'
     },
     {
@@ -57,11 +58,11 @@ const mapData = [
         fullName: 'Metro Kingdom', 
         game: "Super Mario Odyssey",
         desc: "It is the greater location of Lake Lamode, a large lake area with an underwater plaza area. This kingdom is renowned for its fashion designers and clothes, including the prized Lochlady Dress. When Mario first visits here, the Broodals can be found at the Water Plaza in the process of stealing the Lochlady Dress. Mario encounters the Broodals at the Water Plaza Terrace, where he must defeat Rango, which will reward the player with a Multi Moon. Collecting the Multi Moon restores the Water Plaza to its former glory, allowing access to more Power Moons",
-        image: "/assets/lake-kingdom.jpg",
+        image: "/assets/map-pictures/metro-kingdom.jpg",
         buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-brown.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-brown.png'], ['Purple Coins','purple-coins','/assets/purple-coins/metro-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['The Odyssey', 'odyssey', '/assets/odyssey.png']],
         mapImage: '/assets/maps/metro-map.png'
     },
-        {
+    {
         "id": "cloud-kingdom",
         "fullName": "Cloud Kingdom",
         "game": "Super Mario Odyssey",
@@ -171,7 +172,67 @@ const mapData = [
         "fullName": "Snow Kingdom",
         "game": "Super Mario Odyssey",
         "desc": "",
-        "image": "/assets/map-pictures/snow-kingdom.jpg",
+        "image": "/assets/map-pictures/snow-kingdom.png",
+        "buttons": [
+            [
+                "Checkpoints",
+                "checkpoint",
+                "/assets/checkpoint.png"
+            ],
+            [
+                "Power Moons",
+                "power-moon",
+                "/assets/power-moons/power-moon-orange.png"
+            ],
+            [
+                "Multi-Moons",
+                "multimoons",
+                "/assets/multimoons/multimoon-orange.png"
+            ],
+            [
+                "Purple Coins",
+                "purple-coins",
+                "/assets/purple-coins/snow-coin.png"
+            ],
+            [
+                "Bonus Areas",
+                "spec-area",
+                "/assets/pipe.png"
+            ],
+            [
+                "Moon Rocks",
+                "moon-rock",
+                "/assets/moon-rock.png"
+            ],
+            [
+                "Hint Art",
+                "hint-art",
+                "/assets/hint-art.png"
+            ],
+            [
+                "Painting",
+                "painting",
+                "/assets/painting.png"
+            ],
+            [
+                "Crazy Cap",
+                "crazy-cap",
+                "/assets/crazy-cap.png"
+            ],
+            [
+                "The Odyssey",
+                "odyssey",
+                "/assets/odyssey.png"
+            ]
+        ],
+        "mapImage": "/assets/maps/snow-map.png"
+    },
+    {
+        "id": "shiveria",
+        "fullName": "Shiveria",
+        "game": "Super Mario Odyssey",
+        "desc": "",
+        "image": "/assets/map-pictures/shiveria.png",
         "buttons": [
             [
                 "Checkpoints",
@@ -366,12 +427,7 @@ const mapData = [
             [
                 "Multi-Moons",
                 "multimoons",
-                "/assets/multimoons/multimoon-yellow.webp"
-            ],
-            [
-                "Purple Coins",
-                "purple-coins",
-                "/assets/purple-coins/ruined-coin.png"
+                "/assets/multimoons/multimoon-yellow.png"
             ],
             [
                 "Bonus Areas",
@@ -536,17 +592,17 @@ const mapData = [
             [
                 "Power Moons",
                 "power-moon",
-                "/assets/power-moons/power-moon-yellow.png"
+                "/assets/power-moons/power-moon-star.png"
             ],
             [
                 "Multi-Moons",
                 "multimoons",
-                "/assets/multimoons/multimoon-yellow.webp"
+                "/assets/multimoons/multimoon-yellow.png"
             ],
             [
                 "Purple Coins",
                 "purple-coins",
-                "/assets/purple-coins/mushroom-coin.png"
+                "/assets/purple-coins/mushroom-coin.svg"
             ],
             [
                 "Bonus Areas",
@@ -586,7 +642,7 @@ const mapData = [
         "fullName": "Dark Side",
         "game": "Super Mario Odyssey",
         "desc": "",
-        "image": "/assets/map-pictures/dark-side.jpg",
+        "image": "/assets/map-pictures/dark-side.png",
         "buttons": [
             [
                 "Checkpoints",
@@ -649,19 +705,14 @@ const mapData = [
                 "/assets/checkpoint.png"
             ],
             [
-                "Power Moons",
-                "power-moon",
-                "/assets/power-moons/power-moon-yellow.png"
-            ],
-            [
-                "Purple Coins",
-                "purple-coins",
-                "/assets/purple-coins/darker-coin.png"
-            ],
-            [
                 "Bonus Areas",
                 "spec-area",
                 "/assets/pipe.png"
+            ],
+            [
+                "Multi-Moons",
+                "multimoons",
+                "/assets/multimoons/multimoon-yellow.png"
             ],
             [
                 "Moon Rocks",
