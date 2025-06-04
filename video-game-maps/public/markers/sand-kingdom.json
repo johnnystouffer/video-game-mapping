@@ -3,7 +3,7 @@
         "map": "sand-kingdom",
         "iconUrl": "/assets/odyssey.png",
         "type": "odyssey",
-        "position": [400, 350],
+        "position": [130, 710],
         "name": "The Odyssey",
         "popupInfo": {
             "link": "",
@@ -12,10 +12,1121 @@
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "",
-        "type": "",
-        "position": [500, 500],
+        "iconUrl": "/assets/crazy-cap.png",
+        "type": "crazy-cap",
+        "position": [260, 665],
+        "name": "Crazy Cap Store",
+        "popupInfo": {
+            "link": "",
+            "description": "Buy clothes, stickers, and decorations for your Odyssey! You can spend your regular or local purple coins here."
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/moon-rock.png",
+        "type": "moon-rock",
+        "position": [420, 530],
+        "name": "Sand Kingdom Moon Rock",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/painting.png",
+        "type": "painting",
+        "position": [285, 353],
+        "name": "Painting from Wooded/Lake Kingdom",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/painting.png",
+        "type": "painting",
+        "position": [830, 927],
+        "name": "Painting to Metro Kingdom",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/hint-art.png",
+        "type": "hint-art",
+        "position": [305, 730],
+        "name": "Sand Kingdom Art",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [245, 683],
+        "name": "Tostarena Town",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [300, 362],
+        "name": "Southwestern Floating Island",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [180, 1000],
+        "name": "Desert Oasis",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [555, 690],
+        "name": "Tostarena Ruins Entrance",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [703, 805],
+        "name": "Tostarena Ruins Sand Pillar",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [795, 728],
+        "name": "Tostarena Ruins Round Tower",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [700, 990],
+        "name": "Jaxi Ruins",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [790, 425],
+        "name": "Moe-Eye Habitat",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [1127, 282],
+        "name": "Tostarena Northwest Reaches",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [292, 368],
+        "name": "62 | Secret Path to Tostarena!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [445, 445],
+        "name": "17 | Top of a Dune",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [235, 658],
+        "name": "31 | Found in the Sand! Good Dog!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [260, 655],
+        "name": "42 | Shopping in Tostarena",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [262, 640],
+        "name": "65 | Hat-and-Seek: In the Sand",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [236, 705],
+        "name": "68 | Round-the-World Tourist",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [278, 717],
+        "name": "64 | Jammin' in the Sand Kingdom",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [300, 706],
+        "name": "44 | Sand Kingdom Slots",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [333, 706],
+        "name": "61 | Above a Strange Neighborhood",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [336, 697],
+        "name": "60 | Strange Neighborhood",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [297, 673],
+        "name": "15 | Hang Your Hat on the Fountain",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [298, 633],
+        "name": "25 | Desert Gardening: Plaza Seed",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [305, 640],
+        "name": "26 | Desert Gardening: Ruins Seed",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [312, 646],
+        "name": "27 | Desert Gardening: Seed on a Cliff",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [328, 640],
+        "name": "52 | A Rumble from the Sandy Floor",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [348, 649],
+        "name": "5 | Overlooking the Desert Town",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [364, 638],
+        "name": "53 | Dancing with New Friends",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [210, 900],
+        "name": "21 | Bird Traveling the Desert",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [140, 970],
+        "name": "34 | Fishing in the Oasis",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [135, 950],
+        "name": "32 | Taking Notes: Jump on the Palm",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [180, 1032],
+        "name": "16 | Where the Birds Gather",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [224, 1123],
+        "name": "38 | Jaxi Reunion!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [255, 1000],
         "name": "",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [440, 1050],
+        "name": "40 | Wandering Cactus",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [465, 925],
+        "name": "45 | Walking in the Desert!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [518, 1010],
+        "name": "22 | Bird Traveling the Wastes",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [680, 988],
+        "name": "24 | The Treasure of Jaxi Ruins",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [678, 1015],
+        "name": "59 | Jaxi Stunt Driving",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [688, 1015],
+        "name": "58 | Jaxi Driver",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [605, 1150],
+        "name": "30 | Sand Kingdom Timer Challenge 3",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [646, 897],
+        "name": "7 | On the Leaning Pillar",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [540, 687],
+        "name": "11 | On Top of the Stone Archway",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [618, 841],
+        "name": "20 | Inside a Block is a Hard Place",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [680, 803],
+        "name": "25 | Love in the Heart of the Desert",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [688, 765],
+        "name": "19 | Bullet Bill Breakthrough",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [704, 711],
+        "name": "6 | Alcove in the Ruins",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [727, 714],
+        "name": "12 | From a Crate in the Ruins",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [785, 723],
+        "name": "1 | Atop the Highest Tower",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [775, 730],
+        "name": "9 | The Secret of the Mural",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [782, 748],
+        "name": "8 | Hidden Room in the Flowing Sands",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [795, 832],
+        "name": "50 | Ice Cave Treasure",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [812, 708],
+        "name": "51 | Sphynx's Treasure Vault",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [812, 690],
+        "name": "41 | Sand Quiz: Wonderful!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [825, 929],
+        "name": "13 | On the Lone Pillar",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [913, 887],
+        "name": "39 | Welcome Back, Jaxi!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [975, 893],
+        "name": "10 | Secret of the Inverted Mural",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [975, 953],
+        "name": "46 | Hidden Room in the Inverted Pyramid",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1007, 938],
+        "name": "48 | Goomba Tower Assembly",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1015, 905],
+        "name": "48 | Underground Treasure Chest",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1025, 907],
+        "name": "23 | The Lurker Under the Stone",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1082, 790],
+        "name": "14 | On the Statue's Tail",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1070, 677],
+        "name": "49 | Under the Mummy's Curse",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1065, 690],
+        "name": "67 | Binding Band Returned",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1040, 720],
+        "name": "18 | Lost in the Luggage",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1207, 667],
+        "name": "36 | Among the Five Cactuses",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [940, 567],
+        "name": "33 | Herding Sheep in the Dunes",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [890, 470],
+        "name": "55 | Skull Sign in the Transparent Maze",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [890, 462],
+        "name": "54 | The Invisible Maze",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1153, 278],
+        "name": "56 | The Bullet Bill Maze: Break Through!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1153, 285],
+        "name": "57 | The Bullet Bill Maze: Side Path",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1158, 318],
+        "name": "66 | Sand Kingdom Regular Cup",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1200, 278],
+        "name": "28 | Sand Kingdom Timer Challenge 1",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1222, 362],
+        "name": "78 | Poster Cleanup",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [275, 648],
+        "name": "43 | Employees Only",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [830, 378],
+        "name": "2 | Moon Shards in the Sand",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [680, 300],
+        "name": "29 | Sand Kingdom Timer Challenge 2",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [230, 300],
+        "name": "79 | Taking Notes: Running Down",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [350, 465],
+        "name": "77 | Caught Hopping in the Desert",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [210, 672],
+        "name": "84 | Where the Transparent Platforms End",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [210, 658],
+        "name": "85 | Jump Onto the Transparent Lift",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [195, 985],
+        "name": "70 | Mighty Leap from the Palm Tree",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [475, 910],
+        "name": "82 | More Walking in the Desert!",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [565, 1027],
+        "name": "74 | Island in the Poison Swamp",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [766, 1113],
+        "name": "76 | On the Eastern Pillar",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [570, 648],
+        "name": "87 | Sinking Colossol Ruins: Hurry!",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [582, 654],
+        "name": "86 | Colossol Ruins: Dash! Jump!",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [736, 687],
+        "name": "72 | Into the Flowing Sands",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [765, 720],
+        "name": "80 | Taking Notes: In the Wall Painting",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [995, 1050],
+        "name": "89 | Freezing Waterway: Hidden Room",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1005, 1045],
+        "name": "88 | Through the Freezing Waterway",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1117, 613],
+        "name": "71 | On the North Pillar",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1270, 470],
+        "name": "81 | Love at the Edge of the Desert",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [1152, 330],
+        "name": "83 | Sand Kingdom Master Cup",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [793, 558],
+        "name": "73 | In the Skies Above the Canyon",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [712, 275],
+        "name": "75 | An Invisible Gleam",
+        "popupInfo": {
+            "link": "",
+            "description": "MOON ROCK"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-green.png",
+        "type": "power-moon",
+        "position": [970, 790],
+        "name": "69 | Peach in the Sand Kingdom",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/multimoons/multimoon-green.png",
+        "type": "multimoons",
+        "position": [1030, 893],
+        "name": "3 | Showdown on the Inverted Pyramid",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/multimoons/multimoon-green.png",
+        "type": "multimoons",
+        "position": [1030, 883],
+        "name": "4 | The Hole in the Desert",
         "popupInfo": {
             "link": "",
             "description": ""
