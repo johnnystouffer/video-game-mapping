@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
@@ -31,6 +31,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         // load the json for the markers
         const fetchMarkers = async () => {
             try {
+                console.log(`../markers/${mapId}.json`)
                 const response = await fetch(`../markers/${mapId}.json`);
                 const data = await response.json();
                 setCheckpointMarkers(data);
