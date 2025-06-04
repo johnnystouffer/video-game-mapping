@@ -27,7 +27,7 @@ const SearchMaps = () => {
           <h1>Odyssey Maps</h1>
         </div>
         <div className="auth-buttons">
-          <button className="auth-button"><Link className='auth-text' to='/aut/signup'><p>Sign Up</p></Link></button>
+          <button className="auth-button"><Link className='auth-text' to='/auth/signup'><p>Sign Up</p></Link></button>
           <button className="auth-button"><Link className='auth-text' to='/auth/login'><p>Log In</p></Link></button>
         </div>
       </div>
