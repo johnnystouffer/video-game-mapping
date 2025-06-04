@@ -3,7 +3,6 @@ import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import '../css/LeafletMap.css';
-import checkpoint_markers from './markers.js';
 
 const MapReset = ({ refreshTrigger }) => {
     const map = useMap();
@@ -25,15 +24,36 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         [1333, 1319]
     ];
 
+    const [checkpoint_markers, setCheckpointMarkers] = useState([]);
+    const [filteredMarkers, setFilteredMarkers] = useState([]);
+
+    useEffect(() => {
+        // load the json for the markers
+        const fetchMarkers = async () => {
+            try {
+                const response = await fetch(`../markers/${mapId}.json`);
+                const data = await response.json();
+                setCheckpointMarkers(data);
+
+                const filtered = checkpoint_markers.filter(marker => {
+                    const currState = buttonStates.find(state => state[1] === marker.type);
+                    return (currState ? currState[0] : true) && (marker.map === mapId);
+                });
+                setFilteredMarkers(filtered);
+
+            } catch (error) {
+                console.error("Error fetching markers:", error);
+            }
+        };
+
+        fetchMarkers();
+    }, [mapId]);
+
     const handleCompleted = () => {
         console.log("Got it connected");
     }
 
     // Filter markers based on buttonStates and the map it belongs to
-    const filteredMarkers = checkpoint_markers.filter(marker => {
-        const currState = buttonStates.find(state => state[1] === marker.type);
-        return (currState ? currState[0] : true) && (marker.map === mapId);
-    });
 
     const [completedMarkers, setMarkersCompleted] = useState(8);
     const [totalMarkers, setTotalMarkers] = useState(25);
