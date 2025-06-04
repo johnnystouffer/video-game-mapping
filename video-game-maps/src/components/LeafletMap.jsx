@@ -25,25 +25,19 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
     ];
 
     const [checkpoint_markers, setCheckpointMarkers] = useState([]);
-    const [filteredMarkers, setFilteredMarkers] = useState([]);
 
     useEffect(() => {
         // load the json for the markers
         const fetchMarkers = async () => {
             try {
-                console.log(`../markers/${mapId}.json`)
+                console.log(`public/markers/${mapId}.json`)
                 const response = await fetch(`../markers/${mapId}.json`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                setCheckpointMarkers(data);
 
-                const filtered = checkpoint_markers.filter(marker => {
-                    const currState = buttonStates.find(state => state[1] === marker.type);
-                    return (currState ? currState[0] : true) && (marker.map === mapId);
-                });
-                setFilteredMarkers(filtered);
+                setCheckpointMarkers(data);
 
             } catch (error) {
                 console.error("Error fetching markers:", error);
@@ -52,6 +46,11 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
 
         fetchMarkers();
     }, [mapId]);
+
+    const filteredMarkers = checkpoint_markers.filter(marker => {
+        const currState = buttonStates.find(state => state[1] === marker.type);
+        return (currState ? currState[0] : true) && (marker.map === mapId);
+    });
 
     const handleCompleted = () => {
         console.log("Got it connected");
