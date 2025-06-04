@@ -33,6 +33,9 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
             try {
                 console.log(`../markers/${mapId}.json`)
                 const response = await fetch(`../markers/${mapId}.json`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const data = await response.json();
                 setCheckpointMarkers(data);
 
