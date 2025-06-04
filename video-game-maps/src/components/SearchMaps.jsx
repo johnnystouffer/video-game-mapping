@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import maps from './items.js'
+import maps from '../items.js'
 import Card from './Card.jsx'
-import './SearchMaps.css'
+import '../css/SearchMaps.css'
 
 const SearchMaps = () => {
 

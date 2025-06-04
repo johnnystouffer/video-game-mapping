@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
-import './LeafletMap.css';
+import '../css/LeafletMap.css';
 import checkpoint_markers from './markers.js';
 
 const MapReset = ({ refreshTrigger }) => {

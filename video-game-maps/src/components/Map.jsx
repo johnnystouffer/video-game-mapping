@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Buttons from './Buttons.jsx';
-import './Map.css';
-import mapdata from './mapinfo.js';
+import '../css/Map.css';
+import mapdata from '../mapinfo.js';
 import { useParams, Link } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
