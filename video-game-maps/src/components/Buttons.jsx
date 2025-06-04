@@ -1,5 +1,4 @@
-import React from 'react';
-import './Buttons.css';
+import '../css/Buttons.css';
 
 const Buttons = (props) => {
     const { value, isSelected, handleClick } = props;

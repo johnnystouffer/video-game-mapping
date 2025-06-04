@@ -1,5 +1,5 @@
-import SearchMaps from './SearchMaps'
-import Map from './Map.jsx'
+import SearchMaps from './components/SearchMaps.jsx'
+import Map from './components/Map.jsx'
 import AuthPage from './auth/AuthPage.jsx'
 import LogIn from './auth/LogIn.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
