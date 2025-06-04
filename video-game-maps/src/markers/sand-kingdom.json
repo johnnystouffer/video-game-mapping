@@ -1,0 +1,24 @@
+[
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/odyssey.png",
+        "type": "odyssey",
+        "position": [400, 350],
+        "name": "The Odyssey",
+        "popupInfo": {
+            "link": "",
+            "description": "This is where your ship is located."
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "",
+        "type": "",
+        "position": [500, 500],
+        "name": "",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    }
+]
