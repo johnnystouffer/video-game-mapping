@@ -18,7 +18,7 @@
         "name": "Sand Kingdom Moon Rock",
         "popupInfo": {
             "link": "",
-            "description": "This shiny gray cube is made of large chunks of minerals from the Moon and the raw form of the material that makes up Power Moons. It can be activiated after completing the main story."
+            "description": "This shiny gray cube is made of large chunks of minerals from the Moon and the raw form of power moons. It can be activiated after completing the main story."
         }
     },
     {
@@ -983,7 +983,7 @@
         "iconUrl": "/assets/power-moons/power-moon-green.png",
         "type": "power-moon",
         "position": [570, 648],
-        "name": "87 | Sinking Colossol Ruins: Hurry!",
+        "name": "87 | Sinking Colossal Ruins: Hurry!",
         "popupInfo": {
             "link": "",
             "description": "MOON ROCK Enter the moon rock warp pipe at the Tostarena Ruins. Use rocket flowers to navigate the wall to the middle platform, where there's a key to unlock this power moon."
@@ -1026,7 +1026,7 @@
         "map": "sand-kingdom",
         "iconUrl": "/assets/power-moons/power-moon-green.png",
         "type": "power-moon",
-        "position": [995, 1050],
+        "position": [997, 1050],
         "name": "89 | Freezing Waterway: Hidden Room",
         "popupInfo": {
             "link": "",
@@ -1438,6 +1438,72 @@
         "popupInfo": {
             "link": "",
             "description": "3x coins"
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/pipe.png",
+        "type": "spec-area",
+        "position": [328, 640],
+        "name": "Rumble Room",
+        "popupInfo": {
+            "link": "",
+            "description": "A small, empty room where you must use your senses to find the secret."
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/pipe.png",
+        "type": "spec-area",
+        "position": [210, 655],
+        "name": "The Transparent Platforms",
+        "popupInfo": {
+            "link": "",
+            "description": "A long hall with invisible moving platforms. Only available after activating the Moon Rock."
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/pipe.png",
+        "type": "spec-area",
+        "position": [587, 670],
+        "name": "Colossal Ruins",
+        "popupInfo": {
+            "link": "",
+            "description": "A room with a long, curved wall."
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/pipe.png",
+        "type": "spec-area",
+        "position": [990, 1045],
+        "name": "Freezing Waterways",
+        "popupInfo": {
+            "link": "",
+            "description": "A room full of freezing water and stretches of poison. You will find several gushens hanging out here. Only available after activating the Moon Rock."
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/pipe.png",
+        "type": "spec-area",
+        "position": [890, 475],
+        "name": "The Invisible Maze",
+        "popupInfo": {
+            "link": "",
+            "description": "Three rooms covered in poison, which must be traversed using an invisible path."
+        }
+    },
+    {
+        "map": "sand-kingdom",
+        "iconUrl": "/assets/pipe.png",
+        "type": "spec-area",
+        "position": [1153, 285],
+        "name": "The Bullet Bill Maze",
+        "popupInfo": {
+            "link": "",
+            "description": "A maze with many moving obstacles."
         }
     }
 ]
