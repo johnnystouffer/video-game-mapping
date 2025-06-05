@@ -1,24 +1,24 @@
 [
     {
         "map": "cap-kingdom",
-        "iconUrl": "/assets/odyssey.png",
-        "type": "odyssey",
-        "position": [400, 350],
-        "name": "The Odyssey",
-        "popupInfo": {
-            "link": "",
-            "description": "This is where your ship is located."
-        }
-    },
-    {
-        "map": "cap-kingdom",
         "iconUrl": "/assets/crazy-cap.png",
         "type": "crazy-cap",
         "position": [750, 550],
         "name": "Crazy Cap Store",
         "popupInfo": {
             "link": "https://youtu.be/iFPYxRRJQNk?feature=shared&t=103",
-            "description": "Buy clothes, stickers, and decorations for your Odyssey! You can spend your regular or local purple coins here."
+            "description": "Buy clothes, stickers, and decorations for your Odyssey! You can spend your regular gold coins or regional purple coins here."
+        }
+    },
+    {
+        "map": "cap-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [400, 350],
+        "name": "The Odyssey",
+        "popupInfo": {
+            "link": "",
+            "description": "This is where your ship is located."
         }
     },
     {
@@ -212,154 +212,154 @@
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [540, 340],
-        "name": "COINS 1-3",
+        "name": "Coins 1-3",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://www.youtube.com/watch?v=b7sAg57D93c",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [445, 535],
-        "name": "COINS 4-6",
+        "name": "Coins 4-6",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://www.youtube.com/watch?v=b7sAg57D93c",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [663, 565],
-        "name": "COINS 7-9",
+        "name": "Coins 7-9",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=31",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [770, 545],
-        "name": "COINS 10-12",
+        "name": "Coins 10-12",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=52",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [810, 475],
-        "name": "COINS 13-15",
+        "name": "Coins 13-15",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=52",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [825, 490],
-        "name": "COINS 16-19",
+        "name": "Coins 16-19",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=82",
-            "description": "4x Coins"
+            "description": "4x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [910, 488],
-        "name": "COINS 20-23",
+        "name": "Coins 20-23",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [853, 580],
-        "name": "COINS 24-27",
+        "name": "Coins 24-27",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
-            "description": "4x Coins"
+            "description": "4x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [722, 635],
-        "name": "COINS 47-50",
+        "name": "Coins 47-50",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=31",
-            "description": "4x Coins"
+            "description": "4x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [814, 690],
-        "name": "COINS 28-31",
+        "name": "Coins 28-31",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=125",
-            "description": "4x Coins"
+            "description": "4x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [814, 920],
-        "name": "COINS 35-39",
+        "name": "Coins 35-39",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=247",
-            "description": "5x Coins"
+            "description": "5x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [814, 940],
-        "name": "COINS 40-43",
+        "name": "Coins 40-43",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=247",
-            "description": "4x Coins"
+            "description": "4x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [805, 1010],
-        "name": "COINS 32-34",
+        "name": "Coins 32-34",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=161",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
         "map": "cap-kingdom",
         "iconUrl": "/assets/purple-coins/cap-coin.png",
         "position": [862, 950],
-        "name": "COINS 44-46",
+        "name": "Coins 44-46",
         "type": "purple-coins",
         "popupInfo": {
             "link": "https://youtu.be/b7sAg57D93c?feature=shared&t=313",
-            "description": "3x Coins"
+            "description": "3x coins"
         }
     },
     {
