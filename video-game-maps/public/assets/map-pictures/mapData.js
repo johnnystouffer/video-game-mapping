@@ -34,7 +34,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -94,7 +94,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -154,7 +154,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -214,7 +214,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -274,7 +274,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -334,7 +334,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -394,7 +394,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -454,7 +454,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -514,7 +514,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -574,7 +574,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",
@@ -634,7 +634,7 @@ const mapData = [
             [
                 "Moon Rocks",
                 "moon-rock",
-                "/assets/moon-rock.png"
+                "/assets/power-moons/power-moon-gray.png"
             ],
             [
                 "Hint Art",

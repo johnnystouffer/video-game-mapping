@@ -5,7 +5,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is a gloomy, monochromatic kingdom filled with thick fog inhabited by hat-like beings called Bonneters, including Cappy and his sister, Tiara. The resident Bonneters excel at ship-building and can even attach sails to their homes to convert them into airships. This kingdom also serves as the tutorial stage of the game, and is the greater location of Bonneton.",
         image: "/assets/map-pictures/cap-kingdom.jpg",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-yellow.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-yellow.png'], ['Purple Coins','purple-coins','/assets/purple-coins/cascade-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'],['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']],
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-yellow.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-yellow.png'], ['Purple Coins','purple-coins','/assets/purple-coins/cascade-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'],['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ["Moon Rock Moons", "moon-rock-moons", "/assets/power-moons/power-moon-gray.png"]],
         mapImage: '/assets/maps/cap-map.png'
     },
     {
@@ -14,7 +14,8 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is the greater location of Fossil Falls, which is a prehistoric dinosaur-themed area. The main landmark of this kingdom is the waterfall flowing down from the skeleton of a Triceratops, while its background appears to be inspired from the real-life Iguazu Falls located between Argentina and Brazil.",
         image: "/assets/map-pictures/cascade-kingdom.jpg",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-yellow.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-yellow.png'], ['Purple Coins','purple-coins','/assets/purple-coins/cascade-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'],['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']],
+        buttons: [
+            ['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-yellow.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-yellow.png'], ['Purple Coins','purple-coins','/assets/purple-coins/cascade-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'],['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ["Moon Rock Moons", "moon-rock-moons", "/assets/power-moons/power-moon-gray.png"]],
         mapImage: '/assets/maps/cascade-map.png'
     },
     {
@@ -23,7 +24,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is the greater location of Tostarena, which is a desert village featuring a small town and a large ruins area. This kingdom's main landmark is the Inverted Pyramid, which is an upside-down pyramid located in the north-east section of the area. When Mario first visits here, the kingdom is covered with large pillars of ice and Bowser is found atop the Inverted Pyramid. The player's first objective in this kingdom is to reach the highest tower. From there, the player must find Moon Shards in the Moe-Eye habitat.",
         image: "/assets/map-pictures/sand-kingdom.jpg",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-green.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-green.png'], ['Purple Coins','purple-coins','/assets/purple-coins/sand-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']],
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-green.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-green.png'], ['Purple Coins','purple-coins','/assets/purple-coins/sand-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ["Moon Rock Moons", "moon-rock-moons", "/assets/power-moons/power-moon-gray.png"]],
         mapImage: '/assets/maps/sand-map.png'
     },
     {
@@ -32,7 +33,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is the greater location of Lake Lamode, a large lake area with an underwater plaza area. This kingdom is renowned for its fashion designers and clothes, including the prized Lochlady Dress. When Mario first visits here, the Broodals can be found at the Water Plaza in the process of stealing the Lochlady Dress. Mario encounters the Broodals at the Water Plaza Terrace, where he must defeat Rango, which will reward the player with a Multi Moon. Collecting the Multi Moon restores the Water Plaza to its former glory, allowing access to more Power Moons",
         image: "/assets/map-pictures/lake-kingdom.jpg",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-pink.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-pink.png'], ['Purple Coins','purple-coins','/assets/purple-coins/lake-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']],
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-pink.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-pink.png'], ['Purple Coins','purple-coins','/assets/purple-coins/lake-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ["Moon Rock Moons", "moon-rock-moons", "/assets/power-moons/power-moon-gray.png"]],
         mapImage: '/assets/maps/lake-map.png'
     },
     {
@@ -41,7 +42,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is the greater location of Lake Lamode, a large lake area with an underwater plaza area. This kingdom is renowned for its fashion designers and clothes, including the prized Lochlady Dress. When Mario first visits here, the Broodals can be found at the Water Plaza in the process of stealing the Lochlady Dress. Mario encounters the Broodals at the Water Plaza Terrace, where he must defeat Rango, which will reward the player with a Multi Moon. Collecting the Multi Moon restores the Water Plaza to its former glory, allowing access to more Power Moons",
         image: "/assets/map-pictures/wooded-kingdom.jpg",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-blue.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-blue.png'], ['Purple Coins','purple-coins','/assets/purple-coins/wooded-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']],
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-blue.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-blue.png'], ['Purple Coins','purple-coins','/assets/purple-coins/wooded-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ["Moon Rock Moons", "moon-rock-moons", "/assets/power-moons/power-moon-gray.png"]],
         mapImage: '/assets/maps/wooded-map.png'
     },
     {
@@ -50,7 +51,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "a mysterious area located within the Wooded Kingdom of Super Mario Odyssey. If Mario falls off the edge of the Iron Road, he will plummet to this area. The greatest hazard he will encounter in the area is a T-Rex. The only possible escape from the area (without saving and quitting) is to plant a seed granted to Mario by a Steam Gardener into one of four pots in the area and climb a beanstalk back to the kingdom's mainland. There are nine Power Moons to collect in the area in total, and nine regional coins as well",
         image: "/assets/map-pictures/deep-woods.png",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-blue.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-blue.png'], ['Purple Coins','purple-coins','/assets/purple-coins/wooded-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']],
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-blue.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-blue.png'], ['Purple Coins','purple-coins','/assets/purple-coins/wooded-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ["Moon Rock Moons", "moon-rock-moons", "/assets/power-moons/power-moon-gray.png"]],
         mapImage: '/assets/maps/deep-map.png'
     },
     {
@@ -59,7 +60,7 @@ const mapData = [
         game: "Super Mario Odyssey",
         desc: "It is the greater location of Lake Lamode, a large lake area with an underwater plaza area. This kingdom is renowned for its fashion designers and clothes, including the prized Lochlady Dress. When Mario first visits here, the Broodals can be found at the Water Plaza in the process of stealing the Lochlady Dress. Mario encounters the Broodals at the Water Plaza Terrace, where he must defeat Rango, which will reward the player with a Multi Moon. Collecting the Multi Moon restores the Water Plaza to its former glory, allowing access to more Power Moons",
         image: "/assets/map-pictures/metro-kingdom.jpg",
-        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-brown.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-brown.png'], ['Purple Coins','purple-coins','/assets/purple-coins/metro-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']],
+        buttons: [['Checkpoints','checkpoint','/assets/checkpoint.png'], ['Power Moons','power-moon','/assets/power-moons/power-moon-brown.png'], ['Multi-Moons','multimoons','/assets/multimoons/multimoon-brown.png'], ['Purple Coins','purple-coins','/assets/purple-coins/metro-coin.png'], ['Bonus Areas','spec-area','/assets/pipe.png'], ['Moon Rocks', 'moon-rock', '/assets/moon-rock.png'], ['Hint Art', 'hint-art', '/assets/hint-art.png'], ['Painting', 'painting', '/assets/painting.png'], ['Crazy Cap', 'crazy-cap', '/assets/crazy-cap.png'], ["Moon Rock Moons", "moon-rock-moons", "/assets/power-moons/power-moon-gray.png"]],
         mapImage: '/assets/maps/metro-map.png'
     },
     {
@@ -104,7 +105,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/cloud-map.png"
     },
@@ -155,7 +160,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/lost-map.png"
     },
@@ -211,7 +220,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/snow-map.png"
     },
@@ -267,7 +280,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/snow-map.png"
     },
@@ -323,7 +340,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/seaside-map.png"
     },
@@ -379,7 +400,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/luncheon-map.png"
     },
@@ -430,7 +455,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/ruined-map.png"
     },
@@ -486,7 +515,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/bowser-map.png"
     },
@@ -537,7 +570,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+            [
+                "Moon Rock Moons",
+                "moon-rock-moons",
+                "/assets/power-moons/power-moon-gray.png"
+            ]
         ],
         "mapImage": "/assets/maps/moon-map.png"
     },
@@ -593,7 +630,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+[
+    "Moon Rock Moons",
+    "moon-rock-moons",
+    "/assets/power-moons/power-moon-gray.png"
+]
         ],
         "mapImage": "/assets/maps/mushroom-map.png"
     },
@@ -639,7 +680,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+[
+    "Moon Rock Moons",
+    "moon-rock-moons",
+    "/assets/power-moons/power-moon-gray.png"
+]
         ],
         "mapImage": "/assets/maps/dark-map.png"
     },
@@ -685,7 +730,11 @@ const mapData = [
                 "crazy-cap",
                 "/assets/crazy-cap.png"
             ],
-['Moon Rocks', 'moon-rock-moon', '/assets/moons/power-moon-gray.png']
+[
+    "Moon Rock Moons",
+    "moon-rock-moons",
+    "/assets/power-moons/power-moon-gray.png"
+]
         ],
         "mapImage": "/assets/maps/darker-map.png"
     }
