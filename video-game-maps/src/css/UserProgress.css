@@ -1,0 +1,103 @@
+@font-face {
+    font-family: comfortaa;
+    src: url("/assets/Comfortaa_Regular.ttf");
+    font-weight: normal;
+}
+
+.user-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(31, 31, 31);
+  font-family: comfortaa;
+}
+
+.title-bar {
+  color: white;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.descrip {
+  color: white;
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.progress-bar-container {
+  width: 90vw;
+  height: 70%;
+  background-color: rgb(42, 42, 42);
+  border-radius: 15px;
+  overflow-y: auto;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.progress-bar {
+  height: 6rem;
+  background-color: rgb(65, 65, 65);
+  border-radius: 15px;
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.progress-bar:hover {
+    background-color: rgb(80, 80, 80);
+    scale: 1.02;
+}
+
+.bar-container {
+  background-color: snow;
+  height: 20px;
+  margin: 0.5rem;
+  border-radius: 2rem;
+}
+
+.actual-bar {
+  background-color: red;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.map-title {
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.total-container {
+  background-color: snow;
+  width: 100%;
+  height: 20px;
+  margin: 0.5rem;
+  border-radius: 2rem;
+}
+
+.game-total {
+    margin: 20px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: larger;
+}
+
+.gold-bar {
+  background-color: rgb(255, 230, 118);
+  height: 100%;
+  border-radius: 2rem;
+}

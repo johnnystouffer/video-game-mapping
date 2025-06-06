@@ -73,7 +73,7 @@ h1 {
 }
 
 input {
-    font-family: "Fira Code", Menlo, Consolas, monospace;;
+    font-family: "Fira Code", Menlo, Consolas, monospace;
     font-size: large;
 }
 
@@ -92,7 +92,7 @@ input {
 }
 
 .auth-button {
-    font-family: "Fira Code", Menlo, Consolas, monospace;;
+    font-family: "Fira Code", Menlo, Consolas, monospace;
     font-size: 1rem;
     padding: 10px 20px;
     border: none;
