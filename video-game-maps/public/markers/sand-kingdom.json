@@ -892,211 +892,211 @@
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [230, 300],
         "name": "79 | Taking Notes: Running Down",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Using Jaxi, reach the treble clef hanging out between two cactuses, then collect all the music notes before time runs out."
+            "description": "Using Jaxi, reach the treble clef hanging out between two cactuses, then collect all the music notes before time runs out."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [350, 465],
         "name": "77 | Caught Hopping in the Desert",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK To the west of Tostarena Town is a group of rabbits -- one of them carries a power moon. Use Cappy to stun them, then tag them."
+            "description": "To the west of Tostarena Town is a group of rabbits -- one of them carries a power moon. Use Cappy to stun them, then tag them."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [210, 672],
         "name": "84 | Where the Transparent Platforms End",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Use the moon rock warp pipe near Tostarena Town. Capture a moe-eye to traverse the invisible moving platforms until you reach this power moon on the final platform."
+            "description": "Use the moon rock warp pipe near Tostarena Town. Capture a moe-eye to traverse the invisible moving platforms until you reach this power moon on the final platform."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [210, 658],
         "name": "85 | Jump Onto the Transparent Lift",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Use the moon rock warp pipe near Tostarena Town. Capture a moe-eye and look to the right side of the pit below. Reach the platform there to collect a key that unlocks a power moon above."
+            "description": "Use the moon rock warp pipe near Tostarena Town. Capture a moe-eye and look to the right side of the pit below. Reach the platform there to collect a key that unlocks a power moon above."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [195, 985],
         "name": "70 | Mighty Leap from the Palm Tree",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK This power moon sits on top of a palm tree at the Desert Oasis. Climb it and do a backflip off of it to reach it!"
+            "description": "This power moon sits on top of a palm tree at the Desert Oasis. Climb it and do a backflip off of it to reach it!"
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [475, 910],
         "name": "82 | More Walking in the Desert!",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Speak with the red koopa standing alone in the desert near the poison swamp to begin the trace-walking challenge."
+            "description": "Speak with the red koopa standing alone in the desert near the poison swamp to begin the trace-walking challenge."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [565, 1027],
         "name": "74 | Island in the Poison Swamp",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Use Jaxi to run across the poison swamp to the island in the middle."
+            "description": "Use Jaxi to run across the poison swamp to the island in the middle."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [766, 1113],
         "name": "76 | On the Eastern Pillar",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Use bullet bills to get to the Eastern Pillar. Click on the link for a demonstration."
+            "description": "Use bullet bills to get to the Eastern Pillar. Click on the link for a demonstration."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [570, 648],
         "name": "87 | Sinking Colossal Ruins: Hurry!",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Enter the moon rock warp pipe at the Tostarena Ruins. Use rocket flowers to navigate the wall to the middle platform, where there's a key to unlock this power moon."
+            "description": "Enter the moon rock warp pipe at the Tostarena Ruins. Use rocket flowers to navigate the wall to the middle platform, where there's a key to unlock this power moon."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [582, 654],
         "name": "86 | Colossal Ruins: Dash! Jump!",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Enter the moon rock warp pipe at the Tostarena Ruins. Use rocket flowers to navigate up the wall to the high platform. Grab more rocket flower to launch yourself towards the platform below and collect the moon."
+            "description": "Enter the moon rock warp pipe at the Tostarena Ruins. Use rocket flowers to navigate up the wall to the high platform. Grab more rocket flower to launch yourself towards the platform below and collect the moon."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [736, 687],
         "name": "72 | Into the Flowing Sands",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK This moon is floating on some flowing sand near the Tostarena Ruins Round Tower."
+            "description": "This moon is floating on some flowing sand near the Tostarena Ruins Round Tower."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [765, 720],
         "name": "80 | Taking Notes: In the Wall Painting",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Use the 8-bit pipe at the Tostarena Ruins Round Tower. Reach the treble clef in the mural then collect all the music notes before time runs out."
+            "description": "Use the 8-bit pipe at the Tostarena Ruins Round Tower. Reach the treble clef in the mural then collect all the music notes before time runs out."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [997, 1050],
         "name": "89 | Freezing Waterway: Hidden Room",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Enter the moon rock warp pipe in the desert to the east of the inverted pyramid. Navigate through the waterway until you reach a section with a high ceiling, then blast up and left to reach the hidden room."
+            "description": "Enter the moon rock warp pipe in the desert to the east of the inverted pyramid. Navigate through the waterway until you reach a section with a high ceiling, then blast up and left to reach the hidden room."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [1005, 1045],
         "name": "88 | Through the Freezing Waterway",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Enter the moon rock warp pipe in the desert to the east of the inverted pyramid. Navigate through the waterway to collect this power moon at the end."
+            "description": "Enter the moon rock warp pipe in the desert to the east of the inverted pyramid. Navigate through the waterway to collect this power moon at the end."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [1117, 613],
         "name": "71 | On the North Pillar",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Use the power line that zips right over this pillar. De-capture the spark pylon and drop onto the moon below."
+            "description": "Use the power line that zips right over this pillar. De-capture the spark pylon and drop onto the moon below."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [1270, 470],
         "name": "81 | Love at the Edge of the Desert",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Capture a goomba at the Tostarena Ruins and walk to the goombette at the northern edge of the desert."
+            "description": "Capture a goomba at the Tostarena Ruins and walk to the goombette at the northern edge of the desert."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [1152, 330],
         "name": "83 | Sand Kingdom Master Cup",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK The koopa at the Tostarena Northwest Reaches will challenge you to a free-running race. Get first place to win a power moon!"
+            "description": "The koopa at the Tostarena Northwest Reaches will challenge you to a free-running race. Get first place to win a power moon!"
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [793, 558],
         "name": "73 | In the Skies Above the Canyon",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Use the moving platforms from the Tostarena Ruins Round Tower to get to this power moon."
+            "description": "Use the moving platforms from the Tostarena Ruins Round Tower to get to this power moon."
         }
     },
     {
         "map": "sand-kingdom",
-        "iconUrl": "/assets/power-moons/power-moon-green.png",
-        "type": "power-moon",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
         "position": [712, 275],
         "name": "75 | An Invisible Gleam",
         "popupInfo": {
             "link": "",
-            "description": "MOON ROCK Capture a moe-eye at the Moe-Eye Habitat and take the vertical lift up. Find the beam of light on one of the pillars and ground pound to reveal this power moon."
+            "description": "Capture a moe-eye at the Moe-Eye Habitat and take the vertical lift up. Find the beam of light on one of the pillars and ground pound to reveal this power moon."
         }
     },
     {
