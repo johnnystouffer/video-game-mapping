@@ -1,24 +1,24 @@
 [
     {
         "map": "cascade-kingdom",
-        "iconUrl": "/assets/odyssey.png",
-        "type": "odyssey",
-        "position": [275, 900],
-        "name": "The Odyssey",
-        "popupInfo": {
-            "link": "",
-            "description": "This is where your ship is located. Isn't the Waterfall Basin beautiful?"
-        }
-    },
-    {
-        "map": "cascade-kingdom",
         "iconUrl": "/assets/crazy-cap.png",
         "type": "crazy-cap",
         "position": [605, 900],
         "name": "Crazy Cap Store",
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=576",
-            "description": "Buy clothes, stickers, and decorations for your Odyssey! You can spend your regular or local purple coins here."
+            "description": "Buy clothes, stickers, and decorations for your Odyssey! You can spend your regular gold coins or regional purple coins here."
+        }
+    },
+    {
+        "map": "cascade-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [275, 900],
+        "name": "The Odyssey",
+        "popupInfo": {
+            "link": "",
+            "description": "This is where your ship is located. Isn't the Waterfall Basin beautiful?"
         }
     },
     {
