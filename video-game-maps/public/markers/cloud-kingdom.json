@@ -1,5 +1,123 @@
 [
     {
-        
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/moon-rock.png",
+        "type": "moon-rock",
+        "position": [1215, 627],
+        "name": "Cloud Kingdom Moon Rock",
+        "popupInfo": {
+            "link": "",
+            "description": "This shiny gray cube is made of large chunks of minerals from the Moon and the raw form of power moons. It can be activiated after completing the main story."
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [130, 610],
+        "name": "The Odyssey",
+        "popupInfo": {
+            "link": "",
+            "description": "This is where your ship is located."
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-yellow.png",
+        "type": "power-moon",
+        "position": [580, 645],
+        "name": "1 | Picture Match: Basically a Goomba",
+        "popupInfo": {
+            "link": "https://youtu.be/lX_BDc1_3nE?feature=shared&t=17",
+            "description": "Enter the warp pipe at the center of the kingdom. Score 60 points or higher in the picture match game to earn this power moon."
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [740, 775],
+        "name": "2 | Peach in the Cloud Kingdom",
+        "popupInfo": {
+            "link": "https://youtu.be/6XjCCBwLBrY?feature=shared&t=23",
+            "description": "After completing the main story, talk to Princess Peach."
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [470, 775],
+        "name": "3 | Digging in the... Cloud?",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [573, 570],
+        "name": "4 | High, High Above the Clouds",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [1040, 657],
+        "name": "5 | Crossing the Cloud Sea",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [583, 1005],
+        "name": "6 | Taking Notes: Up and Down",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [573, 655],
+        "name": "7 | Picture Match: A Stellar Goomba!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [455, 530],
+        "name": "8 | King of the Cube!",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "cloud-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-gray.png",
+        "type": "moon-rock-moon",
+        "position": [445, 540],
+        "name": "9 | The Sixth Face",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
     }
 ]

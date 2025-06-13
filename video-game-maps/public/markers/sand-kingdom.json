@@ -26,7 +26,7 @@
         "iconUrl": "/assets/painting.png",
         "type": "painting",
         "position": [285, 353],
-        "name": "Painting from Wooded/Lake Kingdom",
+        "name": "Painting of Wooded/Lake Kingdom",
         "popupInfo": {
             "link": "",
             "description": "This painting can be used to teleport between the Sand Kingdom and the Wooded or Lake Kingdom."
@@ -37,7 +37,7 @@
         "iconUrl": "/assets/painting.png",
         "type": "painting",
         "position": [830, 927],
-        "name": "Painting to Metro Kingdom",
+        "name": "Painting of Metro Kingdom",
         "popupInfo": {
             "link": "",
             "description": "This painting can be used to teleport between the Sand Kingdom and the Metro Kingdom."
