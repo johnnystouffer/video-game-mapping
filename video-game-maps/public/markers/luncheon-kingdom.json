@@ -1,5 +1,805 @@
 [
     {
-        
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/crazy-cap.png",
+        "type": "crazy-cap",
+        "position": [500, 500],
+        "name": "Crazy Cap Store",
+        "popupInfo": {
+            "link": "",
+            "description": "Buy clothes, stickers, and decorations for your Odyssey! You can spend your regular gold coins or regional purple coins here."
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/moon-rock.png",
+        "type": "moon-rock",
+        "position": [150, 685],
+        "name": "Luncheon Kingdom Moon Rock",
+        "popupInfo": {
+            "link": "",
+            "description": "This shiny gray cube is made of large chunks of minerals from the Moon and the raw form of power moons. It can be activiated after completing the main story."
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/painting.png",
+        "type": "painting",
+        "position": [500, 500],
+        "name": "Painting of ",
+        "popupInfo": {
+            "link": "",
+            "description": "This painting can be used to teleport between the --- Kingdom and the --- Kingdom."
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/hint-art.png",
+        "type": "hint-art",
+        "position": [500, 500],
+        "name": "-- | Found with Luncheon Kingdom Art",
+        "popupInfo": {
+            "link": "",
+            "description": "Use this hint art to find a power moon in another kingdom."
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [120, 570],
+        "name": "The Odyssey",
+        "popupInfo": {
+            "link": "",
+            "description": "This is where your ship is located."
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "1 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "2 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "3 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "4 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "5 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "6 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "7 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "8 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "9 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "10 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "11 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "12 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "13",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "14 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "15 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "16 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "17 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "18 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "19 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "20 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "21 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "22 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "23 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "24 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "25 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "26 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "27 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "28 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "29 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "30 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "31 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "32 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "33 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "34 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "35 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "36 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "37 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "38 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "39 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "40 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "41 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "42 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "43 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "44 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "45 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "46 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "47 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "48 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "49 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "50 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "51 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "52 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "53 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "54 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "55 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "56 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "57 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "58 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "59 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "60 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "61 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "62 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "63 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "64 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "65 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "66 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "67 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "luncheon-kingdom",
+        "iconUrl": "/assets/power-moons/power-moon-cyan.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "68 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
     }
 ]

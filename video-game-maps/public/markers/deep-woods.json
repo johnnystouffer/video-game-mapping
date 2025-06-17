@@ -1,5 +1,156 @@
 [
     {
-        
+        "map": "deep-woods",
+        "iconUrl": "/assets/crazy-cap.png",
+        "type": "crazy-cap",
+        "position": [500, 500],
+        "name": "Crazy Cap Store",
+        "popupInfo": {
+            "link": "",
+            "description": "Buy clothes, stickers, and decorations for your Odyssey! You can spend your regular gold coins or regional purple coins here."
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/moon-rock.png",
+        "type": "moon-rock",
+        "position": [150, 685],
+        "name": "Deep Woods Moon Rock",
+        "popupInfo": {
+            "link": "",
+            "description": "This shiny gray cube is made of large chunks of minerals from the Moon and the raw form of power moons. It can be activiated after completing the main story."
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/painting.png",
+        "type": "painting",
+        "position": [500, 500],
+        "name": "Painting of ",
+        "popupInfo": {
+            "link": "",
+            "description": "This painting can be used to teleport between the --- Kingdom and the --- Kingdom."
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/hint-art.png",
+        "type": "hint-art",
+        "position": [500, 500],
+        "name": "-- | Found with Deep Woods Art",
+        "popupInfo": {
+            "link": "",
+            "description": "Use this hint art to find a power moon in another kingdom."
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/checkpoint.png",
+        "type": "checkpoint",
+        "position": [120, 570],
+        "name": "The Odyssey",
+        "popupInfo": {
+            "link": "",
+            "description": "This is where your ship is located."
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "1 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "2 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "3 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "4 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "5 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "6 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "7 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "8 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
+    },
+    {
+        "map": "deep-woods",
+        "iconUrl": "/assets/power-moons/power-moon-blue.png",
+        "type": "power-moon",
+        "position": [500, 500],
+        "name": "9 | ",
+        "popupInfo": {
+            "link": "",
+            "description": ""
+        }
     }
 ]
