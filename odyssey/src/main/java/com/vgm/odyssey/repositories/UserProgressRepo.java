@@ -1,4 +1,6 @@
 package com.vgm.odyssey.repositories;
 
-public class UserProgressRepo {
-}
+import com.vgm.odyssey.models.UserProgress;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserProgressRepo extends JpaRepository<UserProgress, Long> { }
