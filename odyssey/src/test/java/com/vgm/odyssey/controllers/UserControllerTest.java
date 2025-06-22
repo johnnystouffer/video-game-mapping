@@ -39,7 +39,7 @@ public class UserControllerTest {
     public void testCreateUser_Success() throws Exception {
         UserSignupDTO user = new UserSignupDTO("tester", "testingmore@example.com", "strongpassword");
 
-        mockMvc.perform(post("/api/users")
+        mockMvc.perform(post("/api/users/signup")
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(user))
@@ -53,7 +53,7 @@ public class UserControllerTest {
     public void testCreateUser_InvalidPasswordTooShort() throws Exception {
         UserSignupDTO user = new UserSignupDTO("tester", "shortpassasdasd@example.com", "short");
 
-        mockMvc.perform(post("/api/users")
+        mockMvc.perform(post("/api/users/signup")
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(user))
@@ -66,7 +66,7 @@ public class UserControllerTest {
     public void testCreateUser_MissingEmail() throws Exception {
         UserSignupDTO user = new UserSignupDTO("tester", null, "strongpassword");
 
-        mockMvc.perform(post("/api/users")
+        mockMvc.perform(post("/api/users/signup")
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(user))

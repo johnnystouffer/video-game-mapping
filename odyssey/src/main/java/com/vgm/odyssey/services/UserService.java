@@ -27,7 +27,7 @@ public class UserService {
     }
 
     public User createUser(UserSignupDTO user) {
-        if (userRepo.findByEmail(user.getEmail()) != null) {
+        if (userRepo.findByEmail(user.getEmail()).isPresent()) {
             throw new IllegalArgumentException("Email already exists");
         }
 
@@ -47,5 +47,13 @@ public class UserService {
 
     public void deleteUser(Long id) {
         userRepo.deleteById(id);
+    }
+
+    public User authenticateUser(String email, String password) {
+        Optional<User> userOpt = userRepo.findByEmail(email);
+        if (userOpt.isEmpty() || !passwordEncoder.matches(password, userOpt.get().getPasshash())) {
+            throw new IllegalArgumentException("Invalid email or password");
+        }
+        return userOpt.get();
     }
 }
