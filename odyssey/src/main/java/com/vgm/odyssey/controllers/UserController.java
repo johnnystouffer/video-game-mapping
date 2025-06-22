@@ -21,7 +21,7 @@ public class UserController {
         this.userServ = userServ;
     }
 
-    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(path="/signup", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<UserResponseDTO> createUser(@Valid @RequestBody UserSignupDTO user) {
         User newUser = userServ.createUser(user);
         return ResponseEntity.ok(new UserResponseDTO(newUser));
@@ -38,6 +38,5 @@ public class UserController {
     public ResponseEntity<String> handleIllegalArgument(IllegalArgumentException ex) {
         return ResponseEntity.badRequest().body(ex.getMessage());
     }
-
 
 }
