@@ -1,4 +1,42 @@
 package com.vgm.odyssey.controllers;
 
+import com.vgm.odyssey.dtos.ProgressResponseDTO;
+import com.vgm.odyssey.dtos.UpdateProgressRequestDTO;
+import com.vgm.odyssey.models.User;
+import com.vgm.odyssey.models.UserProgress;
+import com.vgm.odyssey.services.ProgressServ;
+import jakarta.validation.Valid;
+import org.apache.coyote.Response;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Objects;
+import java.util.Optional;
+
+@RestController
+@RequestMapping("/api/prog")
 public class ProgressController {
+
+    private final ProgressServ progServ;
+
+    @Autowired
+    public ProgressController(ProgressServ progServ) {
+        this.progServ = progServ;
+    }
+
+    @GetMapping(path="/{worldId}")
+    public ResponseEntity<ProgressResponseDTO> getWorldProgress(@PathVariable String worldId,
+                                                                @AuthenticationPrincipal User u) {
+        return ResponseEntity.ok(new ProgressResponseDTO(progServ.getUserProg(u, worldId)));
+    }
+
+    @PutMapping(path = "/{worldId}")
+    public ResponseEntity<?> updateProgress(@Valid @RequestBody UpdateProgressRequestDTO dto,
+                                            @PathVariable String worldId,
+                                            @AuthenticationPrincipal User u) {
+        progServ.updateOrCreateWorldProgress(u, worldId, dto.getProgress());
+        return ResponseEntity.ok().build();
+    }
 }
