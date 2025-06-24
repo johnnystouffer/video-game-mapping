@@ -87,7 +87,7 @@ public class ProgressControllerTest {
     @Test
     void putProgress_withMidValue_setsAndReturnsCorrectly() throws Exception {
         String token = getToken(EMAIL, PASSWORD);
-        String mid = "0xFFFFFFFFFFFFFFFF";
+        String mid = "0xfffffffff";
         UpdateProgressRequestDTO dto = new UpdateProgressRequestDTO(mid);
 
         mockMvc.perform(put("/api/prog/" + WORLD_ID)
@@ -105,7 +105,7 @@ public class ProgressControllerTest {
     @Test
     void putProgress_withMax81Bit_setsAndReturnsCorrectly() throws Exception {
         String token = getToken(EMAIL, PASSWORD);
-        String max81 = "0x1FFFFFFFFFFFFFFFFFF";
+        String max81 = "0x1fffffffffff";
         UpdateProgressRequestDTO dto = new UpdateProgressRequestDTO(max81);
 
         mockMvc.perform(put("/api/prog/" + WORLD_ID)
@@ -123,7 +123,7 @@ public class ProgressControllerTest {
     @Test
     void putProgress_exceedingMax81Bit_returnsBadRequest() throws Exception {
         String token = getToken(EMAIL, PASSWORD);
-        String tooLarge = "0x3FFFFFFFFFFFFFFFFFFFF"; // 1 to big
+        String tooLarge = "0x3fffffffffff"; // 1 to big
 
         UpdateProgressRequestDTO dto = new UpdateProgressRequestDTO(tooLarge);
 

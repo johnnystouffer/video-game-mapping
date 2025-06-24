@@ -104,6 +104,7 @@
         "type": "power-moon",
         "position": [565, 822],
         "name": "Our First Power Moon",
+        "completionId" : 1,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=68",
             "description": "You will have to break through some rocks with a Chain Chomp to get to this Power Moon."
@@ -115,6 +116,7 @@
         "type": "power-moon",
         "position": [480, 810],
         "name": "Cascade Kingdom Timer Challenge 1",
+        "completionId" : 9,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=192",
             "description": "Capture the scarecrow at the base of the waterfall and reach the Power Moon before time runs out!"
@@ -126,6 +128,7 @@
         "type": "power-moon",
         "position": [605, 890],
         "name": "Shopping in Fossil Falls",
+        "completionId" : 24,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=576",
             "description": "Head over to the Crazy Cap Shop and buy the Power Moon for 100 Gold Coins."
@@ -137,6 +140,7 @@
         "type": "power-moon",
         "position": [470, 1010],
         "name": "On Top of the Rubble",
+        "completionId" : 5,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=137",
             "description": "This Power Moon is on a pile of rubble guarded by three enemies."
@@ -148,6 +152,7 @@
         "type": "power-moon",
         "position": [350, 920],
         "name": "A Tourist in the Cascade Kingdom",
+        "completionId" : 19,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=457",
             "description": "This Power Moon will be available after you speak to the Tostarean in the Sand Kingdom and Metro Kingdom."
@@ -159,6 +164,7 @@
         "type": "power-moon",
         "position": [315, 935],
         "name": "Cascade Kingdom Regular Cup",
+        "completionId" : 22,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=526",
             "description": "A Koopa will challenge you to a freerunning course here after you complete the main story."
@@ -170,6 +176,7 @@
         "type": "power-moon",
         "position": [240, 840],
         "name": "Sphynx Traveling to the Waterfall",
+        "completionId" : 25,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=584",
             "description": "After completing the main story, capture the binoculars here and zoom in to the distant Bonneter airship. Then, move diagonally upwards and to the right and zoom in to the sphinx."
@@ -181,6 +188,7 @@
         "type": "power-moon",
         "position": [665, 765],
         "name": "Behind the Waterfall",
+        "completionId" : 4,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=121",
             "description": "In the 8-bit platformer, go to the far left where there is a gap in the stone wall to find an area that wraps around behind the waterfall."
@@ -192,6 +200,7 @@
         "type": "power-moon",
         "position": [800, 800],
         "name": "Past the Chasm Lifts",
+        "completionId" : 16,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=320",
             "description": "Enter through the Cappy door against the cliff wall to find an 8-bit platforming area. Pass through the lifts without falling to get to a Warp Pipe that takes you to this Power Moon."
@@ -203,6 +212,7 @@
         "type": "power-moon",
         "position": [785, 800],
         "name": "Hidden Chasm Passage",
+        "completionId" : 17,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=320",
             "description": "Pass through the first area of the 8-bit platformer, then instead of going into the second, jump over the rocks on the edge of the cliff and enter the 2D area. Use the Koopa Troopa to destroy the brick on the right wall that blocks the passage to the Power Moon."
@@ -214,6 +224,7 @@
         "type": "power-moon",
         "position": [850, 560],
         "name": "Caveman Cave-Fan",
+        "completionId" : 23,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=550",
             "description": "This Power Moon will be available after completing the main story. Impress the Bonneter here by wearing the Caveman Outfit."
@@ -225,6 +236,7 @@
         "type": "power-moon",
         "position": [910, 540],
         "name": "Cascade Kingdom Timer Challenge 2",
+        "completionId" : 10,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=207",
             "description": "After fighting Madam Broode, you can go back up to the arena to capture the scarescrow, then reach the Power Moon before time runs out!"
@@ -236,6 +248,7 @@
         "type": "power-moon",
         "position": [810, 470],
         "name": "Good Morning, Captain Toad",
+        "completionId" : 11,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=224",
             "description": "Find Captain Toad on a ledge by the arena!"
@@ -247,6 +260,7 @@
         "type": "power-moon",
         "position": [845, 430],
         "name": "Chomp Through the Rocks",
+        "completionId" : 3,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=104",
             "description": "This Power Moon is behind a small breakable wall. Capture a Chain Chomp to smash through it.Watch the video for full explanation."
@@ -258,6 +272,7 @@
         "type": "power-moon",
         "position": [1000, 490],
         "name": "Nice Shot with the Chain Chomp",
+        "completionId" : 14,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=280",
             "description": "Use the Warp Pipe by the Stone Bridge to enter the Chain Chomp Cave. For each room, capture the nearest Chain Chomp, and angle it to send the next one into the hole."
@@ -269,6 +284,7 @@
         "type": "power-moon",
         "position": [1000, 505],
         "name": "Very Nice Shot with the Chain Chomp",
+        "completionId" : 15,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=280",
             "description": "From where the other Power Moon in the Chain Chomp Cave is, walk into the hidden room on the far right and send the furthest Chain Chomp into the hole."
@@ -280,6 +296,7 @@
         "type": "power-moon",
         "position": [1090, 300],
         "name": "Across the Floating Isles",
+        "completionId" : 8,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=177",
             "description": "After fighting Madam Broode, cross the platforms at the edge of the arena to retrieve this Power Moon."
@@ -291,6 +308,7 @@
         "type": "power-moon",
         "position": [640, 605],
         "name": "Rolling Rock by the Falls",
+        "completionId" : 20,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=492",
             "description": "One of the stones in the dirt clearing here contains a Power Moon. Hit it a few times until it breaks."
@@ -302,6 +320,7 @@
         "type": "power-moon",
         "position": [530, 675],
         "name": "Treasure of Waterfall Basin",
+        "completionId" : 6,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=150",
             "description": "This Power Moon is in a treasure chest. You will need to go for a dip to find it!On the middle west side of the lake, there is a small cave that contains this power moon."
@@ -313,6 +332,7 @@
         "type": "power-moon",
         "position": [400, 640],
         "name": "Dinosaur Nest: Big Cleanup",
+        "completionId" : 12,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=239",
             "description": "Defeat all the Burrbos in the Dinosaur Nest to collect this Power Moon."
@@ -324,6 +344,7 @@
         "type": "power-moon",
         "position": [415, 650],
         "name": "Dinosaur Nest: Running Wild",
+        "completionId" : 13,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=239",
             "description": "Destroy all the rocks on the lower platform in the Dinosaur Nest to collect this Power Moon."
@@ -335,6 +356,7 @@
         "type": "power-moon",
         "position": [405, 575],
         "name": "Above a High Cliff",
+        "completionId" : 7,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=164",
             "description": "This Power Moon sits atop a cliff."
@@ -346,6 +368,7 @@
         "type": "power-moon",
         "position": [367, 583],
         "name": "Secret Path to Fossil Falls",
+        "completionId" : 18,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=370",
             "description": "You need to find a painting in the Snow kingdom to reach this Power Moon! Watch video for full description."
@@ -357,6 +380,7 @@
         "type": "multimoons",
         "position": [955, 490],
         "name": "Multi Moon Atop The Falls",
+        "completionId" : 2,
         "popupInfo": {
             "link": "https://youtu.be/SOAcjrxHeRo?feature=shared&t=84",
             "description": "Fight Madam Broode to retrieve this Multi Moon! Capture her pet Chain Chomp to defeat her."
@@ -380,6 +404,7 @@
         "type": "purple-coins",
         "position": [215, 930],
         "name": "Coins 1-3",
+        "completionId" : 41,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared",
             "description": "3x coins"
@@ -391,6 +416,7 @@
         "type": "purple-coins",
         "position": [435, 838],
         "name": "Coins 4-6",
+        "completionId" : 42,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared",
             "description": "3x coins"
@@ -402,6 +428,7 @@
         "type": "purple-coins",
         "position": [577, 967],
         "name": "Coins 7-9",
+        "completionId" : 43,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=19",
             "description": "3x coins"
@@ -413,6 +440,7 @@
         "type": "purple-coins",
         "position": [564, 802],
         "name": "Coins 10-12",
+        "completionId" : 44,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=35",
             "description": "3x coins"
@@ -424,6 +452,7 @@
         "type": "purple-coins",
         "position": [415, 440],
         "name": "Coins 13-15",
+        "completionId" : 45,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=96",
             "description": "3x coins"
@@ -435,6 +464,7 @@
         "type": "purple-coins",
         "position": [555, 530],
         "name": "Coins 16-18",
+        "completionId" : 46,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=106",
             "description": "3x coins"
@@ -446,6 +476,7 @@
         "type": "purple-coins",
         "position": [695, 405],
         "name": "Coins 19-21",
+        "completionId" : 47,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=118",
             "description": "3x coins"
@@ -457,6 +488,7 @@
         "type": "purple-coins",
         "position": [1000, 485],
         "name": "Coins 22-24",
+        "completionId" : 48,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=130",
             "description": "3x coins"
@@ -468,6 +500,7 @@
         "type": "purple-coins",
         "position": [783, 770],
         "name": "Coins 25-27",
+        "completionId" : 49,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=152",
             "description": "3x coins"
@@ -479,6 +512,7 @@
         "type": "purple-coins",
         "position": [890, 865],
         "name": "Coins 28-30",
+        "completionId" : 50,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=278",
             "description": "3x coins"
@@ -490,6 +524,7 @@
         "type": "purple-coins",
         "position": [628, 850],
         "name": "Coins 31-33",
+        "completionId" : 51,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=253",
             "description": "3x coins"
@@ -501,6 +536,7 @@
         "type": "purple-coins",
         "position": [345, 600],
         "name": "Coins 34-37",
+        "completionId" : 52,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=67",
             "description": "4x coins"
@@ -512,6 +548,7 @@
         "type": "purple-coins",
         "position": [640, 750],
         "name": "Coins 38-40",
+        "completionId" : 53,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=252",
             "description": "3x coins"
@@ -523,6 +560,7 @@
         "type": "purple-coins",
         "position": [1090, 360],
         "name": "Coins 41-43",
+        "completionId" : 54,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=294",
             "description": "3x coins"
@@ -534,6 +572,7 @@
         "type": "purple-coins",
         "position": [660, 750],
         "name": "Coins 44-46",
+        "completionId" : 55,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=49",
             "description": "3x coins"
@@ -545,6 +584,7 @@
         "type": "purple-coins",
         "position": [755, 809],
         "name": "Coins 47-50",
+        "completionId" : 56,
         "popupInfo": {
             "link": "https://youtu.be/hP1kCqtm6LQ?feature=shared&t=175",
             "description": "4x coins"

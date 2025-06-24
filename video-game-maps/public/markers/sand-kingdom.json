@@ -49,6 +49,7 @@
         "type": "hint-art",
         "position": [305, 730],
         "name": "63 | Found with Sand Kingdom Art",
+        "completionId": 63,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2118",
             "description": "Use this hint art to find a power moon in another kingdom."
@@ -170,6 +171,7 @@
         "type": "power-moon",
         "position": [292, 368],
         "name": "62 | Secret Path to Tostarena!",
+        "completionId": 62,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2073",
             "description": "Use the painting found in either the Wooded or Lake Kingdom (it differs depending on which you visited first) to teleport here."
@@ -181,6 +183,7 @@
         "type": "power-moon",
         "position": [445, 445],
         "name": "17 | Top of a Dune",
+        "completionId": 17,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=480",
             "description": "As you walk on the peak of the tallest sand dune, feel for the strongest rumble in your controller and ground pound."
@@ -192,6 +195,7 @@
         "type": "power-moon",
         "position": [235, 658],
         "name": "31 | Found in the Sand! Good Dog!",
+        "completionId": 31,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=880",
             "description": "Let the dog near the town lead you towards a power moon. Once it digs in the ground, you can ground pound the glowing spot to collect this moon."
@@ -203,6 +207,7 @@
         "type": "power-moon",
         "position": [260, 655],
         "name": "42 | Shopping in Tostarena",
+        "completionId": 42,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1272",
             "description": "Buy a power moon from the Crazy Cap store for 100 gold coins."
@@ -214,6 +219,7 @@
         "type": "power-moon",
         "position": [260, 640],
         "name": "65 | Hat-and-Seek: In the Sand",
+        "completionId": 65,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2203",
             "description": "After completing the main story, speak to the Bonneton near Tostarena Town, then find his friend hanging out on someone's head. Try looking near the Crazy Cap store!"
@@ -225,6 +231,7 @@
         "type": "power-moon",
         "position": [236, 705],
         "name": "68 | Round-the-World Tourist",
+        "completionId": 68,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2314",
             "description": "Speak with the Tostarenan standing by the taxi in Tostarena Town. Meet up with him as he visits several kingdoms before finally returning home."
@@ -236,6 +243,7 @@
         "type": "power-moon",
         "position": [278, 717],
         "name": "64 | Jammin' in the Sand Kingdom",
+        "completionId": 64,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2156",
             "description": "Talk to the toad listening to music in Tostarena Town. Play him anything in your music list that is from a boss fight."
@@ -247,6 +255,7 @@
         "type": "power-moon",
         "position": [300, 706],
         "name": "44 | Sand Kingdom Slots",
+        "completionId": 44,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1323",
             "description": "Enter the slots room in Tostarena Town. Pay 10 coins to play, and throw Cappy when the power moon image lights up. You can also win the other prizes like this!"
@@ -258,6 +267,7 @@
         "type": "power-moon",
         "position": [333, 706],
         "name": "61 | Above a Strange Neighborhood",
+        "completionId": 61,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2029",
             "description": "Capture and launch the rocket in Tostarena Town. Your power moon is waiting for you halfway through the obstacle course above the row of three blocks."
@@ -269,6 +279,7 @@
         "type": "power-moon",
         "position": [336, 697],
         "name": "60 | Strange Neighborhood",
+        "completionId": 60,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1981",
             "description": "Capture and launch the rocket in Tostarena Town. Navigate through the strange neighborhood to collect your moon at the end."
@@ -280,6 +291,7 @@
         "type": "power-moon",
         "position": [297, 673],
         "name": "15 | Hang Your Hat on the Fountain",
+        "completionId": 15,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=443",
             "description": "Throw Cappy onto the top of the fountain at the center of town."
@@ -291,6 +303,7 @@
         "type": "power-moon",
         "position": [298, 633],
         "name": "25 | Desert Gardening: Plaza Seed",
+        "completionId": 25,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=695",
             "description": "On the west side of Tostarena Town are three pots. Take the seed in front of the pots and toss it into one of them. Check back on it later for a prize!"
@@ -302,6 +315,7 @@
         "type": "power-moon",
         "position": [305, 640],
         "name": "26 | Desert Gardening: Ruins Seed",
+        "completionId": 26,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=741",
             "description": "Look for a seed in the Tostarena Ruins. It is hidden in an alcove in the wall on the east side. Throw it into one of the pots in Tostarena Town and check back on it later for a prize!"
@@ -313,6 +327,7 @@
         "type": "power-moon",
         "position": [312, 646],
         "name": "27 | Desert Gardening: Seed on a Cliff",
+        "completionId": 27,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=768",
             "description": "Look for a seed hanging out on the side of a cliff. Throw it into one of the pots in Tostarena Town and check back on it later for a prize!"
@@ -324,6 +339,7 @@
         "type": "power-moon",
         "position": [328, 640],
         "name": "52 | A Rumble from the Sandy Floor",
+        "completionId": 52,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1696",
             "description": "Use the warp pipe near Talkatoo. Find the spot in the room that vibrates your controller the most and ground pound!"
@@ -335,6 +351,7 @@
         "type": "power-moon",
         "position": [348, 649],
         "name": "5 | Overlooking the Desert Town",
+        "completionId": 5,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=206",
             "description": "It's located inside a bell tower on the rear end of town."
@@ -346,6 +363,7 @@
         "type": "power-moon",
         "position": [364, 638],
         "name": "53 | Dancing with New Friends",
+        "completionId": 53,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1727",
             "description": "In Tostarena town, there is a citizen standing next to a locked door. Approach him while wearing a sombrero and poncho (purchased with purple coins) to be let inside. Now jam out!"
@@ -357,6 +375,7 @@
         "type": "power-moon",
         "position": [210, 900],
         "name": "21 | Bird Traveling the Desert",
+        "completionId": 21,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=568",
             "description": "Keep an eye out for a glowing bird flying through the desert. Knock into it with Mario or Cappy to get this power moon."
@@ -368,6 +387,7 @@
         "type": "power-moon",
         "position": [140, 970],
         "name": "34 | Fishing in the Oasis",
+        "completionId": 34,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=996",
             "description": "Capture Lakitu at the oasis. Cast your line when you find a shadow, and when your controller vibrates, pull the line up for a cheep cheep (and your next moon)!"
@@ -379,6 +399,7 @@
         "type": "power-moon",
         "position": [135, 950],
         "name": "32 | Taking Notes: Jump on the Palm",
+        "completionId": 32,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=909",
             "description": "Reach the treble clef at the top of a palm tree then collect all the music notes before time runs out."
@@ -390,6 +411,7 @@
         "type": "power-moon",
         "position": [180, 1032],
         "name": "16 | Where the Birds Gather",
+        "completionId": 16,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=460",
             "description": "A group of birds are gathered on a small mound at the oasis. Ground pound it to collect this moon!"
@@ -401,6 +423,7 @@
         "type": "power-moon",
         "position": [224, 1123],
         "name": "38 | Jaxi Reunion!",
+        "completionId": 38,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1134",
             "description": "There is a statue on a pedastal near the Desert Oasis. Bring Jaxi to the empty pedastal across from it."
@@ -412,6 +435,7 @@
         "type": "power-moon",
         "position": [255, 1000],
         "name": "37 | You're Quite a Catch, Captain Toad!",
+        "completionId": 37,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1088",
             "description": "Capture Lakitu at the oasis. Reel in the largest shadow to reveal Captain Toad (and your next moon)!"
@@ -423,6 +447,7 @@
         "type": "power-moon",
         "position": [440, 1050],
         "name": "40 | Wandering Cactus",
+        "completionId": 40,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1190",
             "description": "Keep an eye out for a cactus that can be captured -- it's hiding a power moon!"
@@ -434,6 +459,7 @@
         "type": "power-moon",
         "position": [465, 925],
         "name": "45 | Walking in the Desert!",
+        "completionId": 45,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1356",
             "description": "Speak with the red koopa standing alone in the desert near the poison swamp to begin the trace-walking challenge."
@@ -445,6 +471,7 @@
         "type": "power-moon",
         "position": [518, 1010],
         "name": "22 | Bird Traveling the Wastes",
+        "completionId": 22,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=599",
             "description": "There's a low-flying bird near the poison swamp carrying a power moon. Hit the bird to grab it!"
@@ -456,6 +483,7 @@
         "type": "power-moon",
         "position": [680, 988],
         "name": "24 | The Treasure of Jaxi Ruins",
+        "completionId": 24,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=653",
             "description": "Drop down into the sinkhole in the Tostarena Ruins. Make your way through the ice cavern there. Once you emerge, you'll find this moon in a chest."
@@ -467,6 +495,7 @@
         "type": "power-moon",
         "position": [678, 1015],
         "name": "59 | Jaxi Stunt Driving",
+        "completionId": 59,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1938",
             "description": "Use a Jaxi to cross the poison swamp and enter the ruins below. Reach the treble clef at the center then collect all the music notes before time runs out."
@@ -478,6 +507,7 @@
         "type": "power-moon",
         "position": [688, 1015],
         "name": "58 | Jaxi Driver",
+        "completionId": 58,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1892",
             "description": "Use a Jaxi to cross the poison swamp and enter the ruins below. Carefully navigate it to reach the power moon at the end."
@@ -489,6 +519,7 @@
         "type": "power-moon",
         "position": [605, 1150],
         "name": "30 | Sand Kingdom Timer Challenge 3",
+        "completionId": 30,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=855",
             "description": "Capture the scarecrow to the east of the poison swamp to start this timer challenge."
@@ -500,6 +531,7 @@
         "type": "power-moon",
         "position": [646, 897],
         "name": "7 | On the Leaning Pillar",
+        "completionId": 7,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=255",
             "description": "You will have to capture something to get to this."
@@ -511,6 +543,7 @@
         "type": "power-moon",
         "position": [540, 687],
         "name": "11 | On Top of the Stone Archway",
+        "completionId": 11,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=353",
             "description": "Use the power line that zips right over the stone archway. De-capture the spark pylon to drop onto the moon below."
@@ -522,6 +555,7 @@
         "type": "power-moon",
         "position": [618, 841],
         "name": "20 | Inside a Block is a Hard Place",
+        "completionId": 20,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=549",
             "description": "Look for a glowing block in the Tostarena Ruins. You'll have to break it with a bullet bill to collect this moon."
@@ -533,6 +567,7 @@
         "type": "power-moon",
         "position": [680, 803],
         "name": "35 | Love in the Heart of the Desert",
+        "completionId": 35,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1021",
             "description": "Capture one of the goombas in Tostarena Ruins. Stack goombas into a tower by jumping on other goombas. Once you're tall enough, approach the goombette. She'll swoon and drop a power moon for you."
@@ -544,6 +579,7 @@
         "type": "power-moon",
         "position": [688, 765],
         "name": "19 | Bullet Bill Breakthrough",
+        "completionId": 19,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=532",
             "description": "There is a power moon trapped in a cage in the Tostarena Ruins. Break through with a bullet bill to reach it!"
@@ -555,6 +591,7 @@
         "type": "power-moon",
         "position": [704, 711],
         "name": "6 | Alcove in the Ruins",
+        "completionId": 6,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=226",
             "description": "This moon is in a hidden alcove in the walls near the Tostarena Ruins Round Tower."
@@ -566,6 +603,7 @@
         "type": "power-moon",
         "position": [727, 714],
         "name": "12 | From a Crate in the Ruins",
+        "completionId": 12,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=370",
             "description": "Keep an eye out for a glowing crate! Break it to reveal this power moon."
@@ -577,6 +615,7 @@
         "type": "power-moon",
         "position": [785, 723],
         "name": "1 | Atop the Highest Tower",
+        "completionId": 1,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=63",
             "description": "Enter the 8-bit pipe at the bottom of the Tostarena Ruins Round Tower and keep climbing until you reach the top. This moon will be waiting for you there!"
@@ -588,6 +627,7 @@
         "type": "power-moon",
         "position": [775, 730],
         "name": "9 | Secret of the Mural",
+        "completionId": 9,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=296",
             "description": "Make your way through the 8-bit mural. Right before you exit the other side, look for this moon to the left."
@@ -599,6 +639,7 @@
         "type": "power-moon",
         "position": [782, 748],
         "name": "8 | Hidden Room in the Flowing Sands",
+        "completionId": 8,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=277",
             "description": "Look for a little gap between the wall and the sand. There's a hidden room there!"
@@ -610,6 +651,7 @@
         "type": "power-moon",
         "position": [795, 832],
         "name": "50 | Ice Cave Treasure",
+        "completionId": 50,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1586",
             "description": "Enter the sinkhole in the Tostarena Ruins and go through the course until you reach the six pillars moving up and down. Wall jump between the last two to reach this moon."
@@ -621,6 +663,7 @@
         "type": "power-moon",
         "position": [812, 708],
         "name": "51 | Sphynx's Treasure Vault",
+        "completionId": 51,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1637",
             "description": "On the north side of the Tostarena Ruins, there is a sphynx. Answer his simple question correctly for a power moon!"
@@ -632,6 +675,7 @@
         "type": "power-moon",
         "position": [812, 690],
         "name": "41 | Sand Quiz: Wonderful!",
+        "completionId": 41,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1216",
             "description": "On the north side of the Tostarena Ruins, there is a sphynx. Answer all his questions correctly for a reward!"
@@ -643,6 +687,7 @@
         "type": "power-moon",
         "position": [825, 929],
         "name": "13 | On the Lone Pillar",
+        "completionId": 13,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=395",
             "description": "Capture Glydon to reach this moon."
@@ -654,6 +699,7 @@
         "type": "power-moon",
         "position": [913, 887],
         "name": "39 | Welcome Back, Jaxi!",
+        "completionId": 39,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1164",
             "description": "Notice that each corner of the inverted pyramid has a Jaxi statue, except for one. Use the nearby Jaxi stop to call a ride and bring him to the vacant pedestal."
@@ -665,6 +711,7 @@
         "type": "power-moon",
         "position": [975, 893],
         "name": "10 | Secret of the Inverted Mural",
+        "completionId": 10,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=326",
             "description": "There's a secret passageway in the far wall. It looks like a small gap."
@@ -676,6 +723,7 @@
         "type": "power-moon",
         "position": [975, 953],
         "name": "46 | Hidden Room in the Inverted Pyramid",
+        "completionId": 46,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1392",
             "description": "On the way to the to of the inverted pyramid, there's a room where you fly a bullet bill past moving pillars. Land on this platform to enter the hidden room on the left."
@@ -687,6 +735,7 @@
         "type": "power-moon",
         "position": [1007, 938],
         "name": "48 | Goomba Tower Assembly",
+        "completionId": 48,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1468",
             "description": "Reenter the underground temple through the massive sandpit. Stack as many goombas as possible to reach this power moon."
@@ -698,6 +747,7 @@
         "type": "power-moon",
         "position": [1015, 905],
         "name": "47 | Underground Treasure Chest",
+        "completionId": 47,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1422",
             "description": "In the underground temple, capture a bullet bill and veer right around a corner to find a path up the side of a stone wall. Continue to the narrow walkway below. The raised platform at the end has a chest holding your power moon."
@@ -709,6 +759,7 @@
         "type": "power-moon",
         "position": [1025, 907],
         "name": "23 | The Lurker Under the Stone",
+        "completionId": 23,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=626",
             "description": "You can find something moving across the floor on top of the inverted pyramid. Hit it with Cappy to stun it for a few seconds, then ground pound."
@@ -720,6 +771,7 @@
         "type": "power-moon",
         "position": [1082, 790],
         "name": "14 | On the Statue's Tail",
+        "completionId": 14,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=417",
             "description": "One of the Jaxi statues on top of the inverted pyramid will have a glowing tail. Throw Cappy at it to collect this moon."
@@ -731,6 +783,7 @@
         "type": "power-moon",
         "position": [1070, 677],
         "name": "49 | Under the Mummy's Curse",
+        "completionId": 49,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1535",
             "description": "Reenter Deepest Underground by jumping into the hole with two townsfolk around it. Ground pound the glowing mummy to reveal a hidden moon."
@@ -742,6 +795,7 @@
         "type": "power-moon",
         "position": [1065, 690],
         "name": "67 | Binding Band Returned",
+        "completionId": 67,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2273",
             "description": "After completing the main story, reenter Deepest Underground by jumping into the hole with two townsfolk around it and ground pound the ring."
@@ -753,6 +807,7 @@
         "type": "power-moon",
         "position": [1040, 720],
         "name": "18 | Lost in the Luggage",
+        "completionId": 18,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=508",
             "description": "There is a glowing spot on the ground near the taxi. Give it a ground pound to collect this moon."
@@ -764,6 +819,7 @@
         "type": "power-moon",
         "position": [1207, 667],
         "name": "36 | Among the Five Cactuses",
+        "completionId": 36,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1058",
             "description": "There is a row of cactuses at the very top of the map. Destroy the largest one using Jaxi to collect the hidden power moon."
@@ -775,6 +831,7 @@
         "type": "power-moon",
         "position": [940, 567],
         "name": "33 | Herding Sheep in the Dunes",
+        "completionId": 33,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=933",
             "description": "Find the Tostarenan making a fuss in a stone circle. They’ll tell you three of their sheep have gone missing. Find the sheep roaming nearby and herd them into the circle."
@@ -786,6 +843,7 @@
         "type": "power-moon",
         "position": [890, 470],
         "name": "55 | Skull Sign in the Invisible Maze",
+        "completionId": 55,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1803",
             "description": "Reach the alcove just north of the Moe-Eye Habitat island and enter the Hat Door. In the first room, toss Cappy onto the skull sign and it will pop out a hidden moon."
@@ -797,6 +855,7 @@
         "type": "power-moon",
         "position": [890, 462],
         "name": "54 | The Invisible Maze",
+        "completionId": 54,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1761",
             "description": "Reach the alcove just north of the Moe-Eye Habitat island and enter the Hat Door. Capture the Moe-Eye to navigate through the three rooms to collect a power moon."
@@ -808,6 +867,7 @@
         "type": "power-moon",
         "position": [1153, 278],
         "name": "56 | The Bullet Bill Maze: Break Through!",
+        "completionId": 56,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1831",
             "description": "Go through the Hat Door at the Tostarena Northwest Reaches. Use the bullet bills to reach the end of the maze."
@@ -819,6 +879,7 @@
         "type": "power-moon",
         "position": [1153, 285],
         "name": "57 | The Bullet Bill Maze: Side Path",
+        "completionId": 57,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1859",
             "description": "Go through the Hat Door at the Tostarena Northwest Reaches. Follow the thin path to the left before the first set of rotating walls to collect this moon."
@@ -830,6 +891,7 @@
         "type": "power-moon",
         "position": [1158, 318],
         "name": "66 | Sand Kingdom Regular Cup",
+        "completionId": 66,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2219",
             "description": "The koopa at the Tostarena Northwest Reaches will challenge you to a free-running race. Get first place to win a power moon!"
@@ -841,6 +903,7 @@
         "type": "power-moon",
         "position": [1200, 278],
         "name": "28 | Sand Kingdom Timer Challenge 1",
+        "completionId": 28,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=806",
             "description": "This challenge appears on the top of the building at the Tostarena Northwest Reaches."
@@ -852,6 +915,7 @@
         "type": "power-moon",
         "position": [1222, 362],
         "name": "78 | Poster Cleanup",
+        "completionId": 78,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2603",
             "description": "A citizen at the Tostarena Northwest Reaches wants Bowser's posters removed from the building's walls. Use Cappy to remove all the posters then speak to him for a reward."
@@ -863,6 +927,7 @@
         "type": "power-moon",
         "position": [275, 648],
         "name": "43 | Employees Only",
+        "completionId": 43,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=1296",
             "description": "Look for a broken grate on the west side of town. Crawl inside of it to snag a power moon. Wait a minute -- you're not supposed to be here!"
@@ -874,6 +939,7 @@
         "type": "power-moon",
         "position": [830, 378],
         "name": "2 | Moon Shards in the Sand",
+        "completionId": 2,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=98",
             "description": "Collect 5 moon shards scattered around the poison swamp. One will require you to capture a moe-eye."
@@ -885,6 +951,7 @@
         "type": "power-moon",
         "position": [680, 300],
         "name": "29 | Sand Kingdom Timer Challenge 2",
+        "completionId": 29,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=831",
             "description": "Capture a moe-eye at the Moe-Eye Habitat and activate the P-switch on the southwestern side of the poison swamp."
@@ -896,6 +963,7 @@
         "type": "moon-rock-moon",
         "position": [230, 300],
         "name": "79 | Taking Notes: Running Down",
+        "completionId": 79,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2668",
             "description": "Using Jaxi, reach the treble clef hanging out between two cactuses, then collect all the music notes before time runs out."
@@ -907,6 +975,7 @@
         "type": "moon-rock-moon",
         "position": [350, 465],
         "name": "77 | Caught Hopping in the Desert",
+        "completionId": 77,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2570",
             "description": "To the west of Tostarena Town is a group of rabbits -- one of them carries a power moon. Use Cappy to stun them, then tag them."
@@ -918,6 +987,7 @@
         "type": "moon-rock-moon",
         "position": [210, 672],
         "name": "84 | Where the Transparent Platforms End",
+        "completionId": 84,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2917",
             "description": "Use the moon rock warp pipe near Tostarena Town. Capture a moe-eye to traverse the invisible moving platforms until you reach this power moon on the final platform."
@@ -929,6 +999,7 @@
         "type": "moon-rock-moon",
         "position": [210, 658],
         "name": "85 | Jump Onto the Transparent Lift",
+        "completionId": 85,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2975",
             "description": "Use the moon rock warp pipe near Tostarena Town. Capture a moe-eye and look to the right side of the pit below. Reach the platform there to collect a key that unlocks a power moon above."
@@ -940,6 +1011,7 @@
         "type": "moon-rock-moon",
         "position": [195, 985],
         "name": "70 | Mighty Leap from the Palm Tree",
+        "completionId": 70,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2397",
             "description": "This power moon sits on top of a palm tree at the Desert Oasis. Climb it and do a backflip off of it to reach it!"
@@ -951,6 +1023,7 @@
         "type": "moon-rock-moon",
         "position": [475, 910],
         "name": "82 | More Walking in the Desert!",
+        "completionId": 82,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2826",
             "description": "Speak with the red koopa standing alone in the desert near the poison swamp to begin the trace-walking challenge."
@@ -962,6 +1035,7 @@
         "type": "moon-rock-moon",
         "position": [565, 1027],
         "name": "74 | Island in the Poison Swamp",
+        "completionId": 74,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2488",
             "description": "Use Jaxi to run across the poison swamp to the island in the middle."
@@ -973,6 +1047,7 @@
         "type": "moon-rock-moon",
         "position": [766, 1113],
         "name": "76 | On the Eastern Pillar",
+        "completionId": 76,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2539",
             "description": "Use bullet bills to get to the Eastern Pillar. Click on the link for a demonstration."
@@ -984,6 +1059,7 @@
         "type": "moon-rock-moon",
         "position": [570, 648],
         "name": "87 | Sinking Colossal Ruins: Hurry!",
+        "completionId": 87,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=3092",
             "description": "Enter the moon rock warp pipe at the Tostarena Ruins. Use rocket flowers to navigate the wall to the middle platform, where there's a key to unlock this power moon."
@@ -995,6 +1071,7 @@
         "type": "moon-rock-moon",
         "position": [582, 654],
         "name": "86 | Colossal Ruins: Dash! Jump!",
+        "completionId": 86,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=3024",
             "description": "Enter the moon rock warp pipe at the Tostarena Ruins. Use rocket flowers to navigate up the wall to the high platform. Grab more rocket flower to launch yourself towards the platform below and collect the moon."
@@ -1006,6 +1083,7 @@
         "type": "moon-rock-moon",
         "position": [736, 687],
         "name": "72 | Into the Flowing Sands",
+        "completionId": 72,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2443",
             "description": "This moon is floating on some flowing sand near the Tostarena Ruins Round Tower."
@@ -1017,6 +1095,7 @@
         "type": "moon-rock-moon",
         "position": [765, 720],
         "name": "80 | Taking Notes: In the Wall Painting",
+        "completionId": 80,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2706",
             "description": "Use the 8-bit pipe at the Tostarena Ruins Round Tower. Reach the treble clef in the mural then collect all the music notes before time runs out."
@@ -1028,6 +1107,7 @@
         "type": "moon-rock-moon",
         "position": [997, 1050],
         "name": "89 | Freezing Waterway: Hidden Room",
+        "completionId": 89,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=3160",
             "description": "Enter the moon rock warp pipe in the desert to the east of the inverted pyramid. Navigate through the waterway until you reach a section with a high ceiling, then blast up and left to reach the hidden room."
@@ -1039,6 +1119,7 @@
         "type": "moon-rock-moon",
         "position": [1005, 1045],
         "name": "88 | Through the Freezing Waterway",
+        "completionId": 88,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=3108",
             "description": "Enter the moon rock warp pipe in the desert to the east of the inverted pyramid. Navigate through the waterway to collect this power moon at the end."
@@ -1050,6 +1131,7 @@
         "type": "moon-rock-moon",
         "position": [1117, 613],
         "name": "71 | On the North Pillar",
+        "completionId": 71,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2424",
             "description": "Use the power line that zips right over this pillar. De-capture the spark pylon and drop onto the moon below."
@@ -1061,6 +1143,7 @@
         "type": "moon-rock-moon",
         "position": [1270, 470],
         "name": "81 | Love at the Edge of the Desert",
+        "completionId": 81,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2741",
             "description": "Capture a goomba at the Tostarena Ruins and walk to the goombette at the northern edge of the desert."
@@ -1072,6 +1155,7 @@
         "type": "moon-rock-moon",
         "position": [1152, 330],
         "name": "83 | Sand Kingdom Master Cup",
+        "completionId": 83,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2864",
             "description": "The koopa at the Tostarena Northwest Reaches will challenge you to a free-running race. Get first place to win a power moon!"
@@ -1083,6 +1167,7 @@
         "type": "moon-rock-moon",
         "position": [793, 558],
         "name": "73 | In the Skies Above the Canyon",
+        "completionId": 73,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2459",
             "description": "Use the moving platforms from the Tostarena Ruins Round Tower to get to this power moon."
@@ -1094,6 +1179,7 @@
         "type": "moon-rock-moon",
         "position": [712, 275],
         "name": "75 | An Invisible Gleam",
+        "completionId": 75,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2505",
             "description": "Capture a moe-eye at the Moe-Eye Habitat and take the vertical lift up. Find the beam of light on one of the pillars and ground pound to reveal this power moon."
@@ -1105,6 +1191,7 @@
         "type": "power-moon",
         "position": [970, 790],
         "name": "69 | Peach in the Sand Kingdom",
+        "completionId": 69,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=2375",
             "description": "After completing the main story, talk to Princess Peach at the Tostarena Ruins Round Tower."
@@ -1116,6 +1203,7 @@
         "type": "multimoons",
         "position": [1030, 893],
         "name": "3 | Showdown on the Inverted Pyramid",
+        "completionId": 3,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=154",
             "description": "Defeat Hariet on top of the inverted pyramid."
@@ -1127,6 +1215,7 @@
         "type": "multimoons",
         "position": [1030, 883],
         "name": "4 | The Hole in the Desert",
+        "completionId": 4,
         "popupInfo": {
             "link": "https://youtu.be/8Nt27_46K6w?feature=shared&t=177",
             "description": "After defeating Hariet, a massive sandpit will open up in the ground. Drop down and defeat Knucklotec to collect this multimoon."
@@ -1138,6 +1227,7 @@
         "type": "purple-coins",
         "position": [207, 708],
         "name": "Coins 1-2",
+        "completionId": 90,
         "popupInfo": {
             "link": "https://youtu.be/Xvk_qlNv8eI?feature=shared&t=0",
             "description": "2x coins"
@@ -1149,6 +1239,7 @@
         "type": "purple-coins",
         "position": [240, 648],
         "name": "Coins 3-5",
+        "completionId": 91,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1160,6 +1251,7 @@
         "type": "purple-coins",
         "position": [240, 640],
         "name": "Coins 6-11",
+        "completionId": 92,
         "popupInfo": {
             "link": "",
             "description": "6x coins"
@@ -1171,6 +1263,7 @@
         "type": "purple-coins",
         "position": [270, 705],
         "name": "Coins 12-14",
+        "completionId": 93,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1182,6 +1275,7 @@
         "type": "purple-coins",
         "position": [320, 720],
         "name": "Coins 15-17",
+        "completionId": 94,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1193,6 +1287,7 @@
         "type": "purple-coins",
         "position": [356, 652],
         "name": "Coins 18-20",
+        "completionId": 95,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1204,6 +1299,7 @@
         "type": "purple-coins",
         "position": [665, 680],
         "name": "Coins 21-23",
+        "completionId": 96,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1215,6 +1311,7 @@
         "type": "purple-coins",
         "position": [782, 820],
         "name": "Coins 24-27",
+        "completionId": 97,
         "popupInfo": {
             "link": "",
             "description": "4x coins"
@@ -1226,6 +1323,7 @@
         "type": "purple-coins",
         "position": [629, 1014],
         "name": "Coins 28-31",
+        "completionId": 98,
         "popupInfo": {
             "link": "",
             "description": "4x coins"
@@ -1237,6 +1335,7 @@
         "type": "purple-coins",
         "position": [700, 1010],
         "name": "Coins 32-34",
+        "completionId": 99,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1248,6 +1347,7 @@
         "type": "purple-coins",
         "position": [680, 1005],
         "name": "Coins 35-39",
+        "completionId": 100,
         "popupInfo": {
             "link": "",
             "description": "5x coins"
@@ -1259,6 +1359,7 @@
         "type": "purple-coins",
         "position": [710, 730],
         "name": "Coins 40-42",
+        "completionId": 101,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1270,6 +1371,7 @@
         "type": "purple-coins",
         "position": [805, 698],
         "name": "Coins 43-45",
+        "completionId": 102,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1281,6 +1383,7 @@
         "type": "purple-coins",
         "position": [765, 563],
         "name": "Coins 46-48",
+        "completionId": 103,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1292,6 +1395,7 @@
         "type": "purple-coins",
         "position": [728, 335],
         "name": "Coins 49-51",
+        "completionId": 104,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1303,6 +1407,7 @@
         "type": "purple-coins",
         "position": [895, 480],
         "name": "Coins 52-55",
+        "completionId": 105,
         "popupInfo": {
             "link": "",
             "description": "4x coins"
@@ -1314,6 +1419,7 @@
         "type": "purple-coins",
         "position": [1220, 280],
         "name": "Coins 56-58",
+        "completionId": 106,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1325,6 +1431,7 @@
         "type": "purple-coins",
         "position": [1158, 283],
         "name": "Coins 59-64",
+        "completionId": 107,
         "popupInfo": {
             "link": "",
             "description": "6x coins"
@@ -1336,6 +1443,7 @@
         "type": "purple-coins",
         "position": [1163, 700],
         "name": "Coins 65-67",
+        "completionId": 108,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1347,6 +1455,7 @@
         "type": "purple-coins",
         "position": [965, 943],
         "name": "Coins 68-70",
+        "completionId": 109,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1358,6 +1467,7 @@
         "type": "purple-coins",
         "position": [1016, 888],
         "name": "Coins 71-73",
+        "completionId": 110,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1369,6 +1479,7 @@
         "type": "purple-coins",
         "position": [1042, 893],
         "name": "Coins 74-77",
+        "completionId": 111,
         "popupInfo": {
             "link": "",
             "description": "4x coins"
@@ -1380,6 +1491,7 @@
         "type": "purple-coins",
         "position": [143, 998],
         "name": "Coins 78-81",
+        "completionId": 112,
         "popupInfo": {
             "link": "",
             "description": "4x coins"
@@ -1391,6 +1503,7 @@
         "type": "purple-coins",
         "position": [287, 673],
         "name": "Coins 82-85",
+        "completionId": 113,
         "popupInfo": {
             "link": "",
             "description": "4x coins"
@@ -1402,6 +1515,7 @@
         "type": "purple-coins",
         "position": [326, 704],
         "name": "Coins 86-90",
+        "completionId": 114,
         "popupInfo": {
             "link": "",
             "description": "5x coins"
@@ -1413,6 +1527,7 @@
         "type": "purple-coins",
         "position": [1028, 931],
         "name": "Coins 91-93",
+        "completionId": 115,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
@@ -1424,6 +1539,7 @@
         "type": "purple-coins",
         "position": [770, 708],
         "name": "Coins 94-97",
+        "completionId": 116,
         "popupInfo": {
             "link": "",
             "description": "4x coins"
@@ -1435,6 +1551,7 @@
         "type": "purple-coins",
         "position": [155, 280],
         "name": "Coins 98-100",
+        "completionId": 117,
         "popupInfo": {
             "link": "",
             "description": "3x coins"
