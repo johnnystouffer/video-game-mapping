@@ -38,7 +38,6 @@ public class UserService {
         newUser.setRole("user");
 
         // the encryption has salt built in
-        newUser.setSalt("");
         newUser.setPasshash(passwordEncoder.encode(user.getPassword()));
 
         // save the user

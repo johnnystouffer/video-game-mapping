@@ -42,7 +42,6 @@ public class AuthControllerTest {
         user.setEmail("testuser@example.com");
         user.setUsername("testuser");
         user.setPasshash(passwordEncoder.encode("securepassword"));
-        user.setSalt("");
         user.setRole("user");
         userRepo.save(user);
     }

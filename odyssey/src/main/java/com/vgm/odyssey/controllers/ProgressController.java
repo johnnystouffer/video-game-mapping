@@ -29,6 +29,7 @@ public class ProgressController {
     @GetMapping(path="/{worldId}")
     public ResponseEntity<ProgressResponseDTO> getWorldProgress(@PathVariable String worldId,
                                                                 @AuthenticationPrincipal User u) {
+        if (u == null) { return ResponseEntity.status(401).build(); }
         return ResponseEntity.ok(new ProgressResponseDTO(progServ.getUserProg(u, worldId)));
     }
 

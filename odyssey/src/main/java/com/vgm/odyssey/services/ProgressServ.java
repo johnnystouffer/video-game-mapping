@@ -7,6 +7,8 @@ import com.vgm.odyssey.repositories.UserProgressRepo;
 import com.vgm.odyssey.repositories.WorldRepository;
 import org.springframework.stereotype.Service;
 
+import java.math.BigInteger;
+
 @Service
 public class ProgressServ {
 
@@ -38,7 +40,11 @@ public class ProgressServ {
         }
 
         String max = w.getMaxLimit();
-        if (Long.parseUnsignedLong(max, 16) < Long.parseUnsignedLong(progress, 16)) {
+
+        BigInteger maxNum = new BigInteger(max.replaceFirst("^0x", ""), 16);
+        BigInteger progressNum = new BigInteger(progress.replaceFirst("^0x", ""), 16);
+
+        if (progressNum.compareTo(maxNum) > 0) {
             throw new IllegalArgumentException("Invalid progress: " + progress);
         }
 

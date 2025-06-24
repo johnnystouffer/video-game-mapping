@@ -5,7 +5,8 @@ import jakarta.persistence.*;
 @Entity
 public class UserProgress {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "prog_id", updatable = false, nullable = false)
     private Long progId;
 
     @ManyToOne
@@ -27,14 +28,6 @@ public class UserProgress {
 
     public UserProgress() {
 
-    }
-
-    public Long getProgId() {
-        return progId;
-    }
-
-    public void setProgId(Long progId) {
-        this.progId = progId;
     }
 
     public User getUser() {

@@ -4,7 +4,7 @@ public class UpdateProgressRequestDTO {
 
     private String progress;
 
-    public UpdateProgressRequestDTO(String worldId, String progress) {
+    public UpdateProgressRequestDTO(String progress) {
         this.progress = progress;
     }
 

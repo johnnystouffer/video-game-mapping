@@ -23,10 +23,6 @@ public class User {
 
     @JsonIgnore
     @Column(nullable = false)
-    private String salt;
-
-    @JsonIgnore
-    @Column(nullable = false)
     private String role;
 
     public Long getUserId() {
@@ -51,14 +47,6 @@ public class User {
 
     public void setPasshash(String passhash) {
         this.passhash = passhash;
-    }
-
-    public String getSalt() {
-        return salt;
-    }
-
-    public void setSalt(String salt) {
-        this.salt = salt;
     }
 
     public String getRole() {
