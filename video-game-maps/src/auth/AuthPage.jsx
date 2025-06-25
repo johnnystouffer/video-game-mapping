@@ -1,23 +1,30 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './AuthPage.css';
 import { signUpUser } from '../services/login';
 import { validateEmail } from '../util/validate';
 
 const AuthPage = () => {  
+
+  const nav = useNavigate();
+
   const [error, setError] = useState('');
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!validateEmail(email) || password.length < 8 || password.length < 25) {
-      setError("Please enter a valid email and a password wight a length between 8-25");
+    if (!validateEmail(email) || password.length < 8 || password.length > 25 
+  || confirmPassword !== password || username.length) {
+      setError("Please enter a valid email and a password with a length between 8-25");
+      return;
     }
     try {
       await signUpUser(username, email, password);
-      // TODO: redirect to home/dashboard
+      nav('/');
     } catch (error) {
       setError(error.message);
     }
@@ -34,7 +41,8 @@ const AuthPage = () => {
             onChange={(e) => setEmail(e.target.value)} required />
           <input type="password" placeholder="Password" value={password}
             onChange={(e) => setPassword(e.target.value)} required />
-          <input type="password" placeholder="Confirm Password" required />
+          <input type="password" placeholder="Confirm Password" value={confirmPassword}
+          onChange={(e) => {setConfirmPassword(e.target.value)}} required/>
           <button id="sign-up-button">Submit</button>
         </form>
         {/* <button id="google-button" onClick={handleGoogleLogin}>

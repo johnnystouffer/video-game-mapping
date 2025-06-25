@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './AuthPage.css';
 import { validateEmail } from '../util/validate';
+import { loginUser } from '../services/login';
 
 const LogIn = () => {
+
+  const nav = useNavigate();
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -17,8 +20,7 @@ const LogIn = () => {
       return;
     }
     await loginUser(email, password);
-
-    
+    nav('/');
   };
 
   return (
