@@ -18,7 +18,7 @@ const AuthPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validateEmail(email) || password.length < 8 || password.length > 25 
-  || confirmPassword !== password || username.length) {
+  || confirmPassword !== password) {
       setError("Please enter a valid email and a password with a length between 8-25");
       return;
     }
