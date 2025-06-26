@@ -1,5 +1,6 @@
 package com.vgm.odyssey.controllers;
 
+import com.vgm.odyssey.dtos.MaxLimitDTO;
 import com.vgm.odyssey.dtos.ProgressResponseDTO;
 import com.vgm.odyssey.dtos.UpdateProgressRequestDTO;
 import com.vgm.odyssey.models.User;
@@ -39,5 +40,12 @@ public class ProgressController {
                                             @AuthenticationPrincipal User u) {
         progServ.updateOrCreateWorldProgress(u, worldId, dto.getProgress());
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping(path = "max/{worldId}")
+    public ResponseEntity<MaxLimitDTO> getMaxLimit(@PathVariable String worldId,
+                                                   @AuthenticationPrincipal User u) {
+        if (u == null) { return ResponseEntity.status(401).build(); }
+        return ResponseEntity.ok(new MaxLimitDTO(progServ.getMaxLimitOfWorld(worldId)));
     }
 }

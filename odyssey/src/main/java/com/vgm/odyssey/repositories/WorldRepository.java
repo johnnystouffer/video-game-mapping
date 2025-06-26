@@ -9,5 +9,4 @@ import java.util.List;
 @Repository
 public interface WorldRepository extends JpaRepository<World, Long> {
     World getWorldByMapName(String mapName);
-
 }

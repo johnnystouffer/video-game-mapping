@@ -3,6 +3,8 @@ import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import '../css/LeafletMap.css';
+import { getMaxLimit, retreiveData } from '../services/progress.js'
+
 
 const MapReset = ({ refreshTrigger }) => {
     const map = useMap();
@@ -10,7 +12,6 @@ const MapReset = ({ refreshTrigger }) => {
     useEffect(() => {
             setTimeout(() => {
                 map.invalidateSize();
-                console.log("Happened")
             }, 400); 
     }, [, map]);
 
@@ -33,7 +34,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
                 console.log(`public/markers/${mapId}.json`)
                 const response = await fetch(`../markers/${mapId}.json`);
                 if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error(response.status);
                 }
                 const data = await response.json();
 
@@ -60,6 +61,32 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
 
     const [completedMarkers, setMarkersCompleted] = useState(8);
     const [totalMarkers, setTotalMarkers] = useState(25);
+    const [progress, setProgress] = useState('');
+
+    useEffect(() => {
+        const fetchProgress = async () => {
+            try {
+                const binProgress = await retreiveData(mapId);
+                if (!binProgress) return;
+
+                const maxProgress = await getMaxLimit(mapId);
+                if (!maxProgress) return;
+
+                const completed = [...binProgress].filter(c => c === '1').length;
+                const total = [...maxProgress].filter(c => c === '1').length;
+
+                setMarkersCompleted(completed);
+                setTotalMarkers(total);
+
+                setProgress(binProgress);
+            } catch (e) {
+                console.error('Failed to fetch progress:', e);
+            }
+        };
+
+        fetchProgress();
+    }, [mapId]);
+
 
     return (
         <>

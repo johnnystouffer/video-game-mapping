@@ -4,6 +4,23 @@ import maps from '../items.js'
 import Card from './Card.jsx'
 import '../css/SearchMaps.css'
 
+const AuthButtons = () => {
+  return (
+    <>
+      <button className="auth-button"><Link className='auth-text' to='/auth/signup'><p>Sign Up</p></Link></button>
+      <button className="auth-button"><Link className='auth-text' to='/auth/login'><p>Log In</p></Link></button>
+    </>
+  );
+}
+
+const AuthConfirmed = (params) => {
+  return (
+    <>
+      <h3 className='welcome-statement'>Welcome {params.username}!</h3>
+    </>
+  );
+}
+
 const SearchMaps = () => {
 
     // Retrieve the text in the textbox whenever it is changed
@@ -27,8 +44,7 @@ const SearchMaps = () => {
           <h1>Odyssey Maps</h1>
         </div>
         <div className="auth-buttons">
-          <button className="auth-button"><Link className='auth-text' to='/auth/signup'><p>Sign Up</p></Link></button>
-          <button className="auth-button"><Link className='auth-text' to='/auth/login'><p>Log In</p></Link></button>
+          {localStorage.hasOwnProperty('token') ? <AuthConfirmed username={localStorage.getItem('username')}/> : <AuthButtons/>}
         </div>
       </div>
       <div className='search-box'>

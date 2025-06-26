@@ -77,6 +77,11 @@ input {
     font-size: large;
 }
 
+.welcome-statement {
+    font-family: nintendo;
+    color: white;
+}
+
 #login-signin-button:hover {
     background-color: rgb(65, 65, 65);
     padding: 11px;
@@ -131,5 +136,7 @@ input {
         padding: 6px;
     }
 
-    
+    .welcome-statement {
+        display: none;
+    }    
 }

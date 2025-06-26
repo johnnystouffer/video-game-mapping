@@ -59,4 +59,8 @@ public class ProgressServ {
         repo.save(p);
     }
 
+    public String getMaxLimitOfWorld(String worldName) {
+        return world.getWorldByMapName(worldName).getMaxLimit();
+    }
+
 }
