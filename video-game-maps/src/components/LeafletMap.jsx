@@ -1,67 +1,105 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet';
-import "leaflet/dist/leaflet.css";
+import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../css/LeafletMap.css';
-import { getMaxLimit, retreiveData } from '../services/progress.js'
-
+import { getMaxLimit, retreiveData, overlayRight } from '../services/progress.js';
 
 const MapReset = ({ refreshTrigger }) => {
     const map = useMap();
 
     useEffect(() => {
-            setTimeout(() => {
-                map.invalidateSize();
-            }, 400); 
-    }, [, map]);
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 400);
+    }, [map, refreshTrigger]);
 
     return null;
 };
 
+
 const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
-    
+    const navigate = useNavigate();
     const bounds = [
         [0, 0],
         [1333, 1319]
     ];
 
-    const [checkpoint_markers, setCheckpointMarkers] = useState([]);
+    const CompletionButton = ({ totalMarker, progress, completionId }) => {
+
+        if (progress[totalMarker - completionId] === '1') {
+            return (
+                <div onClick={() => handleIncomplete(completionId)} id="completed-button">
+                    Completed
+                </div>
+            );
+        }
+        return (
+            <div onClick={() => handleCompleted(completionId)} id="completed-button">
+                Mark Complete
+            </div>
+        );
+    };
+
+    const [checkpointMarkers, setCheckpointMarkers] = useState([]);
+    const [completedMarkers, setCompletedMarkers] = useState(0);
+    const [totalMarkers, setTotalMarkers] = useState(0);
+    const [progress, setProgress] = useState('');
+
+    const setCharAt = (str, index, char) => {
+        return str.substring(0, index) + char + str.substring(index + 1);
+    };
+
+    const handleCompleted = (completionId) => {
+        if (totalMarkers === 0) {
+            navigate('/auth/login');
+            return;
+        }
+
+        const index = totalMarkers - completionId;
+        if (progress[index] === '1') return;
+
+        const updatedProgress = setCharAt(progress, index, '1');
+        setProgress(updatedProgress);
+        setCompletedMarkers(prev => prev + 1);
+    };
+
+    const handleIncomplete = (completionId) => {
+        if (totalMarkers === 0) {
+            navigate('/auth/login');
+            return;
+        }
+
+        const index = totalMarkers - completionId;
+        if (progress[index] === '0') return;
+
+        const updatedProgress = setCharAt(progress, index, '0');
+        setProgress(updatedProgress);
+        setCompletedMarkers(prev => prev - 1);
+
+    }
+
 
     useEffect(() => {
-        // load the json for the markers
         const fetchMarkers = async () => {
             try {
-                console.log(`public/markers/${mapId}.json`)
                 const response = await fetch(`../markers/${mapId}.json`);
-                if (!response.ok) {
-                    throw new Error(response.status);
-                }
+                if (!response.ok) throw new Error(response.status);
                 const data = await response.json();
-
                 setCheckpointMarkers(data);
-
             } catch (error) {
-                console.error("Error fetching markers:", error);
+                throw new Error(error);
             }
         };
 
         fetchMarkers();
     }, [mapId]);
 
-    const filteredMarkers = checkpoint_markers.filter(marker => {
-        const currState = buttonStates.find(state => state[1] === marker.type);
-        return (currState ? currState[0] : true) && (marker.map === mapId);
+    const filteredMarkers = checkpointMarkers.filter((marker) => {
+        const state = buttonStates.find((s) => s[1] === marker.type);
+        return (state ? state[0] : true) && marker.map === mapId;
     });
-
-    const handleCompleted = () => {
-        console.log("Got it connected");
-    }
-
-    // Filter markers based on buttonStates and the map it belongs to
-
-    const [completedMarkers, setMarkersCompleted] = useState(0);
-    const [totalMarkers, setTotalMarkers] = useState(0);
-    const [progress, setProgress] = useState('');
 
     useEffect(() => {
         const fetchProgress = async () => {
@@ -72,13 +110,15 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
                 const maxProgress = await getMaxLimit(mapId);
                 if (!maxProgress) return;
 
-                const completed = [...binProgress].filter(c => c === '1').length;
-                const total = [...maxProgress].filter(c => c === '1').length;
+                const completed = [...binProgress].filter((c) => c === '1').length;
+                const total = [...maxProgress].filter((c) => c === '1').length;
 
-                setMarkersCompleted(completed);
+                setCompletedMarkers(completed);
                 setTotalMarkers(total);
 
-                setProgress(binProgress);
+                const progString = '0'.repeat(maxProgress.length);
+
+                setProgress(overlayRight(binProgress, progString));
             } catch (e) {
                 console.error('Failed to fetch progress:', e);
             }
@@ -87,44 +127,50 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         fetchProgress();
     }, [mapId]);
 
-
     return (
         <>
-            {totalMarkers > 0 && <div className='top-container'>
-                <div className='status-container'>
-                    <h3 id='status-text'>{completedMarkers}/{totalMarkers} </h3>
-                    <div id='bar-container'>
-                        <div id='actual-bar' style={{width: (completedMarkers / totalMarkers)*100 + '%'}}></div>
+            {totalMarkers > 0 && (
+                <div className="top-container">
+                    <div className="status-container">
+                        <h3 id="status-text">{completedMarkers}/{totalMarkers}</h3>
+                        <div id="bar-container">
+                            <div id="actual-bar" style={{ width: `${(completedMarkers / totalMarkers) * 100}%` }}></div>
+                        </div>
+                        <h3>{((completedMarkers / totalMarkers) * 100).toLocaleString(undefined, { maximumFractionDigits: 2 })}%</h3>
                     </div>
-                    <h3> {(completedMarkers / totalMarkers)*100}%</h3>
                 </div>
-            </div>}
+            )}
 
             <MapContainer
-                center={[666, 660]} 
-                zoom={0} 
-                minZoom={-2} 
-                maxZoom={1} 
-                crs={L.CRS.Simple} 
+                center={[666, 660]}
+                zoom={0}
+                minZoom={-2}
+                maxZoom={1}
+                crs={L.CRS.Simple}
             >
-                <MapReset refreshTrigger={refreshTrigger} /> 
-
+                <MapReset refreshTrigger={refreshTrigger} />
                 <ImageOverlay url={mapUrl} bounds={bounds} />
 
                 {filteredMarkers.map((marker, index) => {
                     const icon = new L.Icon({
                         iconUrl: marker.iconUrl,
-                        iconSize: marker.type === 'odyssey' ? [30, 60] : [30, 30],
+                        iconSize: marker.type === 'odyssey' ? [30, 60] : [30, 30]
                     });
 
                     return (
                         <Marker key={index} position={marker.position} icon={icon}>
-                            <Popup > 
-                                <a target='_blank' rel="noopener noreferrer" href={marker.popupInfo.link}>
-                                    <h4 id='marker-name'>{marker.name}</h4>
+                            <Popup>
+                                <a target="_blank" rel="noopener noreferrer" href={marker.popupInfo.link}>
+                                    <h4 id="marker-name">{marker.name}</h4>
                                 </a>
                                 <p>{marker.popupInfo.description}</p>
-                                <div onClick={handleCompleted} id='completed-button'>Mark Complete</div>
+                                {marker.completionId && (
+                                    <CompletionButton
+                                        totalMarker={totalMarkers}
+                                        progress={progress}
+                                        completionId={marker.completionId}
+                                    />
+                                )}
                             </Popup>
                         </Marker>
                     );

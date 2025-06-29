@@ -20,12 +20,10 @@ public class ProgressServ {
 
     private final UserProgressRepo repo;
     private final WorldRepository world;
-    private final UserProgressRepo userProgressRepo;
 
-    public ProgressServ(UserProgressRepo repo, WorldRepository world, UserProgressRepo userProgressRepo) {
+    public ProgressServ(UserProgressRepo repo, WorldRepository world) {
         this.repo = repo;
         this.world = world;
-        this.userProgressRepo = userProgressRepo;
     }
 
     public String getUserProg(User u, String worldName) {
@@ -59,12 +57,17 @@ public class ProgressServ {
         UserProgress p = repo.getUserProgressByUser_UserIdAndWorld_WorldId(u.getUserId(), w.getWorldId());
 
         if (p == null) {
-            p = new UserProgress();
-            p.setWorld(w);
-            p.setUser(u);
+            System.out.println("We got here");
+            UserProgress newUser = new UserProgress();
+            newUser.setWorld(w);
+            newUser.setUser(u);
+            newUser.setProgress(progress);
+            repo.save(newUser);
+        } else {
+            p.setProgress(progress);
+            repo.save(p);
+
         }
-        p.setProgress(progress);
-        repo.save(p);
     }
 
     public String getMaxLimitOfWorld(String worldName) {
@@ -73,7 +76,7 @@ public class ProgressServ {
 
     public List<AllProgressDTO> getAllProgFromUser(User u) {
 
-        List<UserProgress> progresses = userProgressRepo.getAllByUser(u);
+        List<UserProgress> progresses = repo.getAllByUser(u);
 
         return progresses.stream().map(
                 p -> new AllProgressDTO(p.getWorld().getMapName(),

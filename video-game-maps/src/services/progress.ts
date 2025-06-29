@@ -97,3 +97,13 @@ export function hex2bin(hex: string) : string {
 
     return out;
 }
+
+export function overlayRight(shorter: string, longer: string) {
+    const start = longer.length - shorter.length;
+    return longer.split('').map((bit, i) => {
+        if (i >= start) {
+            return shorter[i - start];
+        }
+        return bit;
+    }).join('');
+}

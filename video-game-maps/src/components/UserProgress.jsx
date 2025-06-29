@@ -36,7 +36,7 @@ const UserProgress = () => {
             nav('/auth/login');
         }
     }, [nav]);
-    
+
     useEffect(() => {
         const getUserData = async () => {
             const data = await getAllUserData();
@@ -51,7 +51,6 @@ const UserProgress = () => {
         <div className="user-progress">
             <h2 className="title-bar">USER PROGRESS</h2>
             <div className='game-total'>
-                <p><b>Game Progress</b></p>
                 <p>{sum}/{total} ({((sum/total)*100).toFixed(1)}%)</p>
                 <div className='total-container'>
                     <div className={((sum/total)*100) == 100 ? 'gold-bar' : 'actual-bar'} style={{width: (sum / total)*100 + '%'}}></div>
@@ -67,14 +66,19 @@ const UserProgress = () => {
                     </div>
                 ))}
             </div>
-            <div className="sign-out-container">
-            <button className="sign-out-button" onClick={() => {
-                localStorage.removeItem('token');
-                localStorage.removeItem('username');
-                nav('/');
-            }}>
-                Sign Out
-            </button>
+            <div className="nav-container">
+                <button className="nav-button" onClick={() => {
+                    nav('/');
+                }}>
+                    Home
+                </button>
+                <button className="nav-button" onClick={() => {
+                    localStorage.removeItem('token');
+                    localStorage.removeItem('username');
+                    nav('/');
+                }}>
+                    Sign Out
+                </button>
             </div>
         </div>
     );
