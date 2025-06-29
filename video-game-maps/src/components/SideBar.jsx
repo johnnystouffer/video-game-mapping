@@ -7,7 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
 
 
-const Map = () => {
+const SideBar = () => {
     const { id } = useParams();
     const mapObj = mapdata.find((obj) => obj.id === id);
 
@@ -101,4 +101,4 @@ const Map = () => {
 }
 
 
-export default Map;
+export default SideBar;

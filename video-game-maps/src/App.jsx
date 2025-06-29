@@ -1,5 +1,5 @@
 import SearchMaps from './components/SearchMaps.jsx'
-import Map from './components/Map.jsx'
+import SideBar from './components/SideBar.jsx'
 import AuthPage from './auth/AuthPage.jsx'
 import LogIn from './auth/LogIn.jsx'
 import UserProgress from './components/UserProgress.jsx'
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<SearchMaps/>}/>
-          <Route path='/:id' element={<Map/>}/>
+          <Route path='/:id' element={<SideBar/>}/>
           <Route path='/auth/signup' element={<AuthPage />} />
           <Route path='/auth/login' element={<LogIn />} />
           <Route path='/profile' element={<UserProgress />} />

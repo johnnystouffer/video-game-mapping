@@ -67,7 +67,7 @@ h1 {
 .background-top {
     padding-top: 5%;
     padding-bottom: 15px;
-    background: url("../public/assets/background.png");
+    background: url("/assets/background.png");
     background-size: auto;
     background-position: center;
 }
@@ -123,8 +123,22 @@ input {
 
 .id-card:hover
  {
-    transform: sclae(1.1);
+    transform: scale(1.1);
  }
+
+#profile-link {
+  color: white;
+  border-bottom: 3px solid white; 
+  padding-bottom: 2px; 
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+#profile-link:hover {
+  text-shadow: rgb(255, 195, 195) 2px 0 20px;   
+}
+
+
 @media (max-width: 650px) {
     #login-signin-button {
         font-size: small;

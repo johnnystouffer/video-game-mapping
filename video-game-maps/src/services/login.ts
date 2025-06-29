@@ -4,6 +4,11 @@ interface AuthResponse {
     token: string;
 }
 
+interface UserResponse {
+    email: string;
+    username: string;
+}
+
 export const loginUser = async (email: string, password: string) => {
     try {
         const res = await axios.post<AuthResponse>(`/auth/login`, {
@@ -14,6 +19,8 @@ export const loginUser = async (email: string, password: string) => {
         const token = res.data.token;
         if (token) {
             localStorage.setItem('token', token);
+            const username = await getUsername();
+            localStorage.setItem('username', username);
         }
 
         return token;
@@ -23,6 +30,17 @@ export const loginUser = async (email: string, password: string) => {
         throw e;
     }
     
+}
+
+const getUsername = async () => {
+    try {
+        const res = await axios.get<UserResponse>(`/users/me`);
+
+        const username = res.data.username;
+        return username;
+    } catch (e: any) {
+        return "not working";
+    }
 }
 
 

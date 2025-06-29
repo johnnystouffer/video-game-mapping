@@ -51,6 +51,7 @@ export const getAllUserData = async () => {
 
     try {
         const res = await axios.get<AllProgressResponse[]>(`/prog/all`);
+
         const allProgress = res.data.map(({mapId, progress, maxLimit}) => {
             const progBin = hex2bin(progress);
             const maxBin = hex2bin(maxLimit);

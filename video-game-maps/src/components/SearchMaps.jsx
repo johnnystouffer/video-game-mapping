@@ -16,7 +16,7 @@ const AuthButtons = () => {
 const AuthConfirmed = (params) => {
   return (
     <>
-      <h3 className='welcome-statement'>Welcome {params.username}!</h3>
+      <h3 className='welcome-statement'>Welcome <Link id='profile-link' to={'/profile'}>{params.username}</Link>!</h3>
     </>
   );
 }
@@ -36,6 +36,8 @@ const SearchMaps = () => {
         });
     };
     const filteredData = querySearch(inputText);
+
+    console.log(localStorage.getItem('token'));
 
   return (
     <>

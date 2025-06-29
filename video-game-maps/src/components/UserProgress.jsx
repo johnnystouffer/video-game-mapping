@@ -1,4 +1,7 @@
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../css/UserProgress.css';
+import { getAllUserData } from '../services/progress';
 
 const userMap = {
     "cap-kingdom": ["Cap Kingdom", 9, 10],
@@ -25,6 +28,22 @@ const userMap = {
 
 const UserProgress = () => {
 
+    const nav = useNavigate();
+
+    useEffect(() => {
+        const token = localStorage.getItem('token');
+        if (!token) {
+            nav('/auth/login');
+        }
+    }, [nav]);
+    
+    useEffect(() => {
+        const getUserData = async () => {
+            const data = await getAllUserData();
+        }
+        getUserData();
+    }, []);
+
     const sum = Array.from(Object.values(userMap)).reduce((acc, curr) => acc + curr[1], 0);
     const total = Array.from(Object.values(userMap)).reduce((acc, curr) => acc + curr[2], 0);
 
@@ -47,6 +66,15 @@ const UserProgress = () => {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="sign-out-container">
+            <button className="sign-out-button" onClick={() => {
+                localStorage.removeItem('token');
+                localStorage.removeItem('username');
+                nav('/');
+            }}>
+                Sign Out
+            </button>
             </div>
         </div>
     );
