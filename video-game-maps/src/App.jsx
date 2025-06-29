@@ -15,7 +15,7 @@ function App() {
           <Route path='/:id' element={<Map/>}/>
           <Route path='/auth/signup' element={<AuthPage />} />
           <Route path='/auth/login' element={<LogIn />} />
-          <Route path='/progress' element={<UserProgress />} />
+          <Route path='/profile' element={<UserProgress />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,5 +1,6 @@
 package com.vgm.odyssey.services;
 
+import com.vgm.odyssey.dtos.AllProgressDTO;
 import com.vgm.odyssey.models.User;
 import com.vgm.odyssey.models.UserProgress;
 import com.vgm.odyssey.models.World;
@@ -8,16 +9,23 @@ import com.vgm.odyssey.repositories.WorldRepository;
 import org.springframework.stereotype.Service;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 public class ProgressServ {
 
     private final UserProgressRepo repo;
     private final WorldRepository world;
+    private final UserProgressRepo userProgressRepo;
 
-    public ProgressServ(UserProgressRepo repo, WorldRepository world) {
+    public ProgressServ(UserProgressRepo repo, WorldRepository world, UserProgressRepo userProgressRepo) {
         this.repo = repo;
         this.world = world;
+        this.userProgressRepo = userProgressRepo;
     }
 
     public String getUserProg(User u, String worldName) {
@@ -61,6 +69,17 @@ public class ProgressServ {
 
     public String getMaxLimitOfWorld(String worldName) {
         return world.getWorldByMapName(worldName).getMaxLimit();
+    }
+
+    public List<AllProgressDTO> getAllProgFromUser(User u) {
+
+        List<UserProgress> progresses = userProgressRepo.getAllByUser(u);
+
+        return progresses.stream().map(
+                p -> new AllProgressDTO(p.getWorld().getMapName(),
+                        p.getProgress(),
+                        p.getWorld().getMaxLimit())
+        ).toList();
     }
 
 }

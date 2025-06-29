@@ -4,8 +4,14 @@ interface ProgressResponse {
     progress: string;
 }
 
+interface AllProgressResponse {
+    mapId: string;
+    progress: string;
+    maxLimit: string;
+}
+
 export const retreiveData = async (mapId: string) => {
-    if (!localStorage.hasOwnProperty('token')) {
+    if (!localStorage.getItem('token')) {
         console.log("this is the error");
         return "";
     }
@@ -23,7 +29,7 @@ export const retreiveData = async (mapId: string) => {
 
 
 export const getMaxLimit = async (mapId: string) => {
-    if (!localStorage.hasOwnProperty('token')) {
+    if (!localStorage.getItem('token')) {
         return "";
     }
 
@@ -37,7 +43,33 @@ export const getMaxLimit = async (mapId: string) => {
     }
 }
 
-function hex2bin(hex: string) : string {
+
+export const getAllUserData = async () => {
+    if (!localStorage.getItem('token')) {
+        return [];
+    }
+
+    try {
+        const res = await axios.get<AllProgressResponse[]>(`/prog/all`);
+        const allProgress = res.data.map(({mapId, progress, maxLimit}) => {
+            const progBin = hex2bin(progress);
+            const maxBin = hex2bin(maxLimit);
+
+            const completed = [...progBin].filter(c => c == '1').length;
+            const max = [...maxBin].filter(c => c == '1').length;
+
+            return { mapId, completed, max };
+        });
+        return allProgress;
+
+
+    } catch (e: any) {
+        console.log(e.message);
+        return [];
+    }
+}
+
+export function hex2bin(hex: string) : string {
     hex = hex.replace("0x", "").toLowerCase();
     var out = "";
     for(var c of hex) {

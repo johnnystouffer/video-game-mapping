@@ -59,8 +59,8 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
 
     // Filter markers based on buttonStates and the map it belongs to
 
-    const [completedMarkers, setMarkersCompleted] = useState(8);
-    const [totalMarkers, setTotalMarkers] = useState(25);
+    const [completedMarkers, setMarkersCompleted] = useState(0);
+    const [totalMarkers, setTotalMarkers] = useState(0);
     const [progress, setProgress] = useState('');
 
     useEffect(() => {
@@ -90,7 +90,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
 
     return (
         <>
-            <div className='top-container'>
+            {totalMarkers > 0 && <div className='top-container'>
                 <div className='status-container'>
                     <h3 id='status-text'>{completedMarkers}/{totalMarkers} </h3>
                     <div id='bar-container'>
@@ -98,7 +98,8 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
                     </div>
                     <h3> {(completedMarkers / totalMarkers)*100}%</h3>
                 </div>
-            </div>
+            </div>}
+
             <MapContainer
                 center={[666, 660]} 
                 zoom={0} 

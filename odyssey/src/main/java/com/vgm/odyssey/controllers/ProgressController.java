@@ -1,5 +1,6 @@
 package com.vgm.odyssey.controllers;
 
+import com.vgm.odyssey.dtos.AllProgressDTO;
 import com.vgm.odyssey.dtos.MaxLimitDTO;
 import com.vgm.odyssey.dtos.ProgressResponseDTO;
 import com.vgm.odyssey.dtos.UpdateProgressRequestDTO;
@@ -13,6 +14,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
+
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -47,5 +50,14 @@ public class ProgressController {
                                                    @AuthenticationPrincipal User u) {
         if (u == null) { return ResponseEntity.status(401).build(); }
         return ResponseEntity.ok(new MaxLimitDTO(progServ.getMaxLimitOfWorld(worldId)));
+    }
+
+    @GetMapping(path = "/all")
+    public ResponseEntity<List<AllProgressDTO>> getAllProgress(@AuthenticationPrincipal User u) {
+        if (u == null) { return ResponseEntity.status(401).build(); }
+
+        List<AllProgressDTO> results = progServ.getAllProgFromUser(u);
+
+        return ResponseEntity.ok(results);
     }
 }
