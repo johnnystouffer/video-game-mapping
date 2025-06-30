@@ -1,13 +1,18 @@
+FROM eclipse-temurin:17-jdk as build
+
+WORKDIR /app
+
+COPY . .
+
+RUN apt-get update && apt-get install -y maven && mvn clean package -DskipTests
+
+
 FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
-# Copy pom.xml and download dependencies
-COPY pom.xml ./
-RUN apt-get update && apt-get install -y maven && mvn dependency:go-offline
+COPY --from=build /app/target/odyssey-0.0.1-SNAPSHOT.jar app.jar
 
-# Copy the entire source code and build
-COPY . ./
-RUN mvn clean package -DskipTests
+EXPOSE 8080
 
-CMD ["java", "-jar", "target/odyssey.jar"]
+CMD ["java", "-jar", "app.jar"]
