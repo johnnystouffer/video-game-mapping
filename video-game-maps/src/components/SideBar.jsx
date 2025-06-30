@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import Buttons from './Buttons.jsx';
 import '../css/Map.css';
 import mapdata from '../mapinfo.js';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
 
@@ -10,6 +10,7 @@ import LeafletMap from './LeafletMap.jsx';
 const SideBar = () => {
     const { id } = useParams();
     const mapObj = mapdata.find((obj) => obj.id === id);
+    const nav = useNavigate();
 
     if (!mapObj) {
         return (
@@ -28,10 +29,9 @@ const SideBar = () => {
     const buttons = mapObj.buttons || [];
 
     const [buttonStates, setButtonStates] = useState(buttons.map((button) => [false, button[1]]));
-    const [isToggled, setToggle] = useState(false);
     const [refreshMap, setRefreshMap] = useState(false);
-    const [completionButtons, setCompletion] = useState();
-    const [percent, setPercent] = useState(0);
+    const [filterMode, setFilterMode] = useState('all');
+
 
     // Create refs for sidebar and main content
     const sideBarRef = useRef(null);
@@ -49,6 +49,14 @@ const SideBar = () => {
         setToggle((prev) => !prev);
         triggerMapRefresh();
     };
+
+    const handleFiltering = (change) => {
+
+        if (!localStorage.getItem('token')) {
+            nav('/auth/login');
+        }
+        setFilterMode(change.target.value);
+    }
 
     const handleButtonClick = (index) => {
         const newButtonStates = [...buttonStates];
@@ -86,6 +94,20 @@ const SideBar = () => {
                             />
                         ))}
                     </div>
+
+                    <div className="filter-dropdown">
+                        <label htmlFor="progress-filter">Filter: </label>
+                        <select
+                            id="progress-filter"
+                            value={filterMode}
+                            onChange={handleFiltering}
+                        >
+                            <option value="all">Show Everything</option>
+                            <option value="incomplete">Show Only Incomplete</option>
+                            <option value="completed">Show Only Completed</option>
+                        </select>
+                    </div>
+
                 </div>
                 <div className='main-content' ref={mainContentRef}>
                     <LeafletMap 
@@ -93,6 +115,7 @@ const SideBar = () => {
                         mapUrl={mapObj.mapImage} 
                         mapId={mapObj.id} 
                         refreshTrigger={refreshMap} 
+                        filterMode={filterMode}
                     />
                 </div>
             </div>

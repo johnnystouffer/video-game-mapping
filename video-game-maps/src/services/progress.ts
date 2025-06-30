@@ -70,6 +70,18 @@ export const getAllUserData = async () => {
     }
 }
 
+export const sendUserProgress = async (worldId: string, prog: string): Promise<void> => {
+    if (!localStorage.getItem('token')) return;
+
+    try {
+        const progress = bin2hex(prog);
+        await axios.put(`/prog/${worldId}`, { progress });
+    } catch (e: any) {
+        console.error("Failed to send user progress:", e.message);
+    }
+};
+
+
 export function hex2bin(hex: string) : string {
     hex = hex.replace("0x", "").toLowerCase();
     var out = "";
@@ -98,6 +110,40 @@ export function hex2bin(hex: string) : string {
     return out;
 }
 
+export function bin2hex(bin: string): string {
+    if (bin.length % 4 !== 0) {
+        // Pad with leading zeros to make the length a multiple of 4
+        bin = bin.padStart(Math.ceil(bin.length / 4) * 4, '0');
+    }
+
+    let out = "";
+    for (let i = 0; i < bin.length; i += 4) {
+        const chunk = bin.slice(i, i + 4);
+        switch(chunk) {
+            case "0000": out += "0"; break;
+            case "0001": out += "1"; break;
+            case "0010": out += "2"; break;
+            case "0011": out += "3"; break;
+            case "0100": out += "4"; break;
+            case "0101": out += "5"; break;
+            case "0110": out += "6"; break;
+            case "0111": out += "7"; break;
+            case "1000": out += "8"; break;
+            case "1001": out += "9"; break;
+            case "1010": out += "a"; break;
+            case "1011": out += "b"; break;
+            case "1100": out += "c"; break;
+            case "1101": out += "d"; break;
+            case "1110": out += "e"; break;
+            case "1111": out += "f"; break;
+            default: return "";
+        }
+    }
+
+    return "0x" + out;
+}
+
+
 export function overlayRight(shorter: string, longer: string) {
     const start = longer.length - shorter.length;
     return longer.split('').map((bit, i) => {
@@ -107,3 +153,4 @@ export function overlayRight(shorter: string, longer: string) {
         return bit;
     }).join('');
 }
+

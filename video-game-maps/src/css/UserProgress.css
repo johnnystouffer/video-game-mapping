@@ -123,3 +123,15 @@
     transform: scale(1.05);
 }
 
+.empty-text-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.empty-text {
+  color: white;
+}

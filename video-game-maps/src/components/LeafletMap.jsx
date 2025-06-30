@@ -4,7 +4,7 @@ import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../css/LeafletMap.css';
-import { getMaxLimit, retreiveData, overlayRight } from '../services/progress.js';
+import { getMaxLimit, retreiveData, overlayRight, sendUserProgress } from '../services/progress.js';
 
 const MapReset = ({ refreshTrigger }) => {
     const map = useMap();
@@ -19,7 +19,7 @@ const MapReset = ({ refreshTrigger }) => {
 };
 
 
-const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
+const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode }) => {
     const navigate = useNavigate();
     const bounds = [
         [0, 0],
@@ -51,9 +51,11 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         return str.substring(0, index) + char + str.substring(index + 1);
     };
 
-    const handleCompleted = (completionId) => {
+    const handleCompleted = async (completionId) => {
         if (totalMarkers === 0) {
             navigate('/auth/login');
+            return;
+        } else if (totalMarkers === 3) {
             return;
         }
 
@@ -61,11 +63,14 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         if (progress[index] === '1') return;
 
         const updatedProgress = setCharAt(progress, index, '1');
+
+        await sendUserProgress(mapId, updatedProgress);
+
         setProgress(updatedProgress);
         setCompletedMarkers(prev => prev + 1);
     };
 
-    const handleIncomplete = (completionId) => {
+    const handleIncomplete = async (completionId) => {
         if (totalMarkers === 0) {
             navigate('/auth/login');
             return;
@@ -75,6 +80,9 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
         if (progress[index] === '0') return;
 
         const updatedProgress = setCharAt(progress, index, '0');
+
+        await sendUserProgress(mapId, updatedProgress);
+
         setProgress(updatedProgress);
         setCompletedMarkers(prev => prev - 1);
 
@@ -98,7 +106,13 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
 
     const filteredMarkers = checkpointMarkers.filter((marker) => {
         const state = buttonStates.find((s) => s[1] === marker.type);
-        return (state ? state[0] : true) && marker.map === mapId;
+        const isButtonActive = state ? state[0] : true;
+        const matchesFilter =
+            filterMode === 'all' ||
+            (filterMode === 'completed' && progress[totalMarkers - marker.completionId] === '1') ||
+            (filterMode === 'incomplete' && (!marker.completionId || progress[totalMarkers - marker.completionId] === '0'));
+
+        return isButtonActive && marker.map === mapId && matchesFilter;
     });
 
     useEffect(() => {
@@ -129,7 +143,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger }) => {
 
     return (
         <>
-            {totalMarkers > 0 && (
+            {(totalMarkers > 0 && totalMarkers != 3) && (
                 <div className="top-container">
                     <div className="status-container">
                         <h3 id="status-text">{completedMarkers}/{totalMarkers}</h3>

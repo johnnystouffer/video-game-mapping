@@ -37,8 +37,6 @@ const SearchMaps = () => {
     };
     const filteredData = querySearch(inputText);
 
-    console.log(localStorage.getItem('token'));
-
   return (
     <>
       <div className='background-top'>
