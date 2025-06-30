@@ -5,6 +5,8 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../css/LeafletMap.css';
 import { getMaxLimit, retreiveData, overlayRight, sendUserProgress } from '../services/progress.js';
+import Loading from './Loading';
+import '../css/Loading.css';
 
 const MapReset = ({ refreshTrigger }) => {
     const map = useMap();
@@ -18,26 +20,31 @@ const MapReset = ({ refreshTrigger }) => {
     return null;
 };
 
-
 const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode }) => {
     const navigate = useNavigate();
+    const [loading, setLoading] = useState(true);
+    const [updatingId, setUpdatingId] = useState(null);
     const bounds = [
         [0, 0],
         [1333, 1319]
     ];
 
     const CompletionButton = ({ totalMarker, progress, completionId }) => {
+        const isUpdating = updatingId === completionId;
+        const isComplete = progress[totalMarker - completionId] === '1';
 
-        if (progress[totalMarker - completionId] === '1') {
-            return (
-                <div onClick={() => handleIncomplete(completionId)} id="completed-button">
-                    Completed
-                </div>
-            );
-        }
+        const handleClick = () => {
+            if (isComplete) {
+                handleIncomplete(completionId);
+            } else {
+                handleCompleted(completionId);
+            }
+        };
+
         return (
-            <div onClick={() => handleCompleted(completionId)} id="completed-button">
-                Mark Complete
+            <div onClick={handleClick} id="completed-button" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                {isComplete ? 'Completed' : 'Mark Complete'}
+                {isUpdating && <span className="spinner" />}
             </div>
         );
     };
@@ -62,12 +69,14 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
         const index = totalMarkers - completionId;
         if (progress[index] === '1') return;
 
+        setUpdatingId(completionId);
         const updatedProgress = setCharAt(progress, index, '1');
 
         await sendUserProgress(mapId, updatedProgress);
 
         setProgress(updatedProgress);
         setCompletedMarkers(prev => prev + 1);
+        setUpdatingId(null);
     };
 
     const handleIncomplete = async (completionId) => {
@@ -79,15 +88,15 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
         const index = totalMarkers - completionId;
         if (progress[index] === '0') return;
 
+        setUpdatingId(completionId);
         const updatedProgress = setCharAt(progress, index, '0');
 
         await sendUserProgress(mapId, updatedProgress);
 
         setProgress(updatedProgress);
         setCompletedMarkers(prev => prev - 1);
-
-    }
-
+        setUpdatingId(null);
+    };
 
     useEffect(() => {
         const fetchMarkers = async () => {
@@ -118,6 +127,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
     useEffect(() => {
         const fetchProgress = async () => {
             try {
+                setLoading(true);
                 const binProgress = await retreiveData(mapId);
                 if (!binProgress) return;
 
@@ -135,11 +145,17 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
                 setProgress(overlayRight(binProgress, progString));
             } catch (e) {
                 console.error('Failed to fetch progress:', e);
+            } finally {
+                setLoading(false);
             }
         };
 
         fetchProgress();
     }, [mapId]);
+
+    if (loading) {
+        return (<Loading/>);
+    }
 
     return (
         <>

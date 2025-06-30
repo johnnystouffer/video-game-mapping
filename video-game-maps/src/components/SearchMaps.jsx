@@ -44,7 +44,7 @@ const SearchMaps = () => {
           <h1>Odyssey Maps</h1>
         </div>
         <div className="auth-buttons">
-          {localStorage.hasOwnProperty('token') ? <AuthConfirmed username={localStorage.getItem('username')}/> : <AuthButtons/>}
+          {localStorage.getItem('token') ? <AuthConfirmed username={localStorage.getItem('username')}/> : <AuthButtons/>}
         </div>
       </div>
       <div className='search-box'>

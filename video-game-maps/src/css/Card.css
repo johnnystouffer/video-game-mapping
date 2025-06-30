@@ -22,7 +22,7 @@
 
 .card-container:hover {
     filter: brightness(115%);
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(-1deg);
 }
 
 .game-text-container {
@@ -50,7 +50,7 @@
     border: 1rem;
     border-color: red;
     filter: grayscale(100%) brightness(85%);
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(-1deg);
 }
 
 h2 {

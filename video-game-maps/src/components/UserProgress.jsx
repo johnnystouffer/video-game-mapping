@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import '../css/UserProgress.css';
 import { getAllUserData } from '../services/progress';
+import Loading from './Loading';
 
 function toReadableName(phrase) {
     return phrase
@@ -12,6 +13,7 @@ function toReadableName(phrase) {
 
 
 const UserProgress = () => {
+    const [loading, setLoading] = useState(true);
     const [userData, setUserData] = useState([]);
     const nav = useNavigate();
 
@@ -26,6 +28,7 @@ const UserProgress = () => {
         const getUserData = async () => {
             const data = await getAllUserData();
             setUserData(data);
+            setLoading(false);
         };
         getUserData();
     }, []);
@@ -33,16 +36,20 @@ const UserProgress = () => {
     const totalCompleted = userData.reduce((acc, curr) => acc + curr.completed, 0);
     const totalMax = userData.reduce((acc, curr) => acc + curr.max, 0);
 
+
+    if (loading) {
+        return (<Loading/>);
+    }
     return (
         <div className="user-progress">
-            <h2 className="title-bar">USER PROGRESS</h2>
+            <h2 className="title-bar">Progress of {localStorage.getItem('username')}</h2>
 
             {totalMax > 0 && (
                 <div className='game-total'>
                     <p>{totalCompleted}/{totalMax} ({((totalCompleted / totalMax) * 100).toFixed(1)}%)</p>
                     <div className='total-container'>
                         <div
-                            className={(totalCompleted / totalMax) * 100 === 100 ? 'gold-bar' : 'actual-bar'}
+                            className='gold-bar'
                             style={{ width: `${(totalCompleted / totalMax) * 100}%` }}
                         ></div>
                     </div>
@@ -73,7 +80,7 @@ const UserProgress = () => {
 
             <div className="nav-container">
                 <button className="nav-button" onClick={() => nav('/')}>
-                    Home
+                    Go Home
                 </button>
                 <button className="nav-button" onClick={() => {
                     localStorage.removeItem('token');
