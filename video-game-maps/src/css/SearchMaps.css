@@ -59,10 +59,11 @@ h1 {
 
 
 .map-cards {
-    margin: 0px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
-
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 450px), 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .background-top {

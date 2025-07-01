@@ -376,7 +376,7 @@
     },
     {
         "map": "cascade-kingdom",
-        "iconUrl": "/assets/multimoons/multimoon-yellow.webp",
+        "iconUrl": "/assets/multimoons/multimoon-yellow.png",
         "type": "multimoons",
         "position": [955, 490],
         "name": "Multi Moon Atop The Falls",

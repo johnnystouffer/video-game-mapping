@@ -16,10 +16,15 @@ const LogIn = () => {
     e.preventDefault();
 
     if (!validateEmail(email) || password.length < 8 || password.length > 25) {
-      setError("Please enter a valid email and a password wight a length between 8-25");
+      setError("Please enter a valid email and a password with a length between 8-25");
       return;
     }
-    await loginUser(email, password);
+    try {
+      await loginUser(email, password);
+    } catch (e) {
+      setError("This email and password is invalid, please try again");
+      return;
+    }
     nav('/');
   };
 
@@ -40,7 +45,7 @@ const LogIn = () => {
         <Link to='/auth/signup'>
           <p className="toggle-link">Don't have an account? Sign up</p>
         </Link>
-        {error && <p>{error}</p>}
+       {error && <p className='error-message'>{error}</p>}
       </div>
     </div>
   );

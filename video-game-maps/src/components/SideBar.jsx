@@ -6,7 +6,6 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
 
-
 const SideBar = () => {
     const { id } = useParams();
     const mapObj = mapdata.find((obj) => obj.id === id);
@@ -31,14 +30,13 @@ const SideBar = () => {
     const [buttonStates, setButtonStates] = useState(buttons.map((button) => [false, button[1]]));
     const [refreshMap, setRefreshMap] = useState(false);
     const [filterMode, setFilterMode] = useState('all');
+    const [toggle, setToggle] = useState(false); 
 
-
-    // Create refs for sidebar and main content
     const sideBarRef = useRef(null);
     const mainContentRef = useRef(null);
 
     const triggerMapRefresh = () => {
-        setRefreshMap((prev) => !prev); // Toggle refresh state to force Leaflet re-render
+        setRefreshMap((prev) => !prev);
     };
 
     const handleSidebarToggle = () => {
@@ -47,81 +45,87 @@ const SideBar = () => {
             mainContentRef.current.classList.toggle('--toggled');
         }
         setToggle((prev) => !prev);
-        triggerMapRefresh();
+        setTimeout(triggerMapRefresh, 350);
     };
 
     const handleFiltering = (change) => {
-
         if (!localStorage.getItem('token')) {
             nav('/auth/login');
         }
         setFilterMode(change.target.value);
-    }
+    };
 
     const handleButtonClick = (index) => {
         const newButtonStates = [...buttonStates];
         newButtonStates[index][0] = !newButtonStates[index][0];
         setButtonStates(newButtonStates);
-    }
+    };
 
     return (
-        <>
-            <div className='layout-container'>
-                <div id='toggle-sidebar-side'>
-                    <img src='../assets/sidebar-icon.svg' onClick={handleSidebarToggle} id='sidebar-arrow' alt='sidebar' />
+        <div className='layout-container'>
+            <div id='toggle-sidebar-side'>
+                <img
+                    src='../assets/sidebar-icon.svg'
+                    onClick={handleSidebarToggle}
+                    id='sidebar-arrow'
+                    alt='sidebar'
+                    aria-label='Toggle sidebar'
+                    role='button'
+                    tabIndex={0}
+                />
+            </div>
+
+            <div className='side-bar' ref={sideBarRef}>
+                <div className="home">
+                    <Link className='home-link' to='/'>
+                        <img className='arrow-back' src="/assets/back.png" alt="Back Arrow" />
+                        <p className='other-map'>Other Maps</p>
+                    </Link>
                 </div>
-                <div className='side-bar' ref={sideBarRef}>
-                    <div className="home">
-                        <Link className='home-link' to='/'>
-                            <img className='arrow-back' src="/assets/back.png" alt="Back Arrow" />
-                            <p className='other-map'>Other Maps</p>
-                        </Link>
-                    </div>
-                    <div className="game-description">
-                        <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
-                        <h1 id='game-title-map'>{title}</h1>
-                        <h2 id='game-subtitle-map'>{subtitle}</h2>
-                        <p id='game-description-map'>{description}</p><br />
-                    </div>
 
-                    <div className='buttons-container'>
-                        {buttons.map((btn, index) => (
-                            <Buttons 
-                                key={index} 
-                                value={btn} 
-                                isSelected={buttonStates[index][0]} 
-                                handleClick={() => handleButtonClick(index)} 
-                            />
-                        ))}
-                    </div>
-
-                    <div className="filter-dropdown">
-                        <label htmlFor="progress-filter">Filter: </label>
-                        <select
-                            id="progress-filter"
-                            value={filterMode}
-                            onChange={handleFiltering}
-                        >
-                            <option value="all">Show Everything</option>
-                            <option value="incomplete">Show Only Incomplete</option>
-                            <option value="completed">Show Only Completed</option>
-                        </select>
-                    </div>
-
+                <div className="game-description">
+                    <img id="game-photo" src={imgUrl} alt="Picture of Game" className="game-image" />
+                    <h1 id='game-title-map'>{title}</h1>
+                    <h2 id='game-subtitle-map'>{subtitle}</h2>
+                    <p id='game-description-map'>{description}</p><br />
                 </div>
-                <div className='main-content' ref={mainContentRef}>
-                    <LeafletMap 
-                        buttonStates={buttonStates} 
-                        mapUrl={mapObj.mapImage} 
-                        mapId={mapObj.id} 
-                        refreshTrigger={refreshMap} 
-                        filterMode={filterMode}
-                    />
+
+                <div className='buttons-container'>
+                    {buttons.map((btn, index) => (
+                        <Buttons 
+                            key={index} 
+                            value={btn} 
+                            isSelected={buttonStates[index][0]} 
+                            handleClick={() => handleButtonClick(index)} 
+                        />
+                    ))}
+                </div>
+
+                <div className="filter-dropdown">
+                    <label htmlFor="progress-filter">Filter: </label>
+                    <select
+                        id="progress-filter"
+                        value={filterMode}
+                        onChange={handleFiltering}
+                    >
+                        <option value="all">Show Everything</option>
+                        <option value="incomplete">Show Only Incomplete</option>
+                        <option value="completed">Show Only Completed</option>
+                    </select>
                 </div>
             </div>
-        </>
-    );
-}
 
+            <div className='main-content' ref={mainContentRef}>
+                <LeafletMap 
+                    buttonStates={buttonStates} 
+                    mapUrl={mapObj.mapImage} 
+                    mapId={mapObj.id} 
+                    refreshTrigger={refreshMap} 
+                    filterMode={filterMode}
+                />
+            </div>
+        </div>
+    );
+};
 
 export default SideBar;

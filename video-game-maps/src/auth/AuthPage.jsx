@@ -4,8 +4,7 @@ import './AuthPage.css';
 import { signUpUser } from '../services/login';
 import { validateEmail } from '../util/validate';
 
-const AuthPage = () => {  
-
+const AuthPage = () => {
   const nav = useNavigate();
 
   const [error, setError] = useState('');
@@ -14,14 +13,44 @@ const AuthPage = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
+  const [validEmail, setValidEmail] = useState(false);
+  const [validPassword, setValidPassword] = useState(false);
+  const [matchingPasswords, setMatchingPasswords] = useState(false);
+  const [validUsername, setValidUsername] = useState(false);
+
+  const handleUsernameChange = (e) => {
+    const value = e.target.value;
+    setUsername(value);
+    setValidUsername(value.length >= 8);
+  };
+
+  const handleEmailChange = (e) => {
+    const value = e.target.value;
+    setEmail(value);
+    setValidEmail(validateEmail(value));
+  };
+
+  const handlePasswordChange = (e) => {
+    const value = e.target.value;
+    setPassword(value);
+    setValidPassword(value.length >= 8 && value.length <= 25);
+    setMatchingPasswords(value === confirmPassword);
+  };
+
+  const handleConfirmPasswordChange = (e) => {
+    const value = e.target.value;
+    setConfirmPassword(value);
+    setMatchingPasswords(password === value);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!validateEmail(email) || password.length < 8 || password.length > 25 
-  || confirmPassword !== password) {
-      setError("Please enter a valid email and a password with a length between 8-25");
+
+    if (!validUsername || !validEmail || !validPassword || !matchingPasswords) {
+      setError("Please ensure all requirements are satisfied before submitting.");
       return;
     }
+
     try {
       await signUpUser(username, email, password);
       nav('/');
@@ -36,22 +65,35 @@ const AuthPage = () => {
         <h2>Sign Up</h2>
         <form id="email-password-form" onSubmit={handleSubmit}>
           <input type="text" placeholder="Username" value={username}
-            onChange={(e) => setUsername(e.target.value)} required />
+            onChange={handleUsernameChange} required />
           <input type="email" placeholder="Email" value={email}
-            onChange={(e) => setEmail(e.target.value)} required />
+            onChange={handleEmailChange} required />
           <input type="password" placeholder="Password" value={password}
-            onChange={(e) => setPassword(e.target.value)} required />
+            onChange={handlePasswordChange} required />
           <input type="password" placeholder="Confirm Password" value={confirmPassword}
-          onChange={(e) => {setConfirmPassword(e.target.value)}} required/>
+            onChange={handleConfirmPasswordChange} required />
           <button id="sign-up-button">Submit</button>
         </form>
-        {/* <button id="google-button" onClick={handleGoogleLogin}>
-          Continue with <img id='logo' src='/assets/googlelogo.png'></img>
-        </button> */}
+
+        <div className="requirements-list">
+          <p className={validUsername ? 'valid' : 'invalid'}>
+            {validUsername ? '✓' : '✗'} Username must be at least 8 characters
+          </p>
+          <p className={validEmail ? 'valid' : 'invalid'}>
+            {validEmail ? '✓' : '✗'} Must be a valid email
+          </p>
+          <p className={validPassword ? 'valid' : 'invalid'}>
+            {validPassword ? '✓' : '✗'} Password must be 8–25 characters
+          </p>
+          <p className={matchingPasswords ? 'valid' : 'invalid'}>
+            {matchingPasswords ? '✓' : '✗'} Passwords must match
+          </p>
+        </div>
+
         <Link to="/auth/login">
           <p className="toggle-link">Already have an account? Log in</p>
         </Link>
-        {error && <p>{error}</p>}
+        {error && <p className="error-message">{error}</p>}
       </div>
     </div>
   );

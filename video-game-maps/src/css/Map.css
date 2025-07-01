@@ -16,13 +16,18 @@
 }
 
 .side-bar {
-    flex: 1;
-    padding: 1%;
-    color: white;
-    width: 20%;
+    min-width: 250px;
+    max-width: 650px;
+    width: 100%;
+    flex: 0 0 25%;
     overflow-y: auto;
-    min-width: 200px;
-    max-width: 400px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    overflow-x: hidden;
 }
 
 #game-photo {
@@ -133,18 +138,20 @@
     display: flex;
     width: 100vw;
     height: 100vh;
+    margin-top: 5px;
 }
 
 .main-content {
     flex: 1;
     overflow-y: auto;
-    background-color: #fff; /* Example background color */
+    background-color: #fff;
+    position: relative;
 }
 
 #toggle-sidebar-side {
     position: absolute;
-    right: 20px;
-    top: 5px;
+    right: 10px;
+    top: 7px;
     z-index: 9999;
 }
 
@@ -156,7 +163,6 @@
     font-size: x-large;
     transition: all ease-in-out 200ms;
     padding: 7% 7% 7% 7%;
-
 }
 
 #sidebar-arrow:hover {
@@ -203,16 +209,46 @@
     background-color: #3a3a3a;
 }
 
-
+/* 🔧 Mobile view logic */
 @media (max-width: 650px) {
-    .main-content {
+    .main-content,
+    .side-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100vw;
         height: 100vh;
-        display: block;    
+        z-index: 1;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .main-content {
+        opacity: 1;
+        transform: translateX(0);
+        pointer-events: auto;
     }
 
     .side-bar {
-        display: none;
+        opacity: 0;
+        transform: translateX(-100%);
+        pointer-events: none;
+    }
+
+    .main-content.--toggled {
+        opacity: 0;
+        transform: translateX(100%);
+        pointer-events: none;
+    }
+
+    .side-bar.--toggled {
+        opacity: 1;
+        transform: translateX(0);
+        pointer-events: auto;
+        background-color: #1f1f1f;
+        width: 97%;
+        margin: 1%;
+        z-index: 2;
+        overflow-x: hidden;
     }
 
     #sidebar-arrow {
@@ -220,23 +256,10 @@
         padding: 0;
         width: 2.1rem;
         height: 2.1rem;
-
-    }
-
-    .main-content.--toggled {
-        display: none;
-    }
-    
-    .side-bar.--toggled {
-        display: block;
-        width: 100%;
-        height: 100%;
-        max-width: 650px;
     }
 
     .filter-dropdown {
         padding: 8px;
         font-size: 0.9rem;
     }
-
 }

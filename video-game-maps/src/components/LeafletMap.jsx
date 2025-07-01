@@ -6,6 +6,7 @@ import L from 'leaflet';
 import '../css/LeafletMap.css';
 import { getMaxLimit, retreiveData, overlayRight, sendUserProgress } from '../services/progress.js';
 import Loading from './Loading';
+import ProgressBar from './ProgressBar.jsx';
 import '../css/Loading.css';
 
 const MapReset = ({ refreshTrigger }) => {
@@ -158,20 +159,14 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
     }
 
     return (
-        <>
-            {(totalMarkers > 0 && totalMarkers != 3) && (
-                <div className="top-container">
-                    <div className="status-container">
-                        <h3 id="status-text">{completedMarkers}/{totalMarkers}</h3>
-                        <div id="bar-container">
-                            <div id="actual-bar" style={{ width: `${(completedMarkers / totalMarkers) * 100}%` }}></div>
-                        </div>
-                        <h3>{((completedMarkers / totalMarkers) * 100).toLocaleString(undefined, { maximumFractionDigits: 2 })}%</h3>
-                    </div>
-                </div>
-            )}
+        <div className='wrapper'>
+            <ProgressBar
+                totalMarkers={totalMarkers}
+                completedMarkers={completedMarkers}
+            />
 
-            <MapContainer
+            <div className='fill-container'>
+                <MapContainer
                 center={[666, 660]}
                 zoom={0}
                 minZoom={-2}
@@ -206,7 +201,9 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
                     );
                 })}
             </MapContainer>
-        </>
+            </div>
+            
+        </div>
     );
 };
 

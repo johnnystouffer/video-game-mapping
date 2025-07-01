@@ -8,12 +8,12 @@
 }
 
 .card-container {
-    width: auto;
+    width: 95%;
     height: 200px;
     border-radius: 25px;
     color: white;
     padding: 15px;
-    margin: 15px;
+    margin: 8px auto;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -33,12 +33,12 @@
 }
 
 .game-card-not-available {
-    width: auto;
+    width: 95%;
     height: 200px;
     border-radius: 25px;
     color: white;
-    padding: 5px;
-    margin: 10px;
+    padding: 15px;
+    margin: 8px auto;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -54,13 +54,15 @@
 }
 
 h2 {
-    font-family: "Fira Code";
+    font-family: "Comfortaa";
     font-weight: normal;
 }
+
 h3 {
-    font-family: "Fira Code";
+    font-family: "Comfortaa";
     font-weight: lighter;
 }
+
 a {
     text-decoration: none;
 }

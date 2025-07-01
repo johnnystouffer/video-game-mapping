@@ -26,8 +26,7 @@ export const loginUser = async (email: string, password: string) => {
         return token;
 
     } catch (e: any) {
-        console.log('error bitch', e.message);
-        throw e;
+        throw new Error(e);
     }
     
 }

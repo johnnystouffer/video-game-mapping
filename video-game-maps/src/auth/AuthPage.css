@@ -99,6 +99,31 @@
   vertical-align: bottom;
 }
 
+.error-message {
+  color: #ff5967;
+  padding-top: 20px;
+  font-family: "Fira Code", monospace;
+}
+
+.requirements-list {
+  text-align: left;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-family: "Fira Code", monospace;
+}
+
+.requirements-list p {
+  margin: 4px 0;
+}
+
+.valid {
+  color: #4caf50; /* green */
+}
+
+.invalid {
+  color: #ff5967; /* red */
+}
+
 @media (max-width: 480px) {
   .auth-card {
     padding: 1.5rem;
