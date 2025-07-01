@@ -163,6 +163,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
             <ProgressBar
                 totalMarkers={totalMarkers}
                 completedMarkers={completedMarkers}
+                mapId={mapId}
             />
 
             <div className='fill-container'>

@@ -58,18 +58,21 @@ const UserProgress = () => {
 
             <div className="progress-bar-container">
                 {userData.length > 0 && userData.map(({ mapId, completed, max }) => (
-                    <Link to={`/${mapId}`} className='progress-bar' key={mapId}>
-                        <h3 className='map-title'>
-                            {toReadableName(mapId) || mapId} - {completed}/{max}
-                        </h3>
-                        <div className='bar-container'>
-                            <div
-                                className={(completed / max) * 100 === 100 ? 'gold-bar' : 'actual-bar'}
-                                style={{ width: `${(completed / max) * 100}%` }}
-                            ></div>
-                        </div>
-                    </Link>
+                <Link to={`/progress/${mapId}`} className='progress-bar' key={mapId}>
+                    <h3 className='map-title'>
+                    {toReadableName(mapId) || mapId} - {completed}/{max}
+                    </h3>
+                    <div className='bar-container'>
+                    {max > 0 && (
+                        <div
+                        className={(completed / max) * 100 === 100 ? 'gold-bar' : 'actual-bar'}
+                        style={{ width: `${(completed / max) * 100}%` }}
+                        ></div>
+                    )}
+                    </div>
+                </Link>
                 ))}
+
 
                 {userData.length === 0 && (
                     <div className='empty-text-container'>

@@ -1,0 +1,172 @@
+@font-face {
+    font-family: comfortaa;
+    src: url("/assets/Comfortaa_Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: odyssey;
+    src: url(/assets/SuperMario286-18qg.ttf);
+}
+
+.map-progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: url('/assets/background.png');
+  font-family: comfortaa;
+}
+
+.map-progress-title {
+  color: white;
+  margin: 0;
+  padding: 0.5rem;
+  font-family: odyssey;
+  font-size: xx-large;
+}
+
+.map-progress-overall {
+  margin: 20px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+
+.map-progress-total-bar {
+  background-color: snow;
+  width: 100%;
+  height: 20px;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+.map-progress-gold-fill {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.map-progress-list {
+  width: 90vw;
+  height: 60%;
+  background-color: rgb(42, 42, 42);
+  border-radius: 15px;
+  overflow-y: auto;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+.map-progress-entry {
+  height: auto;
+  background-color: rgb(65, 65, 65);
+  border-radius: 15px;
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 200ms ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.map-progress-entry:hover {
+  background-color: rgb(80, 80, 80);
+  scale: 1.02;
+}
+
+.map-progress-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 1rem;
+  align-self: center;
+}
+
+.map-progress-description {
+  width: 100%;
+  height: 100%;
+}
+
+.map-progress-link {
+  border-bottom: white 1px solid;
+  color: white;
+  text-decoration: none;
+}
+
+.map-progress-empty-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-progress-empty-text {
+  color: white;
+}
+
+.map-progress-nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.map-progress-button {
+  font-family: "Fira Code", Menlo, Consolas, monospace;
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgb(55, 53, 53);
+  font-weight: bold;
+  width: auto;
+}
+
+.map-progress-button:hover {
+  background-color: rgb(255, 58, 58);
+  box-shadow: 0 4px 10px rgb(255, 96, 96);
+  transform: scale(1.05);
+}
+
+.item-title {
+    margin: 2px;
+}
+
+.item-description {
+  color: rgb(227, 220, 220);
+  max-height: 4em; /* ~3 lines */
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE/Edge */
+}
+
+.item-description::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+
+@media (max-width: 700px) {
+  .map-progress-overall {
+    width: 70%;
+  }
+
+  .map-progress-nav-buttons {
+    width: auto;
+  }
+}
