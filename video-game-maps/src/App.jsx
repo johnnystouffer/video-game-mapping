@@ -4,6 +4,7 @@ import AuthPage from './auth/AuthPage.jsx'
 import LogIn from './auth/LogIn.jsx'
 import UserProgress from './components/UserProgress.jsx'
 import MapProgress from './components/MapProgress.jsx'
+import NotFound from './components/NotFound.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/auth/signup' element={<AuthPage />} />
           <Route path='/auth/login' element={<LogIn />} />
           <Route path='/profile' element={<UserProgress />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>

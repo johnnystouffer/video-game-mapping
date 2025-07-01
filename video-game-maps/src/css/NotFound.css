@@ -1,0 +1,25 @@
+.home-but-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4000f;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;
+    width: 50px;
+    font-size: large;
+}
+
+.error-no-map-new {
+    color: white;
+    font-family: comfortaa;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
