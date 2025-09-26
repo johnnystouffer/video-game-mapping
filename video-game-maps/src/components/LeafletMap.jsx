@@ -71,6 +71,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
         if (progress[index] === '1') return;
 
         setUpdatingId(completionId);
+        console.log(index)
         const updatedProgress = setCharAt(progress, index, '1');
 
         await sendUserProgress(mapId, updatedProgress);
@@ -143,7 +144,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
 
                 const progString = '0'.repeat(maxProgress.length);
 
-                setProgress(overlayRight(binProgress, progString));
+                setProgress(binProgress, progString);
             } catch (e) {
                 console.error('Failed to fetch progress:', e);
             } finally {

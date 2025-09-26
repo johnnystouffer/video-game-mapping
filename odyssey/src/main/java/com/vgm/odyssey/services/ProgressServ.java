@@ -53,7 +53,6 @@ public class ProgressServ {
         UserProgress p = repo.getUserProgressByUser_UserIdAndWorld_WorldId(u.getUserId(), w.getWorldId());
 
         if (p == null) {
-            System.out.println("We got here");
             UserProgress newUser = new UserProgress();
             newUser.setWorld(w);
             newUser.setUser(u);
