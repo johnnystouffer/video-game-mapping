@@ -12,7 +12,6 @@ interface AllProgressResponse {
 
 export const retreiveData = async (mapId: string) => {
     if (!localStorage.getItem('token')) {
-        console.log("this is the error");
         return "";
     }
 

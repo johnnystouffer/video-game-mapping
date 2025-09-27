@@ -62,6 +62,9 @@ const AuthPage = () => {
   return (
     <div className="auth-container">
       <div className="auth-card">
+        <div>
+          <img src="" alt="" />
+        </div>
         <h2>Sign Up</h2>
         <form id="email-password-form" onSubmit={handleSubmit}>
           <input type="text" placeholder="Username" value={username}

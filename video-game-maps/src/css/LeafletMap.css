@@ -4,6 +4,11 @@
     font-weight: normal;
 }
 
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
 .leaflet-popup-content-wrapper {
     background-color: rgb(31, 31, 31);
     font-family: comfortaa;
@@ -172,15 +177,22 @@
 
 @media (max-width: 650px) {
     .top-container {
-        width: 100%;
+        width: 100vw;
         left: 0;
         padding: 0;
         padding-top: 0px;
         padding-bottom: 4px;
+        height: 45px;
 
+    }
+
+    .status-container {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     #bar-container {
         width: 40%;
     }
+
 }

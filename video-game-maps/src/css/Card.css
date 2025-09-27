@@ -8,11 +8,11 @@
 }
 
 .card-container {
-    width: 95%;
-    height: 200px;
+    width: 90%;
+    height: 180px;
     border-radius: 25px;
     color: white;
-    padding: 15px;
+    padding: 10px;
     margin: 8px auto;
     display: flex;
     align-items: center;
@@ -33,11 +33,11 @@
 }
 
 .game-card-not-available {
-    width: 95%;
-    height: 200px;
+    width: 90%;
+    height: 180px;
     border-radius: 25px;
     color: white;
-    padding: 15px;
+    padding: 10px;
     margin: 8px auto;
     display: flex;
     align-items: center;

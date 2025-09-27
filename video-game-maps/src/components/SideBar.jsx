@@ -79,7 +79,7 @@ const SideBar = () => {
                 <div className="home">
                     <Link className='home-link' to='/'>
                         <img className='arrow-back' src="/assets/back.png" alt="Back Arrow" />
-                        <p className='other-map'>Other Maps</p>
+                        <p className='other-map'>Home</p>
                     </Link>
                 </div>
 

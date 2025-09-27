@@ -87,7 +87,7 @@
 .other-map {
     font-family: 'comfortaa', sans-serif;
     font-weight: bold;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 5px;
     color: white;
     font-size: 1.1rem;
 }
@@ -138,7 +138,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .main-content {
@@ -211,6 +211,12 @@
 
 /* 🔧 Mobile view logic */
 @media (max-width: 650px) {
+
+    .layout-container {
+        position: relative;
+        overflow: hidden;
+    }
+
     .main-content,
     .side-bar {
         position: absolute;
