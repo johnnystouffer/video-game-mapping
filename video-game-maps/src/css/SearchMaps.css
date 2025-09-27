@@ -1,3 +1,5 @@
+@import url("line-awesome/dist/line-awesome/css/line-awesome.min.css");
+
 body {
     margin: 0;
     background-color: rgb(31, 31, 31);
@@ -34,29 +36,45 @@ h1 {
     text-align: center;
     color: white;
 }
+
+.search-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box .la-search {
+  font-size: 1.2rem;
+  color: #666;
+  flex: 0 0 auto;          
+}
+
 .search-box {
+    display: flex;
+    align-items: center;
     text-align: center;
     margin-bottom: 20px;
     margin: 1rem;
-}
-
-#search-text {
-    margin: 0;
     padding: 8px 12px;
-    height: 20px;
-    width: 50vw;
     border: none;
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
     outline: none;
-    transition: transform 200ms ease;
+    width: 50vw;
 }
 
-#search-text:hover {
-    transform: scale(1.05);
+#search-text {
+    margin: 0;
+    padding-left: 10px;
+    width: 95%;
+    border: none;
+    background: transparent;       
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
 }
-
 
 .map-cards {
     display: grid;
@@ -166,8 +184,8 @@ input {
         height: 20vh;
     }
 
-    #search-text {
-        width: 80vw;
+    .search-box {
+        width: 85%;
     }
 
     h1 {

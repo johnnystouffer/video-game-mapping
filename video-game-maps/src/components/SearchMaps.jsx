@@ -23,7 +23,6 @@ const AuthConfirmed = (params) => {
 
 const SearchMaps = () => {
 
-    // Retrieve the text in the textbox whenever it is changed
     const [inputText, setInput] = useState("");
     const handleText = (event) => {
         setInput(event.target.value);
@@ -35,6 +34,7 @@ const SearchMaps = () => {
             return map.name.toLowerCase().includes(text.toLowerCase()) || map.game.toLowerCase().includes(text.toLowerCase())
         });
     };
+
     const filteredData = querySearch(inputText);
 
   return (
@@ -47,8 +47,11 @@ const SearchMaps = () => {
           {localStorage.getItem('token') ? <AuthConfirmed username={localStorage.getItem('username')}/> : <AuthButtons/>}
         </div>
       </div>
-      <div className='search-box'>
-        <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+      <div className='search-container'>
+        <div className='search-box'>
+          <i className="las la-search" aria-hidden='true'></i>
+          <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+        </div>
       </div>
       <div className='map-cards'>
         {filteredData.map((map) => (
