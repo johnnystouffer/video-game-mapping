@@ -4,7 +4,7 @@ import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../css/LeafletMap.css';
-import { getMaxLimit, retreiveData, overlayRight, sendUserProgress } from '../services/progress.js';
+import { getMaxLimit, retreiveData, sendUserProgress } from '../services/progress.js';
 import Loading from './Loading';
 import ProgressBar from './ProgressBar.jsx';
 import '../css/Loading.css';
