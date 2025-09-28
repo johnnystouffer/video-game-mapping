@@ -60,7 +60,6 @@ export const signUpUser = async (username: string, email: string, password: stri
         await loginUser(email, password);
 
     } catch (e: any) {
-        console.log('error bitch', e.message);
         throw e;
     }
 }

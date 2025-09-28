@@ -9,6 +9,9 @@ import Loading from './Loading';
 import ProgressBar from './ProgressBar.jsx';
 import '../css/Loading.css';
 
+export const BASE_PROGRESS_STRING = "0000";
+const IN_PROGRESS_MARKER_COUNT = 3;
+
 const MapReset = ({ refreshTrigger }) => {
     const map = useMap();
 
@@ -63,15 +66,14 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
         if (totalMarkers === 0) {
             navigate('/auth/login');
             return;
-        } else if (totalMarkers === 3) {
+        } else if (totalMarkers === IN_PROGRESS_MARKER_COUNT) {
             return;
         }
 
         const index = totalMarkers - completionId;
-        if (progress[index] === '1') return;
+        if (progress[index] === '1') { return; }
 
         setUpdatingId(completionId);
-        console.log(index)
         const updatedProgress = setCharAt(progress, index, '1');
 
         await sendUserProgress(mapId, updatedProgress);
@@ -130,21 +132,30 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
         const fetchProgress = async () => {
             try {
                 setLoading(true);
-                const binProgress = await retreiveData(mapId);
-                if (!binProgress) return;
 
                 const maxProgress = await getMaxLimit(mapId);
-                if (!maxProgress) return;
+                if (!maxProgress) {
+                    setLoading(false)
+                    return;
+                }
+
+                const total = [...maxProgress].filter((c) => c === '1').length;
+
+                const binProgress = await retreiveData(mapId, total);
+                if (!binProgress) {
+                    setLoading(false);
+                    return;
+                }
 
                 const completed = [...binProgress].filter((c) => c === '1').length;
-                const total = [...maxProgress].filter((c) => c === '1').length;
 
                 setCompletedMarkers(completed);
                 setTotalMarkers(total);
 
-                const progString = '0'.repeat(maxProgress.length);
+                const progString = '0'.repeat(total);
 
-                setProgress(binProgress, progString);
+                setProgress(binProgress === BASE_PROGRESS_STRING ? progString : binProgress);
+                console.log(binProgress === BASE_PROGRESS_STRING ? progString : binProgress);
             } catch (e) {
                 console.error('Failed to fetch progress:', e);
             } finally {
