@@ -25,15 +25,15 @@
     display: flex;
     align-items: flex-end;
     cursor: pointer;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: background-size 0.2s ease-in-out, filter 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
 
 }
 
 .card-container:hover, .game-card-not-available:hover {
-    background-size: 105%;
+    transform: scale(1.02);
 }
 
 .card-container:hover {
