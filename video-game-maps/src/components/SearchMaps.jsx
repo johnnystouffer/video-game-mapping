@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import maps from '../items.js'
 import Card from './Card.jsx'
+import PageLoading from './PageLoading.js'
+import useImagesLoaded from '../util/imageLoading.js'
 import '../css/SearchMaps.css'
 
 const AuthButtons = () => {
@@ -24,6 +26,10 @@ const AuthConfirmed = (params) => {
 const SearchMaps = () => {
 
     const [inputText, setInput] = useState("");
+
+    const allImageUrls = (maps || []).map(m => m.image);
+    const imagesReady = useImagesLoaded(allImageUrls);
+
     const handleText = (event) => {
         setInput(event.target.value);
     }
@@ -37,29 +43,33 @@ const SearchMaps = () => {
 
     const filteredData = querySearch(inputText);
 
-  return (
-    <>
-      <div className='background-top'>
-        <div className='header-text'>
-          <h1>Odyssey Maps</h1>
+    if (!imagesReady) {
+      return (<PageLoading/>);
+    }
+
+    return (
+      <>
+        <div className='background-top'>
+          <div className='header-text'>
+            <h1>Odyssey Maps</h1>
+          </div>
+          <div className="auth-buttons">
+            {localStorage.getItem('token') ? <AuthConfirmed username={localStorage.getItem('username')}/> : <AuthButtons/>}
+          </div>
         </div>
-        <div className="auth-buttons">
-          {localStorage.getItem('token') ? <AuthConfirmed username={localStorage.getItem('username')}/> : <AuthButtons/>}
+        <div className='search-container'>
+          <div className='search-box'>
+            <i className="las la-search" aria-hidden='true'></i>
+            <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+          </div>
         </div>
-      </div>
-      <div className='search-container'>
-        <div className='search-box'>
-          <i className="las la-search" aria-hidden='true'></i>
-          <input id='search-text' type="text" placeholder='Search through maps...' value={inputText} onChange={handleText}></input> 
+        <div className='map-cards'>
+          {filteredData.map((map) => (
+            <Card key={map.id} id={map.id} image={map.image} name={map.name} game={map.game}/>
+          ))}
         </div>
-      </div>
-      <div className='map-cards'>
-        {filteredData.map((map) => (
-          <Card key={map.id} id={map.id} image={map.image} name={map.name} game={map.game}/>
-        ))}
-      </div>
-    </>
-  )
+      </>
+    );
 }
 
 export default SearchMaps

@@ -118,11 +118,17 @@
 }
 
 .valid {
-  color: #4caf50; /* green */
+  color: #4caf50; 
 }
 
 .invalid {
-  color: #ff5967; /* red */
+  color: #ff5967; 
+}
+
+#loading {
+  color: #e7e7e7;
+  padding-top: 1rem;
+  font-size: x-large;
 }
 
 @media (max-width: 480px) {

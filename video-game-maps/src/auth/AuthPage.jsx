@@ -18,6 +18,8 @@ const AuthPage = () => {
   const [matchingPasswords, setMatchingPasswords] = useState(false);
   const [validUsername, setValidUsername] = useState(false);
 
+  const [isLoading, setLoading] = useState(false);
+
   const handleUsernameChange = (e) => {
     const value = e.target.value;
     setUsername(value);
@@ -51,10 +53,14 @@ const AuthPage = () => {
       return;
     }
 
+    setLoading(true);
+
     try {
       await signUpUser(username, email, password);
+      setLoading(false);
       nav('/');
     } catch (error) {
+      setLoading(false);
       setError(error.message);
     }
   };
@@ -97,6 +103,7 @@ const AuthPage = () => {
           <p className="toggle-link">Already have an account? Log in</p>
         </Link>
         {error && <p className="error-message">{error}</p>}
+        {isLoading && <p id='loading'>Loading...</p>}
       </div>
     </div>
   );

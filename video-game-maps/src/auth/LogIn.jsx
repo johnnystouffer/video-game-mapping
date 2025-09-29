@@ -11,6 +11,7 @@ const LogIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [isLoading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,12 +20,15 @@ const LogIn = () => {
       setError("Please enter a valid email and a password with a length between 8-25");
       return;
     }
+    setLoading(true);
     try {
       await loginUser(email, password);
     } catch (e) {
+      setLoading(false);
       setError("This email and password is invalid, please try again");
       return;
     }
+    setLoading(false);
     nav('/');
   };
 
@@ -39,13 +43,11 @@ const LogIn = () => {
           onChange={(e) => {setPassword(e.target.value)}} required />
           <button id='sign-up-button'>Submit</button>
         </form>
-        {/* <button id="google-button" onClick={handleGoogleLogin}>
-          Continue with <img id='logo' src='/assets/googlelogo.png'></img>
-        </button> */}
         <Link to='/auth/signup'>
           <p className="toggle-link">Don't have an account? Sign up</p>
         </Link>
        {error && <p className='error-message'>{error}</p>}
+       {isLoading && <p id='loading'>Loading...</p>}
       </div>
     </div>
   );

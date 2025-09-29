@@ -1,0 +1,83 @@
+@font-face {
+  font-family: nintendo;
+  src: url(/assets/RoSpritendoSemiboldBeta-vmVwZ.otf);
+}
+
+
+.page-loading {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+  background: #000; 
+  color: #fff;
+  font-family: nintendo, 'Courier New', Courier, monospace;
+}
+
+.page-loading__bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/assets/background.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.page-loading__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.30);
+  z-index: -1;
+  backdrop-filter: saturate(120%) blur(1px);
+}
+
+.page-loading__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 24px 28px;
+  border-radius: 16px;
+}
+
+.page-loading__spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.25);
+  border-top-color: #ffffff;
+  animation: pageLoadingSpin 0.9s linear infinite;
+}
+
+.page-loading__message {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-loading__spinner {
+    animation: none;
+    border-top-color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@keyframes pageLoadingSpin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 480px) {
+  .page-loading__spinner {
+    width: 44px;
+    height: 44px;
+  }
+  .page-loading__message {
+    font-size: 0.95rem;
+  }
+}

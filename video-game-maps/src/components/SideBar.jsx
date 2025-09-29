@@ -5,6 +5,8 @@ import mapdata from '../mapinfo.js';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
+import PageLoading from './PageLoading.js';
+import useImagesLoaded from '../util/imageLoading.js';
 
 const SideBar = () => {
     const { id } = useParams();
@@ -35,6 +37,16 @@ const SideBar = () => {
     const sideBarRef = useRef(null);
     const mainContentRef = useRef(null);
 
+    const preloadImages = [
+        imgUrl,
+        'assets/back.png',
+        'assets/sidebar-icon.svg',
+        ...buttons.map((b) => b[2]), 
+    ]
+    const imagesReady = useImagesLoaded(preloadImages);
+    
+
+
     const triggerMapRefresh = () => {
         setRefreshMap((prev) => !prev);
     };
@@ -60,6 +72,10 @@ const SideBar = () => {
         newButtonStates[index][0] = !newButtonStates[index][0];
         setButtonStates(newButtonStates);
     };
+
+    if (!imagesReady) {
+        return (< PageLoading />);
+    }
 
     return (
         <div className='layout-container'>
