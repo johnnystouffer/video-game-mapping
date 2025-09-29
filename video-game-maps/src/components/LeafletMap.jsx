@@ -124,7 +124,7 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
             filterMode === 'all' ||
             (filterMode === 'completed' && progress[totalMarkers - marker.completionId] === '1') ||
             (filterMode === 'incomplete' && (!marker.completionId || progress[totalMarkers - marker.completionId] === '0'));
-
+        
         return isButtonActive && marker.map === mapId && matchesFilter;
     });
 
@@ -155,7 +155,6 @@ const LeafletMap = ({ mapUrl, mapId, buttonStates, refreshTrigger, filterMode })
                 const progString = '0'.repeat(total);
 
                 setProgress(binProgress === BASE_PROGRESS_STRING ? progString : binProgress);
-                console.log(binProgress === BASE_PROGRESS_STRING ? progString : binProgress);
             } catch (e) {
                 console.error('Failed to fetch progress:', e);
             } finally {

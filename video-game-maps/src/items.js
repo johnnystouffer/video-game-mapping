@@ -1,7 +1,7 @@
 const maps = [
   { id: "cap-kingdom", name: "Cap Kingdom", game: "Bonneton", image: '/assets/map-pictures/cap-kingdom.jpg' },
   { id: "cascade-kingdom", name: "Cascade Kingdom", game: "Second Map", image: '/assets/map-pictures/cascade-kingdom.jpg' },
-  { id: "sand-kingdom", name: "Sand Kingdom", game: "IN PROGRESS", image: '/assets/map-pictures/sand-kingdom.jpg' },
+  { id: "sand-kingdom", name: "Sand Kingdom", game: "Tostarena & Pyramid", image: '/assets/map-pictures/sand-kingdom.jpg' },
   { id: "lake-kingdom", name: "Lake Kingdom", game: "IN PROGRESS", image: '/assets/map-pictures/lake-kingdom.jpg' },
   { id: "wooded-kingdom", name: "Wooded Kingdom", game: "IN PROGRESS", image: '/assets/map-pictures/wooded-kingdom.jpg' },
   { id: "deep-woods", name: "Deep Woods", game: "IN PROGRESS", image: '/assets/map-pictures/deep-woods.png' },

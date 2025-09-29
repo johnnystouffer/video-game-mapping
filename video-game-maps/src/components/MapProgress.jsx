@@ -82,15 +82,18 @@ const MapProgress = () => {
     if (!progress || markers.length === 0) return;
 
     const completedMarkerData = [];
-    // Keep the same “rightmost bit maps to completionId 1” convention
-    for (let i = 0; i < progress.length; i++) {
-      const bit = progress[progress.length - 1 - i];
-      if (bit === '1') {
-        const marker = markers.find(m => m.completionId === i + 1);
-        if (marker) {
-          completedMarkerData.push(marker);
+    
+    for (let i = totalMarkers-1; i >= 0; i--) {
+        const bit = progress[i];
+
+        if (bit === '1') {
+            const compId = totalMarkers - i;
+            const marker = markers.find(m => m.completionId === compId);
+            if (marker) {
+                completedMarkerData.push(marker);
+            } else {
+            }
         }
-      }
     }
     setCompleteData(completedMarkerData);
   }, [progress, markers]);

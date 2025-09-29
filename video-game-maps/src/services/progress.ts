@@ -183,6 +183,6 @@ export function hex2binNoPadding(hex: string, maxLimit: number) : string {
             default: return "";
         }
     }
-    let unpadded = out.substring(0, maxLimit-1);
+    let unpadded = out.substring(0, maxLimit);
     return [...unpadded].reverse().join("");
 }
