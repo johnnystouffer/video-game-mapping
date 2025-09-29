@@ -139,9 +139,9 @@
 }
 
 .map-progress-button:hover {
-  background-color: rgb(255, 58, 58);
-  box-shadow: 0 4px 10px rgb(255, 96, 96);
-  transform: scale(1.05);
+    background-color: rgb(88, 88, 88);
+    box-shadow: 0 4px 10px rgb(60, 60, 60);
+    transform: scale(1.02);
 }
 
 .item-title {
@@ -150,14 +150,14 @@
 
 .item-description {
   color: rgb(227, 220, 220);
-  max-height: 4em; /* ~3 lines */
+  max-height: 4em; 
   overflow-y: auto;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
 }
 
 .item-description::-webkit-scrollbar {
-  display: none; /* Chrome/Safari */
+  display: none; 
 }
 
 

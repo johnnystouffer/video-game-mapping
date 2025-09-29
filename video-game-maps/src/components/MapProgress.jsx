@@ -147,9 +147,9 @@ const MapProgress = () => {
       </div>
 
       <div className="map-progress-nav-buttons">
-        <button className="map-progress-button" onClick={() => nav('/')}>Go Home</button>
+        <button className="map-progress-button" onClick={() => nav('/')}>Home</button>
         <button className="map-progress-button" onClick={() => nav(`/${id}`)}>See Map</button>
-        <button className="map-progress-button" onClick={() => nav('/profile')}>All Progress</button>
+        <button className="map-progress-button" onClick={() => nav('/profile')}>Profile</button>
       </div>
     </div>
   );

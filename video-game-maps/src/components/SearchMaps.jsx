@@ -9,8 +9,7 @@ import '../css/SearchMaps.css'
 const AuthButtons = () => {
   return (
     <>
-      <button className="auth-button"><Link className='auth-text' to='/auth/signup'><p>Sign Up</p></Link></button>
-      <button className="auth-button"><Link className='auth-text' to='/auth/login'><p>Log In</p></Link></button>
+      <button className="auth-button"><Link className='auth-text' to='/auth/login'><p>Sign In</p></Link></button>
     </>
   );
 }
@@ -18,7 +17,9 @@ const AuthButtons = () => {
 const AuthConfirmed = (params) => {
   return (
     <>
-      <h3 className='welcome-statement'>Welcome <Link id='profile-link' to={'/profile'}>{params.username}</Link>!</h3>
+      <Link to={'/profile'} id='profile-button'>
+        <i class="lar la-user gold"></i>
+      </Link>
     </>
   );
 }
@@ -50,11 +51,11 @@ const SearchMaps = () => {
     return (
       <>
         <div className='background-top'>
-          <div className='header-text'>
-            <h1>Odyssey Maps</h1>
-          </div>
           <div className="auth-buttons">
             {localStorage.getItem('token') ? <AuthConfirmed username={localStorage.getItem('username')}/> : <AuthButtons/>}
+          </div>
+          <div className='header-text'>
+            <h1>Odyssey Maps</h1>
           </div>
         </div>
         <div className='search-container'>

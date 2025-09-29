@@ -232,7 +232,6 @@
     background-color: #3a3a3a;
 }
 
-/* 🔧 Mobile view logic */
 @media (max-width: 650px) {
 
     .layout-container {
