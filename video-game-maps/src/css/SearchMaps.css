@@ -85,8 +85,9 @@ h1 {
 }
 
 .background-top {
-    padding-top: 5%;
+    padding-top: 15px;
     padding-bottom: 15px;
+    min-height: 25vh;
     background: url("/assets/background.png");
     background-size: auto;
     background-position: center;
@@ -110,16 +111,16 @@ input {
 
 .auth-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 1.5rem;
-    margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: 15px;
 }
 
 .auth-button {
     font-family: "Fira Code", Menlo, Consolas, monospace;
-    font-size: 1rem;
-    padding: 10px 20px;
+    font-size: large;
+    padding: 7px 12px;
     border: none;
     background-color: rgb(50, 50, 50);
     color: white;
@@ -128,6 +129,8 @@ input {
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .auth-button:hover {
@@ -167,9 +170,48 @@ input {
   text-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
 
+#profile-button {
+    aspect-ratio: 1 / 1; 
+    background: linear-gradient(145deg, #f6e27a, #f9d65c, #e6b800);    
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.25), inset 0 2px 4px rgba(255,255,255,0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+#profile-button:hover {
+    transform: scale(1.04) rotate(1deg);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3), inset 0 2px 6px rgba(255,255,255,0.5);
+}
+
+#profile-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), inset 0 2px 6px rgba(255,255,255,0.6);
+}
+
+.gold {
+    font-size: 3rem;
+    color: black;
+}
 
 
 @media (max-width: 650px) {
+
+    .auth-button {
+        font-size: small;
+    }
+
+    .gold {
+        font-size: 2.5rem;
+    }
+
+    .background-top {
+        min-height: auto;
+    }
+
     #login-signin-button {
         font-size: small;
         padding: 5px;
@@ -180,15 +222,11 @@ input {
         padding: 6px;
     }
 
-    .background-top {
-        height: 20vh;
-    }
-
     .search-box {
         width: 85%;
     }
 
     h1 {
-        font-size: 10vw;
+        font-size: 12vw;
     }
 }

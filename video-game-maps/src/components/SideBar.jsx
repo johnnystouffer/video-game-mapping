@@ -32,7 +32,7 @@ const SideBar = () => {
     const [buttonStates, setButtonStates] = useState(buttons.map((button) => [false, button[1]]));
     const [refreshMap, setRefreshMap] = useState(false);
     const [filterMode, setFilterMode] = useState('all');
-    const [toggle, setToggle] = useState(false); 
+    const [_, setToggle] = useState(false); 
 
     const sideBarRef = useRef(null);
     const mainContentRef = useRef(null);

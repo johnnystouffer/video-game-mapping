@@ -83,7 +83,7 @@ const UserProgress = () => {
 
             <div className="nav-container">
                 <button className="nav-button" onClick={() => nav('/')}>
-                    Go Home
+                    Home
                 </button>
                 <button className="nav-button" onClick={() => {
                     localStorage.removeItem('token');

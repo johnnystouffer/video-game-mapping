@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   max-width: 800px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); /* added shadow */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); 
 }
 
 .progress-bar {
@@ -61,7 +61,7 @@
   justify-content: center;
   transition: all 200ms ease;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* added shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .progress-bar:hover {
@@ -96,7 +96,7 @@
   height: 20px;
   margin: 0.5rem;
   border-radius: 2rem;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); /* added shadow */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); 
 }
 
 .game-total {
@@ -132,9 +132,9 @@
 }
 
 .nav-button:hover {
-    background-color: rgb(255, 58, 58);
-    box-shadow: 0 4px 10px rgb(255, 96, 96);
-    transform: scale(1.05);
+    background-color: rgb(88, 88, 88);
+    box-shadow: 0 4px 10px rgb(60, 60, 60);
+    transform: scale(1.02);
 }
 
 .empty-text-container {
