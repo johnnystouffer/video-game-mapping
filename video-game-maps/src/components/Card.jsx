@@ -7,9 +7,6 @@ function Card(props) {
 
     const cardStyle = {
         backgroundImage: `url(${props.image})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
     };
 
     return (
