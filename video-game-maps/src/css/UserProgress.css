@@ -54,7 +54,7 @@
   height: 6rem;
   background-color: rgb(65, 65, 65);
   border-radius: 15px;
-  padding: 2%;
+  padding: 0 2% 0 2%;
   margin: 2%;
   display: flex;
   flex-direction: column;
