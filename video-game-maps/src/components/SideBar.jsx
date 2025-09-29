@@ -129,6 +129,12 @@ const SideBar = () => {
                         <option value="completed">Show Only Completed</option>
                     </select>
                 </div>
+
+                <div id='progress-link'>
+                    <Link id='progress-link-button' to={`/progress/${id}`}>
+                        <p>View Detailed Progress</p>
+                    </Link>
+                </div>
             </div>
 
             <div className='main-content' ref={mainContentRef}>
