@@ -7,6 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import LeafletMap from './LeafletMap.jsx';
 import PageLoading from './PageLoading.js';
 import useImagesLoaded from '../util/imageLoading.js';
+import Loading from './Loading.jsx';
 
 const SideBar = () => {
     const { id } = useParams();
@@ -74,7 +75,7 @@ const SideBar = () => {
     };
 
     if (!imagesReady) {
-        return (< PageLoading />);
+        return (<Loading />);
     }
 
     return (

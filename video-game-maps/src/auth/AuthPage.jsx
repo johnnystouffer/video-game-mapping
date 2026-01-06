@@ -103,7 +103,7 @@ const AuthPage = () => {
           <p className="toggle-link">Already have an account? Log in</p>
         </Link>
         {error && <p className="error-message">{error}</p>}
-        {isLoading && <p id='loading'>Loading...</p>}
+        {isLoading && <p className='loading-text' id='loading'>Loading...</p>}
       </div>
     </div>
   );

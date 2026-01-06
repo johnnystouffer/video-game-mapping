@@ -5,6 +5,7 @@ import Card from './Card.jsx'
 import PageLoading from './PageLoading.js'
 import useImagesLoaded from '../util/imageLoading.js'
 import '../css/SearchMaps.css'
+import Loading from './Loading.jsx'
 
 const AuthButtons = () => {
   return (
@@ -45,7 +46,7 @@ const SearchMaps = () => {
     const filteredData = querySearch(inputText);
 
     if (!imagesReady) {
-      return (<PageLoading/>);
+      return (<Loading/>);
     }
 
     return (
